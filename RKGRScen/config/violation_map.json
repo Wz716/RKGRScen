@@ -1,0 +1,68 @@
+{
+  "超速行驶": {
+    "road_structure": ["限速明确的路段", "高速或限速直道"],
+    "interaction_pattern": "车辆速度显著超出当前路段限速",
+    "key_parameters": ["vehicle_speed_kmh", "speed_limit_kmh", "segment_length_m"],
+    "subject_count": "single"
+  },
+  "闯红灯": {
+    "road_structure": ["信号控制路口"],
+    "interaction_pattern": "车辆在红灯相位通过停止线，可与横向放行车形成冲突",
+    "key_parameters": ["signal_phase", "stop_line_cross_time_s", "red_start_time_s"],
+    "subject_count": "single_or_dual"
+  },
+  "逆行": {
+    "road_structure": ["双向道路", "单行道"],
+    "interaction_pattern": "车辆沿禁止方向持续行驶，与正向车形成对向冲突",
+    "key_parameters": ["heading_alignment", "oncoming_distance_m"],
+    "subject_count": "single_or_dual"
+  },
+  "违法占用应急车道": {
+    "road_structure": ["高速路段", "存在应急车道或路肩"],
+    "interaction_pattern": "车辆驶入应急车道并持续占用",
+    "key_parameters": ["lateral_lane_type", "occupancy_duration_s"],
+    "subject_count": "single"
+  },
+  "违反交通信号(其他)": {
+    "road_structure": ["含信号或标志控制的路口"],
+    "interaction_pattern": "车辆违反标志或信号指示完成特定动作",
+    "key_parameters": ["control_type", "trigger_point", "forbidden_action"],
+    "subject_count": "single_or_dual"
+  },
+  "违规变道": {
+    "road_structure": ["多车道路段", "至少两条同向车道"],
+    "interaction_pattern": "车辆强行切入相邻车道，挤压目标车道车辆",
+    "key_parameters": ["source_lane", "target_lane", "longitudinal_gap_m", "relative_speed_kmh"],
+    "subject_count": "dual"
+  },
+  "违规超车": {
+    "road_structure": ["多车道或可超车双向道"],
+    "interaction_pattern": "车辆借道超越前车，与对向车或被超车形成危险冲突",
+    "key_parameters": ["overtake_gap_m", "oncoming_ttc_s"],
+    "subject_count": "dual"
+  },
+  "违规掉头": {
+    "road_structure": ["路口", "禁止掉头路段"],
+    "interaction_pattern": "车辆在禁止区执行掉头，与对向直行或后车形成冲突",
+    "key_parameters": ["u_turn_path", "oncoming_distance_m"],
+    "subject_count": "single_or_dual"
+  },
+  "未按规定让行": {
+    "road_structure": ["无信号或低优先级控制路口", "存在对向或横向冲突流"],
+    "interaction_pattern": "应让行车辆未让优先通行车辆，抢占冲突区通过",
+    "key_parameters": ["time_gap_to_conflict_s", "conflict_zone", "priority_actor"],
+    "subject_count": "dual"
+  },
+  "未保持安全距离": {
+    "road_structure": ["任意行车路段"],
+    "interaction_pattern": "后车与前车纵向间距过小，前车减速后形成追尾风险",
+    "key_parameters": ["headway_time_s", "relative_speed_kmh", "lead_brake_mps2"],
+    "subject_count": "dual"
+  },
+  "未注意前方路况": {
+    "road_structure": ["前方存在障碍或慢行目标的路段"],
+    "interaction_pattern": "车辆未对前方异常做出及时反应",
+    "key_parameters": ["hazard_distance_m", "reaction_delay_s", "obstacle_type"],
+    "subject_count": "single_plus_obstacle"
+  }
+}

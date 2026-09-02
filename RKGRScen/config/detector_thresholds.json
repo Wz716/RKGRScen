@@ -1,0 +1,15 @@
+{
+  "yield_violation": {
+    "time_gap_range_s": [0.5, 2.0],
+    "conflict_zone_radius_m": 6.0,
+    "min_priority_speed_kmh": 15.0,
+    "severity_reference": "time-gap"
+  },
+  "tailgating": {
+    "min_time_headway_s": 1.5,
+    "rss_buffer_m": 2.0
+  },
+  "red_light": {
+    "stop_line_buffer_m": 1.0
+  }
+}
