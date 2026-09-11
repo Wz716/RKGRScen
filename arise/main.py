@@ -4,9 +4,11 @@ from argparse import RawTextHelpFormatter
 from ARISE.logger_config import logger, set_debug_logging
 import sys
 
-def parse_arguments():
 
+def parse_arguments():
+    """
     Parses command-line arguments.
+    """
 
     parser = argparse.ArgumentParser(
         prog="ARISE",
@@ -14,9 +16,11 @@ def parse_arguments():
         formatter_class=RawTextHelpFormatter,
     )
 
+    # Logging and generation arguments
     parser.add_argument("-v", "--debug", default=False,
                         action="store_true", help="Prints debug information.")
 
+    # Configuration arguments
     parser.add_argument(
         "--arise-description", type=str, default=None, help="Provide path to a file containing scenario descriptions for LLM-based scenario generation."
     )
@@ -37,17 +41,19 @@ def parse_arguments():
     )
     args = parser.parse_args()
 
+    # Validate scenario and map arguments
     if args.arise_description is None:
         raise ValueError(
             "Provide --arise-description.")
     else:
-
+        # validate that the arise_description file exists
         if not os.path.isfile(args.arise_description):
             raise ValueError(
                 f"The file specified in --arise-description does not exist: {args.arise_description}"
             )
 
     return args
+
 
 def main():
     try:
@@ -59,8 +65,9 @@ def main():
     if args.debug:
         set_debug_logging()
 
+    # os.system("color")  # For colored output on Windows
     try:
-
+        # LLM-based scenario generation
         logger.info(f"Generating scenario using LLM ({args.arise_model}).")
         from ARISE.retrieve import generate_scenarios
         description = args.arise_description
@@ -69,15 +76,17 @@ def main():
         count = args.arise_count
         fix_attempts = args.arise_fix_attempts
         max_attempts = args.arise_max_attempts
-
+        # Generates scenarios and returns a list of tuples (file_path, success_flag)
         arise_gen_scenarios = generate_scenarios(
             description, model, topk, count, fix_attempts, max_attempts)
 
+        # Print summary of generated scenarios
         success_count = sum(1 for _, success in arise_gen_scenarios if success)
         logger.info(
             f"Scenario generation completed: {success_count}/{len(arise_gen_scenarios)} scenarios generated successfully.")
     except KeyboardInterrupt:
         logger.info("Cancelled by user. Exiting...")
+
 
 if __name__ == "__main__":
     main()

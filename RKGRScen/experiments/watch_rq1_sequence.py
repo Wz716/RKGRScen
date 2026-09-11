@@ -1,12 +1,14 @@
 import argparse
+import json
 import os
 import subprocess
+import sys
 import time
 from datetime import datetime
 from pathlib import Path
 
-PYTHON = "/home/zxy/apollo/data/test/test/carla-clean/bin/python"
-BASE = Path("/home/zxy/apollo/data/test/point2")
+PYTHON = os.environ.get("RKGRSCEN_PYTHON", sys.executable)
+BASE = Path(os.environ.get("RKGRSCEN_ROOT", ".")).resolve()
 WATCHDOG = BASE / "RKGRScen" / "experiments" / "watch_rq2_carla.py"
 
 def log(message: str, path: Path) -> None:
@@ -52,7 +54,7 @@ def main() -> None:
     parser.add_argument("--manifest", required=True)
     parser.add_argument("--full-output", required=True)
     parser.add_argument("--baseline-output", required=True)
-    parser.add_argument("--rq2-output", default="/home/zxy/apollo/data/test/point2/RKGRScen/data/evaluation/rq2_ablation_full_execution")
+    parser.add_argument("--rq2-output", default=str(BASE / "RKGRScen/data/evaluation/rq2_ablation_full_execution"))
     parser.add_argument("--poll-s", type=float, default=30.0)
     args = parser.parse_args()
 

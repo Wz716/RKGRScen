@@ -1,6 +1,20 @@
+# RKGRScen core dependencies (derived from actual imports).
+# CARLA is provided separately by the simulator installation (see README).
+
 numpy>=1.19.0
 opencv-python>=4.5.0
 flask>=2.0.0
 jsonschema>=4.0.0
-matplotlib>=3.3.0
+networkx>=2.5
+
+# CARLA Python API (must match the installed simulator version).
+# Install manually, e.g.:
+#   pip install carla==0.9.13
 carla==0.9.13
+
+# Optional: used by run_rq2_ablation.py for the Wilcoxon signed-rank test
+# (imported lazily; the script reports "scipy_not_installed" if absent).
+scipy>=1.7.0
+
+# Test-only dependencies.
+pytest>=6.0.0

@@ -1,0 +1,77 @@
+{
+  "_comment": "LLM_expand output schema (scene_expander._build_output_schema). The violation_type enum is sourced from RKGRScen/config/violation_map.json keys.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["violation_type", "subject_mode", "actors", "conflict", "road_requirement"],
+  "properties": {
+    "violation_type": {
+      "type": "string",
+      "enum": [
+        "超速行驶",
+        "闯红灯",
+        "逆行",
+        "违法占用应急车道",
+        "违反交通信号(其他)",
+        "违规变道",
+        "违规超车",
+        "违规掉头",
+        "未按规定让行",
+        "未保持安全距离",
+        "未注意前方路况"
+      ]
+    },
+    "subject_mode": {
+      "type": "string",
+      "enum": ["single", "dual", "single_plus_obstacle"]
+    },
+    "actors": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "role", "path", "action", "speed_kmh"],
+        "properties": {
+          "id": {"type": "string"},
+          "role": {"type": "string", "enum": ["violator", "priority", "ego", "npc"]},
+          "path": {"type": "string"},
+          "action": {"type": "string"},
+          "speed_kmh": {"type": "number"}
+        }
+      }
+    },
+    "conflict": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "location", "trigger_condition", "timing"],
+      "properties": {
+        "type": {"type": "string"},
+        "location": {"type": "string"},
+        "trigger_condition": {"type": "string"},
+        "timing": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["time_gap_to_conflict_s"],
+          "properties": {
+            "time_gap_to_conflict_s": {
+              "type": "array",
+              "minItems": 2,
+              "maxItems": 2,
+              "items": {"type": "number"}
+            }
+          }
+        }
+      }
+    },
+    "road_requirement": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "min_lanes", "has_traffic_light", "needs_opposing_lanes"],
+      "properties": {
+        "type": {"type": "string"},
+        "min_lanes": {"type": "integer", "minimum": 1},
+        "has_traffic_light": {"type": "boolean"},
+        "needs_opposing_lanes": {"type": "boolean"}
+      }
+    }
+  }
+}

@@ -1,4 +1,4 @@
-RQ3 Apollo+CARLA pilot runner.
+"""RQ3 Apollo+CARLA pilot runner.
 
 运行位置：宿主机 carla-clean 虚拟环境。
 默认只执行 RQ2 Full 中已成功触发的 Town03 / scenario_00126，用于验证：
@@ -7,6 +7,7 @@ RQ3 Apollo+CARLA pilot runner.
 - Apollo 自主控制 ego
 - CARLA 侧 NPC/障碍物控制
 - 轨迹采样与统一检测器复用
+"""
 
 import argparse
 import importlib.util
@@ -21,7 +22,7 @@ from typing import Any, Dict, List, Optional, Tuple
 
 import carla
 
-ROOT = Path("/home/zxy/apollo/data/test/point2")
+ROOT = Path(os.environ.get("RKGRSCEN_ROOT", ".")).resolve()
 RKGRSCEN_ROOT = ROOT / "RKGRScen"
 if str(ROOT) not in sys.path:
     sys.path.insert(0, str(ROOT))
@@ -32,8 +33,10 @@ from RKGRScen.query.constraint_solver import ConstraintSolver
 
 DEFAULT_CASE = RKGRSCEN_ROOT / "data/evaluation/rq2_balanced_420_execution/full/case_results/scenario_00126.json"
 DEFAULT_OUT = RKGRSCEN_ROOT / "data/evaluation/rq3_apollo_pilot/scenario_00126_pilot.json"
-APOLLO_DOCKER = "apollo_dev_zxy"
-RESET_HELPER = Path("/home/zxy/apollo/data/test/test/reset.py")
+APOLLO_DOCKER = os.environ.get("APOLLO_DOCKER", "apollo_dev")
+APOLLO_USER = os.environ.get("APOLLO_USER", "apollo")
+APOLLO_CWD = os.environ.get("APOLLO_CWD", "/apollo")
+RESET_HELPER = Path(os.environ.get("RKGRSCEN_RESET_HELPER", "reset.py"))
 
 def reset_ego_vehicle(vehicle: carla.Vehicle, world: carla.World) -> bool:
     if not RESET_HELPER.exists():
@@ -124,14 +127,15 @@ start = time.time()
 while time.time() - start < 5.0 and box["pose"] is None:
     time.sleep(0.05)
 cyber.shutdown()
+'''
 
     cmd = [
-        "docker", "exec", "-u", "zxy", APOLLO_DOCKER,
+        "docker", "exec", "-u", APOLLO_USER, APOLLO_DOCKER,
         "bash", "-ic",
         "export PYTHONPATH=/apollo:$PYTHONPATH; export PYTHONPATH=/apollo/cyber/python:$PYTHONPATH; export PYTHONPATH=/apollo/modules/tools:$PYTHONPATH; export PYTHONPATH=/apollo/bazel-bin:$PYTHONPATH; export PYTHONIOENCODING=utf-8; "
         f"python3 -c {json.dumps(code)}",
     ]
-    proc = subprocess.run(cmd, cwd="/home/zxy/apollo", text=True, capture_output=True, timeout=timeout_s)
+    proc = subprocess.run(cmd, cwd=APOLLO_CWD, text=True, capture_output=True, timeout=timeout_s)
     for line in proc.stdout.splitlines():
         if line.startswith("POSE_JSON="):
             return json.loads(line.split("=", 1)[1])
@@ -153,11 +157,11 @@ def _run_dreamview_ws(payload: Dict[str, Any], websocket_url: str, recv_timeout_
         "asyncio.get_event_loop().run_until_complete(main())\n"
     )
     cmd = [
-        "docker", "exec", "-i", "-u", "zxy", APOLLO_DOCKER,
+        "docker", "exec", "-i", "-u", APOLLO_USER, APOLLO_DOCKER,
         "bash", "-ic",
         "export PYTHONPATH=/apollo:$PYTHONPATH; export PYTHONPATH=/apollo/cyber/python:$PYTHONPATH; export PYTHONPATH=/apollo/modules/tools:$PYTHONPATH; export PYTHONPATH=/apollo/bazel-bin:$PYTHONPATH; export PYTHONIOENCODING=utf-8; python3 -",
     ]
-    proc = subprocess.run(cmd, cwd="/home/zxy/apollo", text=True, input=code, capture_output=True, timeout=20)
+    proc = subprocess.run(cmd, cwd=APOLLO_CWD, text=True, input=code, capture_output=True, timeout=20)
     return {
         "request": payload,
         "returncode": proc.returncode,
@@ -200,11 +204,11 @@ def send_routing(start: Dict[str, float], end: Dict[str, float], websocket_url: 
         "asyncio.get_event_loop().run_until_complete(main())\n"
     )
     cmd = [
-        "docker", "exec", "-i", "-u", "zxy", APOLLO_DOCKER,
+        "docker", "exec", "-i", "-u", APOLLO_USER, APOLLO_DOCKER,
         "bash", "-ic",
         "export PYTHONPATH=/apollo:$PYTHONPATH; export PYTHONPATH=/apollo/cyber/python:$PYTHONPATH; export PYTHONPATH=/apollo/modules/tools:$PYTHONPATH; export PYTHONPATH=/apollo/bazel-bin:$PYTHONPATH; export PYTHONIOENCODING=utf-8; python3 -",
     ]
-    proc = subprocess.run(cmd, cwd="/home/zxy/apollo", text=True, input=code, capture_output=True, timeout=20)
+    proc = subprocess.run(cmd, cwd=APOLLO_CWD, text=True, input=code, capture_output=True, timeout=20)
     return {
         "request": payload,
         "returncode": proc.returncode,

@@ -1,0 +1,19 @@
+# RKGRScen — License
+
+This repository is released for research and reproducibility purposes.
+
+Unless a separate license file accompanies a third-party component, the code
+and data in this repository are provided "as is" for research use only.
+
+## Third-party components
+
+- `arise/` — ARISE (Adaptive Refinement and Iterative Scenario Engineering),
+  Copyright (c) 2020 Safebench Team; Copyright (c) 2026 German Research Center
+  for Artificial Intelligence (DFKI). Distributed under the MIT License. See
+  `arise/LICENSE.txt`.
+
+## Notice
+
+A definitive open-source license for the RKGRScen code and data will be added
+by the authors before public release. If you need to reuse the code or data,
+please contact the authors.

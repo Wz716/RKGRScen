@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use RKGRScen in academic work, please cite it as below."
+title: "RKGRScen: Road-Network Knowledge Graph Retrieval-Based Scenario Generation for Autonomous Driving Testing"
+type: software
+authors:
+  - family-names: Wang
+    given-names: Zhe
+  - family-names: Shi
+    given-names: Yaqing
+  - family-names: Bai
+    given-names: Tongtong
+  - family-names: Huang
+    given-names: Song
+  - family-names: Zheng
+    given-names: Changyou
+  - family-names: Yao
+    given-names: Kui
+  - family-names: Li
+    given-names: Kunyuan
+  - family-names: He
+    given-names: Yao
+repository-code: "https://github.com/Wz716/RKGRScen"
+license: "See LICENSE file. Research use only unless otherwise stated."
+keywords:
+  - autonomous driving testing
+  - scenario generation
+  - knowledge graph
+  - road matching
+  - CARLA
+  - Apollo

@@ -11,7 +11,18 @@ from pathlib import Path
 from typing import List, Optional
 
 VARIANTS = ("full", "without_community", "without_expansion", "without_constraint", "without_semantic_summaries")
-DEFAULT_SHARED_MANIFEST = "/home/zxy/apollo/data/test/point2/RKGRScen/data/evaluation/rq1_rq2_20260714_shared/manifest.json"
+DEFAULT_SHARED_MANIFEST = os.environ.get(
+    "RKGRSCEN_SHARED_MANIFEST",
+    "RKGRScen/data/evaluation/rq1_rq2_20260714_shared/manifest.json",
+)
+CARLA_BINARY = os.environ.get(
+    "CARLA_BINARY",
+    "CarlaUE4/Binaries/Linux/CarlaUE4-Linux-Shipping",
+)
+CARLA_LAUNCHER = os.environ.get("CARLA_LAUNCHER", "CarlaUE4.sh")
+PYTHON_BIN = os.environ.get("RKGRSCEN_PYTHON", sys.executable)
+VENV_ACTIVATE = os.environ.get("RKGRSCEN_VENV_ACTIVATE", "bin/activate")
+BASE_DIR = os.environ.get("RKGRSCEN_ROOT", ".")
 
 def log(message: str, log_path: Path) -> None:
     line = f"[{datetime.now().isoformat(timespec='seconds')}] {message}"
@@ -55,7 +66,7 @@ def carla_health(timeout_s: float = 5.0) -> str:
     return result.stdout.strip()
 
 def stop_carla(log_path: Path) -> None:
-    pids = matching_processes(["/home/zxy/CARLA_0.9.13/CarlaUE4/Binaries/Linux/CarlaUE4-Linux-Shipping"])
+    pids = matching_processes([CARLA_BINARY])
     for pid in pids:
         try:
             os.kill(pid, signal.SIGTERM)
@@ -63,9 +74,9 @@ def stop_carla(log_path: Path) -> None:
         except ProcessLookupError:
             pass
     deadline = time.time() + 15
-    while time.time() < deadline and matching_processes(["/home/zxy/CARLA_0.9.13/CarlaUE4/Binaries/Linux/CarlaUE4-Linux-Shipping"]):
+    while time.time() < deadline and matching_processes([CARLA_BINARY]):
         time.sleep(1)
-    for pid in matching_processes(["/home/zxy/CARLA_0.9.13/CarlaUE4/Binaries/Linux/CarlaUE4-Linux-Shipping"]):
+    for pid in matching_processes([CARLA_BINARY]):
         try:
             os.kill(pid, signal.SIGKILL)
             log(f"sent SIGKILL to unresponsive CARLA pid={pid}", log_path)
@@ -140,7 +151,7 @@ def rq1_baseline_running(output_root: Path) -> bool:
 
 def start_experiment(base: Path, output_root: Path, experiment_log: Path, log_path: Path, manifest: Path, include_full: bool, cases_per_type: Optional[int], variants: Optional[List[str]], mode: str) -> None:
     command = [
-        "/home/zxy/apollo/data/test/test/carla-clean/bin/python",
+        PYTHON_BIN,
         "RKGRScen/experiments/run_rq2_ablation.py",
         "--timeout-s", "20",
         "--output-dir", str(output_root),
@@ -169,7 +180,7 @@ def start_experiment(base: Path, output_root: Path, experiment_log: Path, log_pa
 
 def start_rq1_experiment(base: Path, output_root: Path, experiment_log: Path, log_path: Path, manifest: Path) -> None:
     command = [
-        "/home/zxy/apollo/data/test/test/carla-clean/bin/python",
+        PYTHON_BIN,
         "RKGRScen/experiments/run_rq1_carla_full_execution.py",
         "--timeout-s", "20",
         "--output-dir", str(output_root),
@@ -190,7 +201,7 @@ def start_rq1_experiment(base: Path, output_root: Path, experiment_log: Path, lo
 
 def start_rq1_baseline(base: Path, output_root: Path, experiment_log: Path, log_path: Path, manifest: Path, method: str) -> None:
     command = [
-        "/home/zxy/apollo/data/test/test/carla-clean/bin/python",
+        PYTHON_BIN,
         "RKGRScen/experiments/run_rq1_baseline_execution.py",
         "--method", method,
         "--timeout-s", "20",
@@ -215,11 +226,11 @@ def main() -> None:
     parser.add_argument("--mode", choices=("rq1", "rq1_baselines", "rq2"), default="rq2")
     parser.add_argument("--interval-s", type=float, default=10.0)
     parser.add_argument("--unhealthy-limit", type=int, default=6)
-    parser.add_argument("--launcher", default="/home/zxy/CARLA_0.9.13/CarlaUE4.sh")
-    parser.add_argument("--venv-activate", default="/home/zxy/apollo/data/test/test/carla-clean/bin/activate")
+    parser.add_argument("--launcher", default=CARLA_LAUNCHER)
+    parser.add_argument("--venv-activate", default=VENV_ACTIVATE)
     parser.add_argument("--map", default="/Game/Carla/Maps/Town03")
-    parser.add_argument("--base", default="/home/zxy/apollo/data/test/point2")
-    parser.add_argument("--output-dir", default="/home/zxy/apollo/data/test/point2/RKGRScen/data/evaluation/rq2_ablation_full_execution")
+    parser.add_argument("--base", default=BASE_DIR)
+    parser.add_argument("--output-dir", default=os.path.join(BASE_DIR, "RKGRScen/data/evaluation/rq2_ablation_full_execution"))
     parser.add_argument("--manifest", default=DEFAULT_SHARED_MANIFEST)
     parser.add_argument("--include-full", action="store_true")
     parser.add_argument("--cases-per-type", type=int, default=None)
@@ -258,7 +269,7 @@ def main() -> None:
                 last_health_log = time.time()
         except Exception as exc:
             unhealthy_count += 1
-            carla_pids = matching_processes(["/home/zxy/CARLA_0.9.13/CarlaUE4/Binaries/Linux/CarlaUE4-Linux-Shipping"])
+            carla_pids = matching_processes([CARLA_BINARY])
             log(f"CARLA unhealthy attempt={unhealthy_count}/{args.unhealthy_limit} pids={carla_pids}: {exc!r}", monitor_log)
             if not carla_pids or unhealthy_count >= args.unhealthy_limit:
                 if carla_pids:

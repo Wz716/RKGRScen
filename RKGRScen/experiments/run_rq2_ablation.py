@@ -2,6 +2,7 @@ import argparse
 import csv
 import hashlib
 import json
+import os
 import random
 import subprocess
 import sys
@@ -227,8 +228,11 @@ def expansion_for(
     if variant == "without_expansion":
         return build_skeleton_spec(source)
     path = cache_path(output_root / "shared_cache" / "expansions", source_path)
-    legacy_path = cache_path(Path("/home/zxy/apollo/data/test/point2/RKGRScen/data/evaluation/rq2_ablation_full_execution_invalid_mixed_schema_20260719_155218") / "shared_cache" / "expansions", source_path)
-    if not path.exists() and legacy_path.exists():
+    legacy_path = cache_path(
+        Path(os.environ.get("RKGRSCEN_LEGACY_EXPANSION_CACHE", "")) / "shared_cache" / "expansions",
+        source_path,
+    ) if os.environ.get("RKGRSCEN_LEGACY_EXPANSION_CACHE") else None
+    if legacy_path is not None and not path.exists() and legacy_path.exists():
         path.parent.mkdir(parents=True, exist_ok=True)
         dump_json(load_json(legacy_path), path)
     if path.exists():
