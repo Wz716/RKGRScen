@@ -1,0 +1,39 @@
+{
+  "violation_type": "逆行",
+  "reason": "观察：场景设定为弯道路段（2车道），白天、天气晴朗；V1由北向南向左变道（速度约35 km/h），V2由南向北直行（速度约35 km/h）。推断：机动车应当在规定车道内按行进方向行驶。该场景中车辆沿相反方向驶入对向车道，与正常行驶车流迎向接近，极易发生正面碰撞。",
+  "road_network": {
+    "type": "Curve",
+    "lanes": 2,
+    "stem_direction": "Not applicable",
+    "topology_sequence": [
+      {
+        "order": 1,
+        "element_type": "Curve",
+        "relation_to_next": "immediately_connects_to"
+      },
+      {
+        "order": 2,
+        "element_type": "IntersectionApproach",
+        "relation_to_previous": "immediately_follows"
+      }
+    ]
+  },
+  "actors": [
+    {
+      "model": "vehicle.audi.a2",
+      "initial_position": "N2S",
+      "actions": "Change Lane Left",
+      "speed_limit": 35
+    },
+    {
+      "model": "vehicle.audi.a2",
+      "initial_position": "S2N",
+      "actions": "Move Forward",
+      "speed_limit": 35
+    }
+  ],
+  "env": {
+    "time": "Daytime",
+    "weather": "Clear"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "violation_type": "违规变道",
+  "reason": "观察：场景设定为弯道路段（2车道），白天、雨天；V1由北向南向右变道（速度约35 km/h）。推断：变更车道时不得影响相关车道内机动车的正常行驶。该场景中车辆在未确保安全间距的情况下强行变道切入目标车道，极易与相邻车道车辆发生剐蹭或碰撞。",
+  "road_network": {
+    "type": "Curve",
+    "lanes": 2,
+    "stem_direction": "Not applicable"
+  },
+  "actors": [
+    {
+      "model": "vehicle.audi.a2",
+      "initial_position": "N2S",
+      "actions": "Change Lane Right",
+      "speed_limit": 35
+    }
+  ],
+  "env": {
+    "time": "Daytime",
+    "weather": "Rainy"
+  }
+}

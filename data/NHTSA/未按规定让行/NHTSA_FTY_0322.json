@@ -1,0 +1,21 @@
+{
+  "violation_type": "未按规定让行",
+  "reason": "观察：场景设定为直线路段（2车道），夜间、雨天；V1由西向东左转（速度约55 km/h）。推断：在交叉路口，转弯机动车应当让直行车辆先行。该场景中转弯车辆未按规定让行，直接切入优先车辆的行驶路径，极易在路口中心区域发生碰撞。",
+  "road_network": {
+    "type": "Straight",
+    "lanes": 2,
+    "stem_direction": "Not applicable"
+  },
+  "actors": [
+    {
+      "model": "vehicle.jeep.wrangler_rubicon",
+      "initial_position": "W2E",
+      "actions": "Turn Left",
+      "speed_limit": 55
+    }
+  ],
+  "env": {
+    "time": "Nighttime",
+    "weather": "Rainy"
+  }
+}

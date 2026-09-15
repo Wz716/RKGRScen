@@ -1,0 +1,21 @@
+{
+  "violation_type": "未注意前方路况",
+  "reason": "观察：场景设定为弯道路段（2车道），白天、天气晴朗；V1由北向南直行（速度约35 km/h）。推断：机动车驾驶人应当注意观察前方道路情况。该场景中驾驶人未及时察觉前方异常车辆或障碍物，未提前减速避让，极易发生追尾或碰撞。",
+  "road_network": {
+    "type": "Curve",
+    "lanes": 2,
+    "stem_direction": "Not applicable"
+  },
+  "actors": [
+    {
+      "model": "vehicle.audi.a2",
+      "initial_position": "N2S",
+      "actions": "Move Forward",
+      "speed_limit": 35
+    }
+  ],
+  "env": {
+    "time": "Daytime",
+    "weather": "Clear"
+  }
+}

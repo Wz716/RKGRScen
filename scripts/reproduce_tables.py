@@ -1,7 +1,7 @@
 """Recompute the paper's main tables from scenario-level records.
 
 Subcommands map paper tables to their source data files (see REPRODUCIBILITY.md).
-This script delegates to recompute_metrics.py and never fabricates records.
+This script delegates to compute_metrics.py and never fabricates records.
 """
 from __future__ import annotations
 
@@ -15,7 +15,7 @@ DATA = ROOT / "data" / "results"
 
 
 def _run(input_path: Path, group_by: str | None = None) -> None:
-    cmd = [sys.executable, str(ROOT / "scripts" / "recompute_metrics.py"), "--input", str(input_path)]
+    cmd = [sys.executable, str(ROOT / "scripts" / "compute_metrics.py"), "--input", str(input_path)]
     if group_by:
         cmd += ["--group-by", group_by]
     subprocess.run(cmd, check=True)

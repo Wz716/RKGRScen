@@ -1,0 +1,39 @@
+{
+  "violation_type": "未注意前方路况",
+  "reason": "观察：场景设定为交叉路口（4车道），白天、天气晴朗；V1由东向西直行（速度约25 km/h），V2由北向南直行（速度约25 km/h）。推断：机动车驾驶人应当注意观察前方道路情况。该场景中驾驶人未及时察觉前方异常车辆或障碍物，未提前减速避让，极易发生追尾或碰撞。",
+  "road_network": {
+    "type": "Intersection",
+    "lanes": 4,
+    "stem_direction": "Not applicable",
+    "topology_sequence": [
+      {
+        "order": 1,
+        "element_type": "Intersection",
+        "relation_to_next": "immediately_connects_to"
+      },
+      {
+        "order": 2,
+        "element_type": "StraightExit",
+        "relation_to_previous": "immediately_follows"
+      }
+    ]
+  },
+  "actors": [
+    {
+      "model": "vehicle.dodge.neon",
+      "initial_position": "E2W",
+      "actions": "Move Forward",
+      "speed_limit": 25
+    },
+    {
+      "model": "vehicle.dodge.neon",
+      "initial_position": "N2S",
+      "actions": "Move Forward",
+      "speed_limit": 25
+    }
+  ],
+  "env": {
+    "time": "Daytime",
+    "weather": "Clear"
+  }
+}

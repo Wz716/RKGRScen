@@ -1,0 +1,1261 @@
+batch,scenario_id,violation_type,source,difficulty,pre_execution_abort,attempted,post_attempt_execution_failure,exec,trig,rem,c_road,c_env,c_role,c_lane,c_action,c_auto,c_noctrl,c_context,ms
+1,NHTSA_INA_0615,Inattention to the road ahead,NHTSA-derived,coarse,0,1,1,0,0,1,,,,,,,,,
+1,NHTSA_INA_0206,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,1,0,1,0,1,0,1,1,1,1,0.72
+1,NHTSA_INA_0331,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_INA_0146,Inattention to the road ahead,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_INA_0170,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,0,0,0,0,0,0,0,1,1,1,0.26
+1,NHTSA_INA_0409,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_INA_0168,Inattention to the road ahead,synthetic-topology-extension,fine,0,1,1,0,0,0,,,,,,,,,
+1,NHTSA_INA_0316,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_INA_0162,Inattention to the road ahead,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_INA_0240,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_INA_0270,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,1,0,1,0,0,0,0,1,1,1,0.44
+1,NHTSA_INA_0358,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_INA_0104,Inattention to the road ahead,synthetic-topology-extension,fine,0,1,1,0,0,0,,,,,,,,,
+1,SYNTH_INA_0139,Inattention to the road ahead,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_INA_0168,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_INA_0081,Inattention to the road ahead,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_INA_0144,Inattention to the road ahead,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_INA_0340,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_INA_0218,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_INA_0482,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_INA_0019,Inattention to the road ahead,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_INA_0452,Inattention to the road ahead,NHTSA-derived,coarse,0,1,1,0,0,0,,,,,,,,,
+1,NHTSA_INA_0463,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_INA_0117,Inattention to the road ahead,synthetic-topology-extension,fine,0,1,1,0,0,1,,,,,,,,,
+1,NHTSA_INA_0323,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_INA_0003,Inattention to the road ahead,NHTSA-derived,fine,0,1,1,0,0,1,,,,,,,,,
+1,SYNTH_INA_0199,Inattention to the road ahead,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_INA_0192,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_INA_0074,Inattention to the road ahead,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_INA_0431,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_INA_0020,Inattention to the road ahead,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_INA_0509,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_INA_0046,Inattention to the road ahead,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_INA_0229,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_INA_0348,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,0,0,0,0,0,0,0,1,1,1,0.26
+1,SYNTH_INA_0112,Inattention to the road ahead,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_INA_0144,Inattention to the road ahead,NHTSA-derived,coarse,0,1,1,0,0,1,,,,,,,,,
+1,NHTSA_INA_0305,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_INA_0579,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_INA_0139,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_INA_0219,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_INA_0115,Inattention to the road ahead,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_INA_0123,Inattention to the road ahead,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_INA_0220,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_INA_0097,Inattention to the road ahead,NHTSA-derived,coarse,0,1,1,0,0,1,,,,,,,,,
+1,NHTSA_INA_0031,Inattention to the road ahead,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_INA_0524,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_INA_0329,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,0,1,1,1,1,0.8200000000000001
+1,SYNTH_INA_0118,Inattention to the road ahead,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_INA_0328,Inattention to the road ahead,NHTSA-derived,coarse,0,1,1,0,0,1,,,,,,,,,
+1,NHTSA_INA_0606,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,0,1,1,1,1,0.8200000000000001
+1,NHTSA_INA_0053,Inattention to the road ahead,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_INA_0446,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_INA_0116,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_INA_0447,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_INA_0128,Inattention to the road ahead,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_INA_0513,Inattention to the road ahead,NHTSA-derived,coarse,0,1,1,0,0,1,,,,,,,,,
+1,NHTSA_INA_0036,Inattention to the road ahead,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_INA_0370,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_INA_0111,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,1,0,0,0,0,0,0,1,1,1,0.26
+1,SYNTH_FTY_0011,Failure to yield,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_FTY_0097,Failure to yield,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_FTY_0470,Failure to yield,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_FTY_0118,Failure to yield,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,0,1,1,1,1,0.8200000000000001
+1,NHTSA_FTY_0386,Failure to yield,NHTSA-derived,coarse,0,1,0,1,0,0,0,0,0,0,0,1,1,1,0.26
+1,SYNTH_FTY_0072,Failure to yield,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_FTY_0153,Failure to yield,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_FTY_0238,Failure to yield,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_FTY_0174,Failure to yield,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_FTY_0514,Failure to yield,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,0,1,1,1,1,0.8200000000000001
+1,NHTSA_FTY_0374,Failure to yield,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_FTY_0128,Failure to yield,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_FTY_0037,Failure to yield,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,0,1,1,1,1,0.8200000000000001
+1,NHTSA_FTY_0373,Failure to yield,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_FTY_0454,Failure to yield,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_FTY_0481,Failure to yield,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_FTY_0462,Failure to yield,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_FTY_0073,Failure to yield,synthetic-topology-extension,fine,0,1,0,1,0,0,0,0,0,0,0,1,1,1,0.26
+1,NHTSA_FTY_0274,Failure to yield,NHTSA-derived,coarse,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0.12
+1,NHTSA_FTY_0422,Failure to yield,NHTSA-derived,coarse,0,1,1,0,0,1,,,,,,,,,
+1,NHTSA_FTY_0066,Failure to yield,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_FTY_0115,Failure to yield,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_FTY_0052,Failure to yield,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_FTY_0346,Failure to yield,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_FTY_0143,Failure to yield,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_FTY_0249,Failure to yield,NHTSA-derived,coarse,0,1,1,0,0,0,,,,,,,,,
+1,NHTSA_FTY_0341,Failure to yield,NHTSA-derived,coarse,0,1,1,0,0,1,,,,,,,,,
+1,SYNTH_FTY_0056,Failure to yield,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_FTY_0086,Failure to yield,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_FTY_0107,Failure to yield,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_FTY_0189,Failure to yield,NHTSA-derived,coarse,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0.12
+1,NHTSA_FTY_0310,Failure to yield,NHTSA-derived,coarse,0,1,0,1,0,0,0,0,0,0,0,1,1,0,0.22
+1,NHTSA_FTY_0220,Failure to yield,NHTSA-derived,coarse,0,1,0,1,1,0,0,0,0,0,0,1,1,1,0.26
+1,SYNTH_FTY_0094,Failure to yield,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_FTY_0441,Failure to yield,NHTSA-derived,coarse,0,1,0,1,1,0,0,0,0,0,0,1,1,1,0.26
+1,NHTSA_FTY_0429,Failure to yield,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_FTY_0343,Failure to yield,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_FTY_0068,Failure to yield,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_FTY_0287,Failure to yield,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_FTY_0100,Failure to yield,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_FTY_0178,Failure to yield,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_FTY_0389,Failure to yield,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,0,1,1,1,1,0.8200000000000001
+1,NHTSA_FTY_0436,Failure to yield,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_FTY_0105,Failure to yield,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_FTY_0392,Failure to yield,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_FTY_0126,Failure to yield,synthetic-topology-extension,fine,0,1,0,1,0,0,0,0,0,0,0,1,1,1,0.26
+1,NHTSA_FTY_0277,Failure to yield,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_FTY_0273,Failure to yield,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_FTY_0087,Failure to yield,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_FTY_0463,Failure to yield,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_FTY_0043,Failure to yield,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_FTY_0440,Failure to yield,NHTSA-derived,coarse,0,1,1,0,0,1,,,,,,,,,
+1,NHTSA_FTY_0308,Failure to yield,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_FTY_0089,Failure to yield,NHTSA-derived,coarse,0,1,0,1,0,0,0,0,0,0,0,1,1,1,0.26
+1,NHTSA_FTY_0215,Failure to yield,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_FTY_0311,Failure to yield,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_FTY_0282,Failure to yield,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_FTY_0036,Failure to yield,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_FTY_0336,Failure to yield,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,0,1,1,1,1,0.8200000000000001
+1,NHTSA_FTY_0009,Failure to yield,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_SPD_0133,Speeding,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_SPD_0080,Speeding,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_SPD_0198,Speeding,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_SPD_0324,Speeding,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_SPD_0176,Speeding,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_SPD_0216,Speeding,NHTSA-derived,coarse,0,1,0,1,0,0,0,0,0,0,0,1,1,1,0.26
+1,NHTSA_SPD_0178,Speeding,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_SPD_0027,Speeding,synthetic-topology-extension,fine,0,1,0,1,0,0,0,0,0,0,0,1,1,1,0.26
+1,NHTSA_SPD_0177,Speeding,NHTSA-derived,coarse,1,0,0,0,0,1,,,,,,,,,
+1,SYNTH_SPD_0066,Speeding,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_SPD_0249,Speeding,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_SPD_0021,Speeding,synthetic-topology-extension,fine,0,1,0,1,1,0,0,0,0,0,0,1,1,1,0.26
+1,SYNTH_SPD_0028,Speeding,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,0,1,1,1,1,0.8200000000000001
+1,NHTSA_SPD_0044,Speeding,NHTSA-derived,coarse,0,1,0,1,0,0,0,0,0,0,0,1,1,1,0.26
+1,NHTSA_SPD_0336,Speeding,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_SPD_0010,Speeding,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_SPD_0054,Speeding,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_SPD_0196,Speeding,NHTSA-derived,coarse,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0.12
+1,NHTSA_SPD_0298,Speeding,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_SPD_0299,Speeding,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_SPD_0045,Speeding,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_SPD_0163,Speeding,NHTSA-derived,coarse,0,1,1,0,0,1,,,,,,,,,
+1,NHTSA_SPD_0211,Speeding,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_SPD_0186,Speeding,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_SPD_0327,Speeding,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_SPD_0338,Speeding,NHTSA-derived,coarse,0,1,0,1,1,0,1,0,0,0,0,1,1,1,0.44
+1,NHTSA_SPD_0115,Speeding,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_SPD_0012,Speeding,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_SPD_0188,Speeding,NHTSA-derived,coarse,1,0,0,0,0,1,,,,,,,,,
+1,NHTSA_SPD_0230,Speeding,NHTSA-derived,coarse,1,0,0,0,0,1,,,,,,,,,
+1,NHTSA_SPD_0076,Speeding,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_SPD_0065,Speeding,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_SPD_0083,Speeding,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_SPD_0034,Speeding,NHTSA-derived,coarse,0,1,0,1,1,0,0,0,0,0,0,1,1,1,0.26
+1,SYNTH_SPD_0059,Speeding,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_SPD_0114,Speeding,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_SPD_0031,Speeding,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_SPD_0284,Speeding,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_SPD_0314,Speeding,NHTSA-derived,coarse,0,1,1,0,0,1,,,,,,,,,
+1,NHTSA_SPD_0148,Speeding,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_SPD_0081,Speeding,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_SPD_0277,Speeding,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_SPD_0119,Speeding,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_SPD_0037,Speeding,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_SPD_0011,Speeding,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_SPD_0107,Speeding,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_SPD_0138,Speeding,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_SPD_0097,Speeding,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_SPD_0008,Speeding,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_SPD_0171,Speeding,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,0,1,1,1,1,0.8200000000000001
+1,NHTSA_SPD_0194,Speeding,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_SPD_0081,Speeding,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_SPD_0152,Speeding,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_SPD_0095,Speeding,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_SPD_0050,Speeding,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_SPD_0045,Speeding,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_SPD_0029,Speeding,NHTSA-derived,coarse,1,0,0,0,0,1,,,,,,,,,
+1,NHTSA_SPD_0236,Speeding,NHTSA-derived,coarse,0,1,1,0,0,1,,,,,,,,,
+1,NHTSA_SPD_0229,Speeding,NHTSA-derived,coarse,0,1,1,0,0,1,,,,,,,,,
+1,NHTSA_SPD_0232,Speeding,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_FSD_0040,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_FSD_0110,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_FSD_0025,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_FSD_0232,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_FSD_0056,Failure to maintain safe following distance,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_FSD_0155,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_FSD_0078,Failure to maintain safe following distance,synthetic-topology-extension,fine,0,1,0,1,1,0,1,0,0,0,0,1,1,1,0.44
+1,SYNTH_FSD_0030,Failure to maintain safe following distance,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_FSD_0046,Failure to maintain safe following distance,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_FSD_0127,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,0,1,1,1,1,0.8200000000000001
+1,NHTSA_FSD_0223,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_FSD_0257,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_FSD_0246,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_FSD_0062,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_FSD_0119,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_FSD_0086,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,0,1,1,1,1,0.8200000000000001
+1,SYNTH_FSD_0025,Failure to maintain safe following distance,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_FSD_0001,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_FSD_0109,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_FSD_0076,Failure to maintain safe following distance,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_FSD_0259,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,0,0,0,0,0,0,0,1,1,1,0.26
+1,SYNTH_FSD_0053,Failure to maintain safe following distance,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_FSD_0068,Failure to maintain safe following distance,synthetic-topology-extension,fine,0,1,0,1,0,0,0,0,0,0,0,1,1,1,0.26
+1,NHTSA_FSD_0218,Failure to maintain safe following distance,NHTSA-derived,coarse,1,0,0,0,0,1,,,,,,,,,
+1,NHTSA_FSD_0078,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_FSD_0044,Failure to maintain safe following distance,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_FSD_0002,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0.12
+1,NHTSA_FSD_0260,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_FSD_0150,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_FSD_0081,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_FSD_0209,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_FSD_0180,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_FSD_0038,Failure to maintain safe following distance,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_FSD_0215,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,0,1,1,1,1,0.8200000000000001
+1,NHTSA_FSD_0252,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_FSD_0273,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_FSD_0054,Failure to maintain safe following distance,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_FSD_0123,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,1,0,0,1,,,,,,,,,
+1,NHTSA_FSD_0164,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_FSD_0100,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_FSD_0189,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_FSD_0075,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,0,1,1,1,1,0.8200000000000001
+1,NHTSA_FSD_0268,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,1,0,0,1,,,,,,,,,
+1,NHTSA_FSD_0130,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_FSD_0039,Failure to maintain safe following distance,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_FSD_0035,Failure to maintain safe following distance,synthetic-topology-extension,fine,0,1,0,1,1,0,0,0,0,0,0,1,1,1,0.26
+1,SYNTH_FSD_0018,Failure to maintain safe following distance,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_FSD_0081,Failure to maintain safe following distance,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_FSD_0138,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_FSD_0012,Failure to maintain safe following distance,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_FSD_0052,Failure to maintain safe following distance,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_FSD_0071,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_FSD_0153,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_FSD_0270,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_FSD_0186,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_FSD_0003,Failure to maintain safe following distance,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_FSD_0093,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_FSD_0154,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_FSD_0148,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_FSD_0063,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_WWD_0033,Wrong-way driving,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_WWD_0051,Wrong-way driving,synthetic-topology-extension,fine,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0.12
+1,NHTSA_WWD_0015,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,0,0,0,0,0,0,0,1,1,1,0.26
+1,SYNTH_WWD_0058,Wrong-way driving,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_WWD_0046,Wrong-way driving,synthetic-topology-extension,fine,0,1,0,1,0,0,0,0,0,0,0,1,1,0,0.22
+1,NHTSA_WWD_0077,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_WWD_0073,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_WWD_0021,Wrong-way driving,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_WWD_0034,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_WWD_0040,Wrong-way driving,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_WWD_0038,Wrong-way driving,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_WWD_0059,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0.12
+1,NHTSA_WWD_0069,Wrong-way driving,NHTSA-derived,coarse,0,1,1,0,0,1,,,,,,,,,
+1,NHTSA_WWD_0040,Wrong-way driving,NHTSA-derived,coarse,0,1,1,0,0,1,,,,,,,,,
+1,SYNTH_WWD_0018,Wrong-way driving,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_WWD_0048,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_WWD_0052,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_WWD_0029,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_WWD_0005,Wrong-way driving,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_WWD_0045,Wrong-way driving,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_WWD_0050,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_WWD_0060,Wrong-way driving,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_WWD_0080,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0.12
+1,SYNTH_WWD_0019,Wrong-way driving,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_WWD_0026,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_WWD_0039,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_WWD_0031,Wrong-way driving,NHTSA-derived,coarse,0,1,1,0,0,1,,,,,,,,,
+1,NHTSA_WWD_0070,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_WWD_0006,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_WWD_0031,Wrong-way driving,synthetic-topology-extension,fine,0,1,0,1,1,0,1,1,1,0,1,1,1,1,0.8200000000000001
+1,SYNTH_WWD_0055,Wrong-way driving,synthetic-topology-extension,fine,0,1,0,1,1,0,0,0,0,0,0,1,1,1,0.26
+1,NHTSA_WWD_0047,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_WWD_0047,Wrong-way driving,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_WWD_0017,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_WWD_0042,Wrong-way driving,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_WWD_0041,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_WWD_0055,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_WWD_0002,Wrong-way driving,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_WWD_0082,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_WWD_0028,Wrong-way driving,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_WWD_0050,Wrong-way driving,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_WWD_0076,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,0,0,0,0,0,0,0,1,1,1,0.26
+1,NHTSA_WWD_0018,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_WWD_0019,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,0,1,1,1,1,0.8200000000000001
+1,SYNTH_WWD_0011,Wrong-way driving,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_WWD_0016,Wrong-way driving,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_WWD_0006,Wrong-way driving,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_WWD_0014,Wrong-way driving,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_WWD_0038,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_WWD_0024,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_WWD_0046,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_WWD_0023,Wrong-way driving,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_WWD_0022,Wrong-way driving,synthetic-topology-extension,fine,0,1,0,1,1,0,0,0,0,0,0,1,1,1,0.26
+1,SYNTH_WWD_0027,Wrong-way driving,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_WWD_0062,Wrong-way driving,NHTSA-derived,coarse,0,1,1,0,0,0,,,,,,,,,
+1,NHTSA_WWD_0012,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,1,0,0,0,0,0,0,1,1,1,0.26
+1,NHTSA_WWD_0051,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_WWD_0058,Wrong-way driving,NHTSA-derived,coarse,1,0,0,0,0,0,,,,,,,,,
+1,NHTSA_WWD_0007,Wrong-way driving,NHTSA-derived,coarse,0,1,1,0,0,1,,,,,,,,,
+1,SYNTH_WWD_0041,Wrong-way driving,synthetic-topology-extension,fine,0,1,0,1,0,0,0,0,0,0,0,1,1,0,0.22
+1,NHTSA_ILC_0019,Illegal lane change,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_ILC_0018,Illegal lane change,NHTSA-derived,fine,0,1,0,1,0,0,0,0,0,0,0,1,1,1,0.26
+1,NHTSA_ILC_0046,Illegal lane change,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_ILC_0003,Illegal lane change,NHTSA-derived,fine,0,1,0,1,0,0,0,0,0,0,0,1,1,1,0.26
+1,SYNTH_ILC_0017,Illegal lane change,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,0,1,1,1,1,0.8200000000000001
+1,NHTSA_ILC_0043,Illegal lane change,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_ILC_0021,Illegal lane change,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_ILC_0012,Illegal lane change,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_ILC_0045,Illegal lane change,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_ILC_0036,Illegal lane change,NHTSA-derived,fine,0,1,1,0,0,1,,,,,,,,,
+1,NHTSA_ILC_0009,Illegal lane change,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_ILC_0011,Illegal lane change,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_ILC_0009,Illegal lane change,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_ILC_0037,Illegal lane change,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_ILC_0035,Illegal lane change,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,0,1,1,1,1,0.8200000000000001
+1,SYNTH_ILC_0012,Illegal lane change,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,0,1,1,1,1,0.8200000000000001
+1,NHTSA_ILC_0017,Illegal lane change,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_ILC_0034,Illegal lane change,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,0,1,1,1,1,0.8200000000000001
+1,SYNTH_ILC_0001,Illegal lane change,synthetic-topology-extension,fine,0,1,0,1,1,0,0,0,0,0,0,1,1,1,0.26
+1,NHTSA_ILC_0007,Illegal lane change,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_ILC_0029,Illegal lane change,NHTSA-derived,fine,1,0,0,0,0,0,,,,,,,,,
+1,SYNTH_ILC_0013,Illegal lane change,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_ILC_0028,Illegal lane change,NHTSA-derived,fine,0,1,0,1,1,0,1,0,0,0,0,1,1,1,0.44
+1,NHTSA_ILC_0039,Illegal lane change,NHTSA-derived,fine,0,1,1,0,0,1,,,,,,,,,
+1,NHTSA_ILC_0055,Illegal lane change,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_ILC_0030,Illegal lane change,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_ILC_0010,Illegal lane change,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_ILC_0052,Illegal lane change,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,0,1,1,1,1,0.8200000000000001
+1,NHTSA_ILC_0027,Illegal lane change,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_ILC_0003,Illegal lane change,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_ILC_0006,Illegal lane change,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_ILC_0032,Illegal lane change,NHTSA-derived,fine,0,1,1,0,0,1,,,,,,,,,
+1,SYNTH_ILC_0016,Illegal lane change,synthetic-topology-extension,fine,0,1,1,0,0,1,,,,,,,,,
+1,NHTSA_ILC_0053,Illegal lane change,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_ILC_0002,Illegal lane change,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_ILC_0021,Illegal lane change,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_ILC_0016,Illegal lane change,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_ILC_0022,Illegal lane change,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_ILC_0047,Illegal lane change,NHTSA-derived,coarse,0,1,0,1,0,0,0,0,0,0,0,1,1,1,0.26
+1,NHTSA_ILC_0014,Illegal lane change,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_ILC_0048,Illegal lane change,NHTSA-derived,coarse,0,1,1,0,0,1,,,,,,,,,
+1,NHTSA_ILC_0008,Illegal lane change,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_ILC_0011,Illegal lane change,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_ILC_0002,Illegal lane change,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_ILC_0041,Illegal lane change,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_ILC_0014,Illegal lane change,synthetic-topology-extension,fine,0,1,1,0,0,1,,,,,,,,,
+1,SYNTH_ILC_0004,Illegal lane change,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_ILC_0026,Illegal lane change,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_ILC_0006,Illegal lane change,NHTSA-derived,fine,0,1,1,0,0,1,,,,,,,,,
+1,NHTSA_ILC_0015,Illegal lane change,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_ILC_0007,Illegal lane change,synthetic-topology-extension,fine,0,1,0,1,1,0,0,0,0,0,0,1,1,1,0.26
+1,NHTSA_ILC_0042,Illegal lane change,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_ILC_0031,Illegal lane change,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_ILC_0005,Illegal lane change,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_ILC_0018,Illegal lane change,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_ILC_0015,Illegal lane change,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_ILC_0019,Illegal lane change,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_ILC_0020,Illegal lane change,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_ILC_0008,Illegal lane change,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_ILC_0040,Illegal lane change,NHTSA-derived,fine,0,1,1,0,0,1,,,,,,,,,
+1,NHTSA_IOT_0009,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_IOT_0015,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0.12
+1,NHTSA_IOT_0033,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_IOT_0023,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_IOT_0035,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_IOT_0005,Illegal overtaking,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_IOT_0047,Illegal overtaking,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_IOT_0043,Illegal overtaking,NHTSA-derived,fine,1,0,0,0,0,1,,,,,,,,,
+1,NHTSA_IOT_0029,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_IOT_0044,Illegal overtaking,NHTSA-derived,coarse,0,1,0,1,1,0,1,0,0,0,0,1,1,1,0.44
+1,NHTSA_IOT_0034,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_IOT_0012,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,1,0,0,0,0,0,0,1,1,1,0.26
+1,SYNTH_IOT_0014,Illegal overtaking,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_IOT_0001,Illegal overtaking,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_IOT_0014,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_IOT_0022,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_IOT_0002,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_IOT_0004,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_IOT_0030,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_IOT_0007,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_IOT_0031,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_IOT_0008,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,1,0,1,1,0,0,1,1,1,1,0.66
+1,NHTSA_IOT_0051,Illegal overtaking,NHTSA-derived,coarse,0,1,1,0,0,1,,,,,,,,,
+1,NHTSA_IOT_0025,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_IOT_0003,Illegal overtaking,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_IOT_0005,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_IOT_0010,Illegal overtaking,NHTSA-derived,fine,0,1,1,0,0,1,,,,,,,,,
+1,NHTSA_IOT_0049,Illegal overtaking,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_IOT_0048,Illegal overtaking,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_IOT_0004,Illegal overtaking,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_IOT_0006,Illegal overtaking,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_IOT_0038,Illegal overtaking,NHTSA-derived,fine,1,0,0,0,0,1,,,,,,,,,
+1,NHTSA_IOT_0001,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_IOT_0015,Illegal overtaking,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_IOT_0037,Illegal overtaking,NHTSA-derived,fine,0,1,1,0,0,1,,,,,,,,,
+1,NHTSA_IOT_0042,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_IOT_0052,Illegal overtaking,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_IOT_0008,Illegal overtaking,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_IOT_0012,Illegal overtaking,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,0,1,1,1,1,0.8200000000000001
+1,NHTSA_IOT_0003,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_IOT_0013,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_IOT_0007,Illegal overtaking,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_IOT_0019,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_IOT_0009,Illegal overtaking,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,SYNTH_IOT_0013,Illegal overtaking,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,0,1,1,1,1,0.8200000000000001
+1,NHTSA_IOT_0024,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,1,0,1,0,1,0,0,1,1,1,0.6
+1,NHTSA_IOT_0036,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_IOT_0046,Illegal overtaking,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_IOT_0017,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,0,1,1,1,1,0.8200000000000001
+1,SYNTH_IOT_0011,Illegal overtaking,synthetic-topology-extension,fine,1,0,0,0,0,0,,,,,,,,,
+1,NHTSA_IOT_0027,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_IOT_0040,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,0,1,1,1,1,0.8200000000000001
+1,NHTSA_IOT_0028,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_IOT_0050,Illegal overtaking,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_IOT_0021,Illegal overtaking,NHTSA-derived,fine,0,1,1,0,0,1,,,,,,,,,
+1,NHTSA_IOT_0016,Illegal overtaking,NHTSA-derived,fine,0,1,1,0,0,0,,,,,,,,,
+1,NHTSA_IOT_0039,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_IOT_0020,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_IOT_0018,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+1,NHTSA_IOT_0011,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_INA_0644,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_INA_0191,Inattention to the road ahead,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_INA_0045,Inattention to the road ahead,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_INA_0472,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_INA_0451,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,0,1,1,1,1,0.8200000000000001
+2,NHTSA_INA_0471,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_INA_0109,Inattention to the road ahead,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_INA_0265,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_INA_0528,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_INA_0101,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_INA_0155,Inattention to the road ahead,synthetic-topology-extension,fine,0,1,0,1,0,0,0,0,0,0,0,1,1,1,0.26
+2,SYNTH_INA_0211,Inattention to the road ahead,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_INA_0347,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_INA_0061,Inattention to the road ahead,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_INA_0346,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_INA_0088,Inattention to the road ahead,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_INA_0534,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_INA_0101,Inattention to the road ahead,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_INA_0055,Inattention to the road ahead,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_INA_0178,Inattention to the road ahead,synthetic-topology-extension,fine,0,1,1,0,0,1,,,,,,,,,
+2,SYNTH_INA_0020,Inattention to the road ahead,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_INA_0405,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_INA_0547,Inattention to the road ahead,NHTSA-derived,coarse,0,1,1,0,0,1,,,,,,,,,
+2,SYNTH_INA_0080,Inattention to the road ahead,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_INA_0100,Inattention to the road ahead,NHTSA-derived,coarse,0,1,1,0,0,1,,,,,,,,,
+2,SYNTH_INA_0047,Inattention to the road ahead,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_INA_0292,Inattention to the road ahead,NHTSA-derived,coarse,0,1,1,0,0,1,,,,,,,,,
+2,NHTSA_INA_0190,Inattention to the road ahead,NHTSA-derived,coarse,0,1,1,0,0,1,,,,,,,,,
+2,NHTSA_INA_0215,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_INA_0190,Inattention to the road ahead,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_INA_0426,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_INA_0481,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_INA_0372,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_INA_0113,Inattention to the road ahead,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_INA_0526,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_INA_0329,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,1,0,0,0,0,0,0,1,1,1,0.26
+2,SYNTH_INA_0148,Inattention to the road ahead,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_INA_0150,Inattention to the road ahead,synthetic-topology-extension,fine,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0.12
+2,NHTSA_INA_0106,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_INA_0447,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,0,0,0,0,0,0,0,1,1,1,0.26
+2,NHTSA_INA_0343,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_INA_0191,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_INA_0183,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_INA_0144,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_INA_0614,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_INA_0077,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_INA_0457,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_INA_0097,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_INA_0054,Inattention to the road ahead,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_INA_0558,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_INA_0301,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_INA_0630,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_INA_0206,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_INA_0189,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,0,0,0,0,0,0,0,1,1,1,0.26
+2,NHTSA_INA_0027,Inattention to the road ahead,NHTSA-derived,fine,0,1,0,1,1,0,0,0,0,0,0,1,1,1,0.26
+2,SYNTH_INA_0205,Inattention to the road ahead,synthetic-topology-extension,fine,0,1,1,0,0,1,,,,,,,,,
+2,NHTSA_INA_0223,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_INA_0214,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,1,0,1,0,0,0,0,1,1,1,0.44
+2,NHTSA_INA_0434,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_INA_0024,Inattention to the road ahead,synthetic-topology-extension,fine,0,1,0,1,1,0,0,0,0,0,0,1,1,1,0.26
+2,NHTSA_FTY_0363,Failure to yield,NHTSA-derived,coarse,0,1,0,1,1,0,0,0,0,0,0,1,1,1,0.26
+2,NHTSA_FTY_0309,Failure to yield,NHTSA-derived,coarse,0,1,1,0,0,1,,,,,,,,,
+2,SYNTH_FTY_0120,Failure to yield,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_FTY_0075,Failure to yield,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_FTY_0457,Failure to yield,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_FTY_0294,Failure to yield,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_FTY_0336,Failure to yield,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_FTY_0076,Failure to yield,NHTSA-derived,coarse,0,1,1,0,0,1,,,,,,,,,
+2,NHTSA_FTY_0152,Failure to yield,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_FTY_0314,Failure to yield,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_FTY_0002,Failure to yield,synthetic-topology-extension,fine,0,1,0,1,1,0,0,0,0,0,0,1,1,1,0.26
+2,NHTSA_FTY_0383,Failure to yield,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_FTY_0504,Failure to yield,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_FTY_0054,Failure to yield,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_FTY_0123,Failure to yield,synthetic-topology-extension,fine,0,1,0,1,1,0,1,0,0,0,0,1,1,1,0.44
+2,NHTSA_FTY_0431,Failure to yield,NHTSA-derived,coarse,0,1,1,0,0,1,,,,,,,,,
+2,NHTSA_FTY_0480,Failure to yield,NHTSA-derived,coarse,0,1,0,1,1,0,0,0,0,0,0,1,1,1,0.26
+2,NHTSA_FTY_0037,Failure to yield,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_FTY_0015,Failure to yield,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_FTY_0265,Failure to yield,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_FTY_0114,Failure to yield,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_FTY_0068,Failure to yield,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_FTY_0038,Failure to yield,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_FTY_0159,Failure to yield,NHTSA-derived,coarse,0,1,0,1,1,0,0,0,0,0,0,1,1,1,0.26
+2,SYNTH_FTY_0006,Failure to yield,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_FTY_0062,Failure to yield,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_FTY_0214,Failure to yield,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_FTY_0347,Failure to yield,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_FTY_0100,Failure to yield,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_FTY_0402,Failure to yield,NHTSA-derived,coarse,0,1,1,0,0,1,,,,,,,,,
+2,NHTSA_FTY_0353,Failure to yield,NHTSA-derived,coarse,0,1,0,1,1,0,1,0,0,0,0,1,1,1,0.44
+2,NHTSA_FTY_0474,Failure to yield,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_FTY_0160,Failure to yield,NHTSA-derived,coarse,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0.12
+2,NHTSA_FTY_0471,Failure to yield,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,0,1,1,1,1,0.8200000000000001
+2,NHTSA_FTY_0364,Failure to yield,NHTSA-derived,coarse,0,1,0,1,1,0,1,0,0,0,0,1,1,1,0.44
+2,SYNTH_FTY_0082,Failure to yield,synthetic-topology-extension,fine,0,1,0,1,1,0,1,1,1,0,1,1,1,1,0.8200000000000001
+2,NHTSA_FTY_0102,Failure to yield,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_FTY_0339,Failure to yield,NHTSA-derived,coarse,0,1,1,0,0,1,,,,,,,,,
+2,SYNTH_FTY_0090,Failure to yield,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_FTY_0410,Failure to yield,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_FTY_0375,Failure to yield,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_FTY_0130,Failure to yield,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_FTY_0097,Failure to yield,NHTSA-derived,coarse,0,1,0,1,1,0,1,0,0,0,1,1,1,1,0.56
+2,SYNTH_FTY_0100,Failure to yield,synthetic-topology-extension,fine,0,1,0,1,1,0,0,0,0,0,0,1,1,1,0.26
+2,SYNTH_FTY_0051,Failure to yield,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_FTY_0449,Failure to yield,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_FTY_0412,Failure to yield,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_FTY_0258,Failure to yield,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_FTY_0161,Failure to yield,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_FTY_0263,Failure to yield,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_FTY_0464,Failure to yield,NHTSA-derived,coarse,0,1,0,1,1,0,0,0,0,0,0,1,1,1,0.26
+2,NHTSA_FTY_0362,Failure to yield,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_FTY_0147,Failure to yield,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_FTY_0148,Failure to yield,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_FTY_0019,Failure to yield,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_FTY_0227,Failure to yield,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_FTY_0086,Failure to yield,synthetic-topology-extension,fine,0,1,1,0,0,1,,,,,,,,,
+2,NHTSA_FTY_0118,Failure to yield,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_FTY_0014,Failure to yield,NHTSA-derived,coarse,0,1,1,0,0,1,,,,,,,,,
+2,SYNTH_FTY_0070,Failure to yield,synthetic-topology-extension,fine,0,1,0,1,1,0,0,0,0,0,0,1,1,1,0.26
+2,NHTSA_SPD_0118,Speeding,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_SPD_0054,Speeding,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_SPD_0338,Speeding,NHTSA-derived,coarse,0,1,0,1,0,0,0,0,0,0,0,1,1,1,0.26
+2,NHTSA_SPD_0073,Speeding,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_SPD_0088,Speeding,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_SPD_0031,Speeding,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_SPD_0074,Speeding,NHTSA-derived,coarse,1,0,0,0,0,1,,,,,,,,,
+2,SYNTH_SPD_0049,Speeding,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_SPD_0257,Speeding,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_SPD_0278,Speeding,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_SPD_0249,Speeding,NHTSA-derived,coarse,0,1,1,0,0,1,,,,,,,,,
+2,NHTSA_SPD_0140,Speeding,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_SPD_0078,Speeding,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_SPD_0337,Speeding,NHTSA-derived,coarse,0,1,1,0,0,1,,,,,,,,,
+2,NHTSA_SPD_0034,Speeding,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_SPD_0080,Speeding,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_SPD_0317,Speeding,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_SPD_0053,Speeding,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_SPD_0216,Speeding,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_SPD_0080,Speeding,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_SPD_0047,Speeding,NHTSA-derived,coarse,0,1,0,1,1,0,1,1,1,0,1,1,1,1,0.8200000000000001
+2,SYNTH_SPD_0084,Speeding,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_SPD_0078,Speeding,synthetic-topology-extension,fine,0,1,1,0,0,1,,,,,,,,,
+2,NHTSA_SPD_0207,Speeding,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_SPD_0277,Speeding,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_SPD_0015,Speeding,NHTSA-derived,coarse,0,1,1,0,0,1,,,,,,,,,
+2,SYNTH_SPD_0057,Speeding,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_SPD_0124,Speeding,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_SPD_0121,Speeding,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_SPD_0341,Speeding,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_SPD_0285,Speeding,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_SPD_0115,Speeding,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_SPD_0010,Speeding,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_SPD_0009,Speeding,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_SPD_0345,Speeding,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_SPD_0306,Speeding,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_SPD_0303,Speeding,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_SPD_0046,Speeding,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_SPD_0252,Speeding,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_SPD_0227,Speeding,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_SPD_0132,Speeding,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_SPD_0274,Speeding,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_SPD_0172,Speeding,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_SPD_0120,Speeding,NHTSA-derived,coarse,0,1,1,0,0,1,,,,,,,,,
+2,SYNTH_SPD_0054,Speeding,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_SPD_0189,Speeding,NHTSA-derived,coarse,0,1,0,1,1,0,1,0,0,0,0,1,1,1,0.44
+2,NHTSA_SPD_0134,Speeding,NHTSA-derived,coarse,0,1,0,1,1,0,0,0,0,0,0,1,1,1,0.26
+2,NHTSA_SPD_0241,Speeding,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_SPD_0179,Speeding,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_SPD_0311,Speeding,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_SPD_0079,Speeding,synthetic-topology-extension,fine,0,1,1,0,0,1,,,,,,,,,
+2,NHTSA_SPD_0308,Speeding,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_SPD_0058,Speeding,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_SPD_0144,Speeding,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_SPD_0021,Speeding,NHTSA-derived,coarse,0,1,1,0,0,1,,,,,,,,,
+2,NHTSA_SPD_0319,Speeding,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_SPD_0225,Speeding,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_SPD_0200,Speeding,NHTSA-derived,coarse,1,0,0,0,0,1,,,,,,,,,
+2,NHTSA_SPD_0098,Speeding,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_SPD_0164,Speeding,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,0,1,1,1,1,0.8200000000000001
+2,SYNTH_FSD_0088,Failure to maintain safe following distance,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_FSD_0283,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_FSD_0001,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_FSD_0253,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,1,0,0,0,0,0,0,1,1,1,0.26
+2,SYNTH_FSD_0099,Failure to maintain safe following distance,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_FSD_0277,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_FSD_0108,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_FSD_0032,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_FSD_0020,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_FSD_0021,Failure to maintain safe following distance,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_FSD_0110,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_FSD_0079,Failure to maintain safe following distance,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_FSD_0060,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_FSD_0057,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,0,1,1,1,1,0.8200000000000001
+2,NHTSA_FSD_0154,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_FSD_0182,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_FSD_0130,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,0,1,1,1,1,0.8200000000000001
+2,NHTSA_FSD_0188,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,1,0,0,1,,,,,,,,,
+2,NHTSA_FSD_0200,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_FSD_0077,Failure to maintain safe following distance,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_FSD_0004,Failure to maintain safe following distance,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_FSD_0282,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,1,0,0,1,,,,,,,,,
+2,SYNTH_FSD_0044,Failure to maintain safe following distance,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_FSD_0017,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_FSD_0049,Failure to maintain safe following distance,synthetic-topology-extension,fine,0,1,0,1,0,0,0,0,0,0,0,1,1,0,0.22
+2,SYNTH_FSD_0072,Failure to maintain safe following distance,synthetic-topology-extension,fine,0,1,1,0,0,1,,,,,,,,,
+2,SYNTH_FSD_0081,Failure to maintain safe following distance,synthetic-topology-extension,fine,0,1,0,1,1,0,0,0,0,0,0,1,1,1,0.26
+2,NHTSA_FSD_0042,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_FSD_0097,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,0,0,0,0,0,0,0,1,1,1,0.26
+2,SYNTH_FSD_0062,Failure to maintain safe following distance,synthetic-topology-extension,fine,0,1,0,1,1,0,0,0,0,0,0,1,1,1,0.26
+2,NHTSA_FSD_0049,Failure to maintain safe following distance,NHTSA-derived,coarse,1,0,0,0,0,1,,,,,,,,,
+2,SYNTH_FSD_0028,Failure to maintain safe following distance,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_FSD_0019,Failure to maintain safe following distance,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_FSD_0048,Failure to maintain safe following distance,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_FSD_0207,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,0,1,1,1,1,0.8200000000000001
+2,SYNTH_FSD_0046,Failure to maintain safe following distance,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_FSD_0214,Failure to maintain safe following distance,NHTSA-derived,coarse,1,0,0,0,0,0,,,,,,,,,
+2,SYNTH_FSD_0005,Failure to maintain safe following distance,synthetic-topology-extension,fine,1,0,0,0,0,1,,,,,,,,,
+2,NHTSA_FSD_0111,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_FSD_0084,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_FSD_0259,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_FSD_0104,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,1,0,0,0,,,,,,,,,
+2,NHTSA_FSD_0211,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_FSD_0170,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_FSD_0006,Failure to maintain safe following distance,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_FSD_0193,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_FSD_0096,Failure to maintain safe following distance,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,0,1,1,1,1,0.8200000000000001
+2,NHTSA_FSD_0218,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,1,0,0,1,,,,,,,,,
+2,NHTSA_FSD_0116,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_FSD_0041,Failure to maintain safe following distance,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_FSD_0058,Failure to maintain safe following distance,NHTSA-derived,coarse,1,0,0,0,0,1,,,,,,,,,
+2,NHTSA_FSD_0240,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,1,0,1,1,1,0,1,1,1,1,0.8200000000000001
+2,NHTSA_FSD_0296,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_FSD_0168,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_FSD_0034,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,0,0,0,0,0,0,0,1,1,0,0.22
+2,SYNTH_FSD_0054,Failure to maintain safe following distance,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_FSD_0018,Failure to maintain safe following distance,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_FSD_0243,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_FSD_0082,Failure to maintain safe following distance,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_FSD_0294,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_WWD_0043,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_WWD_0060,Wrong-way driving,synthetic-topology-extension,fine,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0.12
+2,NHTSA_WWD_0063,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_WWD_0030,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,0,1,1,1,1,0.8200000000000001
+2,NHTSA_WWD_0010,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,1,0,0,0,0,0,0,1,1,1,0.26
+2,NHTSA_WWD_0036,Wrong-way driving,NHTSA-derived,coarse,0,1,1,0,0,0,,,,,,,,,
+2,NHTSA_WWD_0019,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_WWD_0070,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_WWD_0014,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_WWD_0037,Wrong-way driving,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_WWD_0034,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_WWD_0008,Wrong-way driving,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_WWD_0014,Wrong-way driving,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_WWD_0039,Wrong-way driving,NHTSA-derived,coarse,0,1,1,0,0,1,,,,,,,,,
+2,NHTSA_WWD_0006,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_WWD_0050,Wrong-way driving,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_WWD_0045,Wrong-way driving,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_WWD_0067,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0.12
+2,NHTSA_WWD_0008,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_WWD_0021,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_WWD_0026,Wrong-way driving,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_WWD_0034,Wrong-way driving,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,0,1,1,1,1,0.8200000000000001
+2,NHTSA_WWD_0055,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_WWD_0062,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_WWD_0002,Wrong-way driving,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_WWD_0059,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,0,0,0,0,0,0,0,1,1,1,0.26
+2,SYNTH_WWD_0001,Wrong-way driving,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_WWD_0003,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_WWD_0042,Wrong-way driving,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_WWD_0030,Wrong-way driving,synthetic-topology-extension,fine,0,1,1,0,0,1,,,,,,,,,
+2,NHTSA_WWD_0078,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,0,1,1,1,1,0.8200000000000001
+2,SYNTH_WWD_0048,Wrong-way driving,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,0,1,1,1,1,0.8200000000000001
+2,SYNTH_WWD_0020,Wrong-way driving,synthetic-topology-extension,fine,0,1,0,1,1,0,0,0,0,0,0,1,1,1,0.26
+2,NHTSA_WWD_0049,Wrong-way driving,NHTSA-derived,coarse,1,0,0,0,0,1,,,,,,,,,
+2,NHTSA_WWD_0047,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_WWD_0013,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_WWD_0041,Wrong-way driving,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_WWD_0027,Wrong-way driving,synthetic-topology-extension,fine,0,1,0,1,0,0,0,0,0,0,0,1,1,0,0.22
+2,SYNTH_WWD_0022,Wrong-way driving,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_WWD_0053,Wrong-way driving,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_WWD_0057,Wrong-way driving,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_WWD_0009,Wrong-way driving,NHTSA-derived,coarse,0,1,1,0,0,1,,,,,,,,,
+2,NHTSA_WWD_0016,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_WWD_0007,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_WWD_0079,Wrong-way driving,NHTSA-derived,coarse,0,1,1,0,0,1,,,,,,,,,
+2,NHTSA_WWD_0031,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_WWD_0051,Wrong-way driving,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_WWD_0013,Wrong-way driving,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_WWD_0042,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_WWD_0005,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_WWD_0056,Wrong-way driving,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_WWD_0044,Wrong-way driving,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_WWD_0035,Wrong-way driving,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_WWD_0012,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_WWD_0017,Wrong-way driving,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_WWD_0048,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_WWD_0041,Wrong-way driving,NHTSA-derived,coarse,0,1,1,0,0,1,,,,,,,,,
+2,SYNTH_WWD_0009,Wrong-way driving,synthetic-topology-extension,fine,0,1,1,0,0,1,,,,,,,,,
+2,NHTSA_WWD_0032,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_WWD_0033,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_ILC_0001,Illegal lane change,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_ILC_0013,Illegal lane change,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_ILC_0025,Illegal lane change,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_ILC_0020,Illegal lane change,NHTSA-derived,fine,0,1,0,1,1,0,0,0,0,0,0,1,1,1,0.26
+2,SYNTH_ILC_0013,Illegal lane change,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_ILC_0044,Illegal lane change,NHTSA-derived,coarse,1,0,0,0,0,1,,,,,,,,,
+2,SYNTH_ILC_0019,Illegal lane change,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_ILC_0007,Illegal lane change,synthetic-topology-extension,fine,1,0,0,0,0,1,,,,,,,,,
+2,NHTSA_ILC_0047,Illegal lane change,NHTSA-derived,coarse,0,1,0,1,1,0,1,0,0,0,0,1,1,1,0.44
+2,NHTSA_ILC_0052,Illegal lane change,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_ILC_0010,Illegal lane change,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_ILC_0042,Illegal lane change,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_ILC_0035,Illegal lane change,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_ILC_0055,Illegal lane change,NHTSA-derived,coarse,1,0,0,0,0,1,,,,,,,,,
+2,NHTSA_ILC_0031,Illegal lane change,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_ILC_0053,Illegal lane change,NHTSA-derived,coarse,0,1,1,0,0,1,,,,,,,,,
+2,NHTSA_ILC_0041,Illegal lane change,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_ILC_0038,Illegal lane change,NHTSA-derived,fine,1,0,0,0,0,1,,,,,,,,,
+2,SYNTH_ILC_0011,Illegal lane change,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_ILC_0001,Illegal lane change,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_ILC_0021,Illegal lane change,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_ILC_0033,Illegal lane change,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_ILC_0048,Illegal lane change,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_ILC_0016,Illegal lane change,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_ILC_0050,Illegal lane change,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_ILC_0022,Illegal lane change,NHTSA-derived,fine,0,1,1,0,0,1,,,,,,,,,
+2,SYNTH_ILC_0004,Illegal lane change,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_ILC_0003,Illegal lane change,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_ILC_0022,Illegal lane change,synthetic-topology-extension,fine,1,0,0,0,0,1,,,,,,,,,
+2,NHTSA_ILC_0019,Illegal lane change,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_ILC_0006,Illegal lane change,NHTSA-derived,fine,0,1,1,0,0,1,,,,,,,,,
+2,SYNTH_ILC_0006,Illegal lane change,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_ILC_0015,Illegal lane change,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_ILC_0030,Illegal lane change,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,0,1,1,1,1,0.8200000000000001
+2,NHTSA_ILC_0027,Illegal lane change,NHTSA-derived,fine,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0.12
+2,NHTSA_ILC_0036,Illegal lane change,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_ILC_0039,Illegal lane change,NHTSA-derived,fine,0,1,1,0,0,1,,,,,,,,,
+2,NHTSA_ILC_0018,Illegal lane change,NHTSA-derived,fine,0,1,1,0,0,1,,,,,,,,,
+2,NHTSA_ILC_0005,Illegal lane change,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_ILC_0012,Illegal lane change,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_ILC_0034,Illegal lane change,NHTSA-derived,fine,1,0,0,0,0,0,,,,,,,,,
+2,NHTSA_ILC_0008,Illegal lane change,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_ILC_0012,Illegal lane change,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_ILC_0049,Illegal lane change,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_ILC_0009,Illegal lane change,NHTSA-derived,fine,1,0,0,0,0,1,,,,,,,,,
+2,NHTSA_ILC_0010,Illegal lane change,NHTSA-derived,fine,0,1,0,1,1,0,0,0,0,0,0,1,1,1,0.26
+2,NHTSA_ILC_0045,Illegal lane change,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_ILC_0026,Illegal lane change,NHTSA-derived,fine,0,1,0,1,1,0,0,0,0,0,0,1,1,1,0.26
+2,NHTSA_ILC_0040,Illegal lane change,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_ILC_0017,Illegal lane change,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_ILC_0004,Illegal lane change,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_ILC_0021,Illegal lane change,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_ILC_0018,Illegal lane change,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_ILC_0043,Illegal lane change,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_ILC_0017,Illegal lane change,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_ILC_0032,Illegal lane change,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_ILC_0020,Illegal lane change,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_ILC_0003,Illegal lane change,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_ILC_0002,Illegal lane change,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_ILC_0005,Illegal lane change,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_IOT_0024,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_IOT_0039,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_IOT_0028,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_IOT_0035,Illegal overtaking,NHTSA-derived,fine,0,1,1,0,0,0,,,,,,,,,
+2,SYNTH_IOT_0013,Illegal overtaking,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_IOT_0025,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,0,1,1,1,1,0.8200000000000001
+2,NHTSA_IOT_0027,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_IOT_0011,Illegal overtaking,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_IOT_0045,Illegal overtaking,NHTSA-derived,coarse,0,1,0,1,0,0,0,0,0,0,0,1,1,1,0.26
+2,NHTSA_IOT_0021,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_IOT_0038,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_IOT_0010,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_IOT_0036,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_IOT_0008,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_IOT_0017,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_IOT_0009,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_IOT_0007,Illegal overtaking,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_IOT_0040,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_IOT_0006,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_IOT_0037,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_IOT_0003,Illegal overtaking,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_IOT_0010,Illegal overtaking,synthetic-topology-extension,fine,0,1,1,0,0,1,,,,,,,,,
+2,NHTSA_IOT_0005,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_IOT_0015,Illegal overtaking,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_IOT_0022,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_IOT_0008,Illegal overtaking,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_IOT_0012,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_IOT_0033,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_IOT_0046,Illegal overtaking,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_IOT_0032,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,0,1,1,1,1,0.8200000000000001
+2,NHTSA_IOT_0052,Illegal overtaking,NHTSA-derived,coarse,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0.12
+2,NHTSA_IOT_0051,Illegal overtaking,NHTSA-derived,coarse,1,0,0,0,0,1,,,,,,,,,
+2,NHTSA_IOT_0004,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_IOT_0043,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_IOT_0006,Illegal overtaking,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_IOT_0016,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_IOT_0002,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_IOT_0034,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_IOT_0029,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,0,0,0,0,0,0,0,1,1,0,0.22
+2,SYNTH_IOT_0002,Illegal overtaking,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,0,1,1,1,1,0.8200000000000001
+2,NHTSA_IOT_0030,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_IOT_0015,Illegal overtaking,NHTSA-derived,fine,0,1,1,0,0,1,,,,,,,,,
+2,NHTSA_IOT_0023,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_IOT_0042,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_IOT_0026,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_IOT_0050,Illegal overtaking,NHTSA-derived,coarse,1,0,0,0,0,0,,,,,,,,,
+2,NHTSA_IOT_0049,Illegal overtaking,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_IOT_0013,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_IOT_0009,Illegal overtaking,synthetic-topology-extension,fine,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0.12
+2,NHTSA_IOT_0020,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_IOT_0011,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_IOT_0019,Illegal overtaking,NHTSA-derived,fine,1,0,0,0,0,1,,,,,,,,,
+2,NHTSA_IOT_0031,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_IOT_0004,Illegal overtaking,synthetic-topology-extension,fine,0,1,1,0,0,1,,,,,,,,,
+2,NHTSA_IOT_0044,Illegal overtaking,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_IOT_0048,Illegal overtaking,NHTSA-derived,coarse,1,0,0,0,0,1,,,,,,,,,
+2,NHTSA_IOT_0001,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,SYNTH_IOT_0001,Illegal overtaking,synthetic-topology-extension,fine,0,1,1,0,0,1,,,,,,,,,
+2,NHTSA_IOT_0041,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+2,NHTSA_IOT_0018,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_INA_0291,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,0,1,1,0,1,0,1,1,1,1,0.72
+3,NHTSA_INA_0484,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_INA_0387,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_INA_0003,Inattention to the road ahead,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_INA_0513,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_INA_0099,Inattention to the road ahead,synthetic-topology-extension,fine,0,1,1,0,0,1,,,,,,,,,
+3,NHTSA_INA_0283,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_INA_0039,Inattention to the road ahead,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_INA_0026,Inattention to the road ahead,NHTSA-derived,fine,1,0,0,0,0,1,,,,,,,,,
+3,NHTSA_INA_0091,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,1,0,0,0,0,0,0,1,1,1,0.26
+3,SYNTH_INA_0030,Inattention to the road ahead,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_INA_0115,Inattention to the road ahead,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_INA_0199,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_INA_0466,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,0,0,0,0,0,0,0,1,1,1,0.26
+3,NHTSA_INA_0237,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_INA_0173,Inattention to the road ahead,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_INA_0185,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_INA_0333,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_INA_0476,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,1,0,0,0,0,0,0,1,1,1,0.26
+3,SYNTH_INA_0013,Inattention to the road ahead,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_INA_0359,Inattention to the road ahead,NHTSA-derived,coarse,0,1,1,0,0,1,,,,,,,,,
+3,NHTSA_INA_0494,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_INA_0461,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_INA_0144,Inattention to the road ahead,synthetic-topology-extension,fine,0,1,1,0,0,0,,,,,,,,,
+3,SYNTH_INA_0031,Inattention to the road ahead,synthetic-topology-extension,fine,0,1,0,1,1,0,0,0,0,0,0,1,1,1,0.26
+3,NHTSA_INA_0478,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_INA_0021,Inattention to the road ahead,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_INA_0531,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_INA_0082,Inattention to the road ahead,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_INA_0101,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_INA_0325,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_INA_0129,Inattention to the road ahead,NHTSA-derived,coarse,0,1,1,0,0,1,,,,,,,,,
+3,NHTSA_INA_0638,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_INA_0384,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_INA_0056,Inattention to the road ahead,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_INA_0164,Inattention to the road ahead,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_INA_0138,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_INA_0350,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_INA_0094,Inattention to the road ahead,synthetic-topology-extension,fine,0,1,0,1,0,0,0,0,0,0,0,1,1,1,0.26
+3,NHTSA_INA_0444,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_INA_0254,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_INA_0618,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_INA_0048,Inattention to the road ahead,NHTSA-derived,fine,0,1,1,0,0,1,,,,,,,,,
+3,NHTSA_INA_0171,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_INA_0637,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_INA_0539,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_INA_0585,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,0,0,0,0,0,0,0,1,1,1,0.26
+3,SYNTH_INA_0139,Inattention to the road ahead,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_INA_0590,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_INA_0103,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_INA_0335,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_INA_0235,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_INA_0167,Inattention to the road ahead,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_INA_0013,Inattention to the road ahead,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_INA_0176,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_INA_0131,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_INA_0008,Inattention to the road ahead,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_INA_0360,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_INA_0422,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_INA_0367,Inattention to the road ahead,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_FTY_0426,Failure to yield,NHTSA-derived,coarse,0,1,1,0,0,1,,,,,,,,,
+3,NHTSA_FTY_0235,Failure to yield,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_FTY_0178,Failure to yield,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_FTY_0447,Failure to yield,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_FTY_0331,Failure to yield,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_FTY_0009,Failure to yield,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_FTY_0371,Failure to yield,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_FTY_0131,Failure to yield,NHTSA-derived,coarse,0,1,0,1,1,0,1,0,0,0,0,1,1,1,0.44
+3,NHTSA_FTY_0510,Failure to yield,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_FTY_0003,Failure to yield,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_FTY_0383,Failure to yield,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_FTY_0481,Failure to yield,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_FTY_0140,Failure to yield,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_FTY_0125,Failure to yield,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_FTY_0091,Failure to yield,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_FTY_0063,Failure to yield,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_FTY_0046,Failure to yield,synthetic-topology-extension,fine,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0.12
+3,NHTSA_FTY_0050,Failure to yield,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_FTY_0112,Failure to yield,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_FTY_0027,Failure to yield,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_FTY_0087,Failure to yield,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_FTY_0406,Failure to yield,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_FTY_0121,Failure to yield,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_FTY_0197,Failure to yield,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_FTY_0444,Failure to yield,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_FTY_0295,Failure to yield,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_FTY_0166,Failure to yield,NHTSA-derived,coarse,1,0,0,0,0,1,,,,,,,,,
+3,NHTSA_FTY_0402,Failure to yield,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_FTY_0064,Failure to yield,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_FTY_0133,Failure to yield,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_FTY_0405,Failure to yield,NHTSA-derived,coarse,0,1,1,0,0,1,,,,,,,,,
+3,NHTSA_FTY_0491,Failure to yield,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_FTY_0075,Failure to yield,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_FTY_0497,Failure to yield,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_FTY_0006,Failure to yield,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_FTY_0002,Failure to yield,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_FTY_0191,Failure to yield,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_FTY_0330,Failure to yield,NHTSA-derived,coarse,1,0,0,0,0,1,,,,,,,,,
+3,NHTSA_FTY_0037,Failure to yield,NHTSA-derived,coarse,0,1,0,1,1,0,0,0,0,0,0,1,1,1,0.26
+3,NHTSA_FTY_0344,Failure to yield,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,0,0,1,1,1,0.7000000000000001
+3,NHTSA_FTY_0209,Failure to yield,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_FTY_0499,Failure to yield,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_FTY_0223,Failure to yield,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_FTY_0449,Failure to yield,NHTSA-derived,coarse,0,1,1,0,0,1,,,,,,,,,
+3,NHTSA_FTY_0067,Failure to yield,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_FTY_0180,Failure to yield,NHTSA-derived,coarse,1,0,0,0,0,1,,,,,,,,,
+3,NHTSA_FTY_0090,Failure to yield,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_FTY_0257,Failure to yield,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_FTY_0058,Failure to yield,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_FTY_0033,Failure to yield,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_FTY_0196,Failure to yield,NHTSA-derived,coarse,0,1,0,1,1,0,1,0,0,0,0,1,1,1,0.44
+3,SYNTH_FTY_0118,Failure to yield,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_FTY_0395,Failure to yield,NHTSA-derived,coarse,0,1,1,0,0,1,,,,,,,,,
+3,NHTSA_FTY_0129,Failure to yield,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_FTY_0110,Failure to yield,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_FTY_0044,Failure to yield,NHTSA-derived,coarse,0,1,1,0,0,1,,,,,,,,,
+3,NHTSA_FTY_0065,Failure to yield,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_FTY_0083,Failure to yield,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_FTY_0239,Failure to yield,NHTSA-derived,coarse,0,1,0,1,1,0,0,0,0,0,0,1,1,1,0.26
+3,NHTSA_FTY_0313,Failure to yield,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_SPD_0035,Speeding,synthetic-topology-extension,fine,0,1,0,1,0,0,0,0,0,0,0,1,1,1,0.26
+3,NHTSA_SPD_0046,Speeding,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_SPD_0277,Speeding,NHTSA-derived,coarse,0,1,0,1,0,0,0,0,0,0,0,1,1,1,0.26
+3,SYNTH_SPD_0033,Speeding,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_SPD_0274,Speeding,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_SPD_0209,Speeding,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_SPD_0142,Speeding,NHTSA-derived,coarse,0,1,1,0,0,1,,,,,,,,,
+3,SYNTH_SPD_0077,Speeding,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_SPD_0071,Speeding,synthetic-topology-extension,fine,0,1,0,1,0,1,1,0,0,0,1,1,1,1,0.56
+3,NHTSA_SPD_0287,Speeding,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_SPD_0243,Speeding,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_SPD_0073,Speeding,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_SPD_0056,Speeding,synthetic-topology-extension,fine,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0.12
+3,NHTSA_SPD_0150,Speeding,NHTSA-derived,coarse,1,0,0,0,0,1,,,,,,,,,
+3,NHTSA_SPD_0073,Speeding,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_SPD_0051,Speeding,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_SPD_0110,Speeding,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_SPD_0012,Speeding,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_SPD_0314,Speeding,NHTSA-derived,coarse,0,1,0,1,0,0,0,0,0,0,0,1,1,0,0.22
+3,NHTSA_SPD_0273,Speeding,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_SPD_0009,Speeding,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_SPD_0010,Speeding,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,0,1,0,1,1,1,0.7200000000000001
+3,NHTSA_SPD_0013,Speeding,NHTSA-derived,coarse,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0.12
+3,NHTSA_SPD_0332,Speeding,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_SPD_0059,Speeding,synthetic-topology-extension,fine,0,1,1,0,0,1,,,,,,,,,
+3,NHTSA_SPD_0128,Speeding,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_SPD_0270,Speeding,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_SPD_0259,Speeding,NHTSA-derived,coarse,0,1,1,0,0,1,,,,,,,,,
+3,NHTSA_SPD_0260,Speeding,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_SPD_0265,Speeding,NHTSA-derived,coarse,0,1,0,1,1,0,0,0,0,0,0,1,1,1,0.26
+3,NHTSA_SPD_0302,Speeding,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_SPD_0315,Speeding,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_SPD_0130,Speeding,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_SPD_0087,Speeding,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_SPD_0026,Speeding,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_SPD_0306,Speeding,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_SPD_0039,Speeding,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_SPD_0061,Speeding,NHTSA-derived,coarse,0,1,1,0,0,0,,,,,,,,,
+3,NHTSA_SPD_0021,Speeding,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_SPD_0249,Speeding,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_SPD_0304,Speeding,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_SPD_0324,Speeding,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_SPD_0140,Speeding,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_SPD_0027,Speeding,NHTSA-derived,coarse,1,0,0,0,0,1,,,,,,,,,
+3,SYNTH_SPD_0052,Speeding,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_SPD_0268,Speeding,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,0,0,1,1,1,1,0.66
+3,SYNTH_SPD_0036,Speeding,synthetic-topology-extension,fine,0,1,1,0,0,1,,,,,,,,,
+3,NHTSA_SPD_0167,Speeding,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_SPD_0205,Speeding,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_SPD_0325,Speeding,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_SPD_0084,Speeding,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_SPD_0349,Speeding,NHTSA-derived,coarse,0,1,0,1,0,1,1,0,1,0,1,1,1,1,0.72
+3,NHTSA_SPD_0179,Speeding,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_SPD_0050,Speeding,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_SPD_0280,Speeding,NHTSA-derived,coarse,1,0,0,0,0,1,,,,,,,,,
+3,NHTSA_SPD_0285,Speeding,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_SPD_0115,Speeding,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_SPD_0313,Speeding,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_SPD_0298,Speeding,NHTSA-derived,coarse,1,0,0,0,0,0,,,,,,,,,
+3,NHTSA_SPD_0299,Speeding,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_FSD_0226,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_FSD_0051,Failure to maintain safe following distance,synthetic-topology-extension,fine,1,0,0,0,0,1,,,,,,,,,
+3,NHTSA_FSD_0103,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,0,0,0,0,0,0,0,1,1,0,0.22
+3,NHTSA_FSD_0183,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,1,0,0,0,0,0,0,1,1,1,0.26
+3,NHTSA_FSD_0275,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_FSD_0149,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_FSD_0061,Failure to maintain safe following distance,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_FSD_0140,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_FSD_0250,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_FSD_0028,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_FSD_0285,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,1,0,0,1,,,,,,,,,
+3,NHTSA_FSD_0276,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_FSD_0073,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_FSD_0048,Failure to maintain safe following distance,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_FSD_0065,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0.12
+3,NHTSA_FSD_0266,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_FSD_0259,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_FSD_0122,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,1,0,0,0,,,,,,,,,
+3,NHTSA_FSD_0221,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_FSD_0216,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_FSD_0100,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_FSD_0162,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_FSD_0013,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_FSD_0100,Failure to maintain safe following distance,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_FSD_0153,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0.12
+3,SYNTH_FSD_0076,Failure to maintain safe following distance,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_FSD_0007,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_FSD_0300,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_FSD_0178,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_FSD_0084,Failure to maintain safe following distance,synthetic-topology-extension,fine,0,1,0,1,0,0,0,0,0,0,0,1,1,1,0.26
+3,NHTSA_FSD_0172,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_FSD_0119,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_FSD_0006,Failure to maintain safe following distance,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_FSD_0019,Failure to maintain safe following distance,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_FSD_0258,Failure to maintain safe following distance,NHTSA-derived,coarse,1,0,0,0,0,0,,,,,,,,,
+3,SYNTH_FSD_0033,Failure to maintain safe following distance,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_FSD_0031,Failure to maintain safe following distance,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_FSD_0001,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_FSD_0282,Failure to maintain safe following distance,NHTSA-derived,coarse,1,0,0,0,0,1,,,,,,,,,
+3,SYNTH_FSD_0043,Failure to maintain safe following distance,synthetic-topology-extension,fine,1,0,0,0,0,1,,,,,,,,,
+3,NHTSA_FSD_0237,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_FSD_0057,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_FSD_0194,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_FSD_0284,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_FSD_0054,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_FSD_0175,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,0,1,1,0,1,1,1,1,1,1,0.9
+3,SYNTH_FSD_0063,Failure to maintain safe following distance,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_FSD_0210,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_FSD_0253,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_FSD_0202,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_FSD_0212,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_FSD_0059,Failure to maintain safe following distance,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_FSD_0124,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_FSD_0146,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_FSD_0165,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,0,1,1,1,1,0.8200000000000001
+3,NHTSA_FSD_0142,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_FSD_0045,Failure to maintain safe following distance,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_FSD_0061,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0.12
+3,SYNTH_FSD_0018,Failure to maintain safe following distance,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_FSD_0188,Failure to maintain safe following distance,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_WWD_0029,Wrong-way driving,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_WWD_0060,Wrong-way driving,NHTSA-derived,coarse,1,0,0,0,0,1,,,,,,,,,
+3,NHTSA_WWD_0084,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_WWD_0025,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_WWD_0064,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_WWD_0004,Wrong-way driving,NHTSA-derived,coarse,0,1,1,0,0,1,,,,,,,,,
+3,SYNTH_WWD_0035,Wrong-way driving,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_WWD_0002,Wrong-way driving,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_WWD_0060,Wrong-way driving,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_WWD_0081,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_WWD_0014,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_WWD_0029,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_WWD_0013,Wrong-way driving,synthetic-topology-extension,fine,0,1,1,0,0,1,,,,,,,,,
+3,SYNTH_WWD_0010,Wrong-way driving,synthetic-topology-extension,fine,0,1,0,1,0,0,0,0,0,0,0,1,1,0,0.22
+3,SYNTH_WWD_0001,Wrong-way driving,synthetic-topology-extension,fine,0,1,1,0,0,1,,,,,,,,,
+3,NHTSA_WWD_0071,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_WWD_0012,Wrong-way driving,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_WWD_0024,Wrong-way driving,synthetic-topology-extension,fine,0,1,1,0,0,1,,,,,,,,,
+3,NHTSA_WWD_0027,Wrong-way driving,NHTSA-derived,coarse,1,0,0,0,0,0,,,,,,,,,
+3,NHTSA_WWD_0050,Wrong-way driving,NHTSA-derived,coarse,1,0,0,0,0,1,,,,,,,,,
+3,SYNTH_WWD_0039,Wrong-way driving,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_WWD_0052,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_WWD_0075,Wrong-way driving,NHTSA-derived,coarse,0,1,1,0,0,0,,,,,,,,,
+3,SYNTH_WWD_0027,Wrong-way driving,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_WWD_0053,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,1,0,0,0,0,0,0,1,1,1,0.26
+3,NHTSA_WWD_0078,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,1,0,0,0,0,0,0,1,1,1,0.26
+3,NHTSA_WWD_0033,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,1,0,0,0,0,0,0,1,1,1,0.26
+3,NHTSA_WWD_0013,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_WWD_0038,Wrong-way driving,synthetic-topology-extension,fine,0,1,0,1,1,0,0,0,0,0,0,1,1,1,0.26
+3,SYNTH_WWD_0058,Wrong-way driving,synthetic-topology-extension,fine,0,1,1,0,0,1,,,,,,,,,
+3,NHTSA_WWD_0041,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_WWD_0056,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_WWD_0040,Wrong-way driving,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_WWD_0042,Wrong-way driving,synthetic-topology-extension,fine,0,1,1,0,0,1,,,,,,,,,
+3,SYNTH_WWD_0051,Wrong-way driving,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_WWD_0019,Wrong-way driving,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_WWD_0026,Wrong-way driving,synthetic-topology-extension,fine,1,0,0,0,0,1,,,,,,,,,
+3,NHTSA_WWD_0022,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_WWD_0017,Wrong-way driving,synthetic-topology-extension,fine,1,0,0,0,0,0,,,,,,,,,
+3,SYNTH_WWD_0023,Wrong-way driving,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_WWD_0012,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_WWD_0057,Wrong-way driving,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_WWD_0008,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_WWD_0066,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_WWD_0044,Wrong-way driving,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_WWD_0040,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_WWD_0055,Wrong-way driving,synthetic-topology-extension,fine,0,1,1,0,0,1,,,,,,,,,
+3,NHTSA_WWD_0074,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,0,0,0,0,0,0,0,1,1,1,0.26
+3,SYNTH_WWD_0022,Wrong-way driving,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,0,0,1,1,1,0.7000000000000001
+3,SYNTH_WWD_0005,Wrong-way driving,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_WWD_0067,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_WWD_0047,Wrong-way driving,NHTSA-derived,coarse,0,1,1,0,0,1,,,,,,,,,
+3,SYNTH_WWD_0041,Wrong-way driving,synthetic-topology-extension,fine,0,1,0,1,1,0,0,0,0,0,0,1,1,1,0.26
+3,NHTSA_WWD_0072,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_WWD_0037,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_WWD_0049,Wrong-way driving,synthetic-topology-extension,fine,1,0,0,0,0,0,,,,,,,,,
+3,SYNTH_WWD_0037,Wrong-way driving,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_WWD_0015,Wrong-way driving,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_WWD_0061,Wrong-way driving,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_WWD_0038,Wrong-way driving,NHTSA-derived,coarse,0,1,1,0,0,0,,,,,,,,,
+3,NHTSA_ILC_0019,Illegal lane change,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_ILC_0003,Illegal lane change,NHTSA-derived,fine,1,0,0,0,0,1,,,,,,,,,
+3,NHTSA_ILC_0008,Illegal lane change,NHTSA-derived,fine,0,1,1,0,0,1,,,,,,,,,
+3,NHTSA_ILC_0012,Illegal lane change,NHTSA-derived,fine,0,1,1,0,0,0,,,,,,,,,
+3,SYNTH_ILC_0001,Illegal lane change,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_ILC_0023,Illegal lane change,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_ILC_0051,Illegal lane change,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_ILC_0019,Illegal lane change,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_ILC_0024,Illegal lane change,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_ILC_0055,Illegal lane change,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_ILC_0041,Illegal lane change,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_ILC_0015,Illegal lane change,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_ILC_0042,Illegal lane change,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_ILC_0048,Illegal lane change,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_ILC_0013,Illegal lane change,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_ILC_0039,Illegal lane change,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_ILC_0018,Illegal lane change,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_ILC_0009,Illegal lane change,synthetic-topology-extension,fine,0,1,1,0,0,1,,,,,,,,,
+3,NHTSA_ILC_0049,Illegal lane change,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_ILC_0006,Illegal lane change,NHTSA-derived,fine,0,1,1,0,0,1,,,,,,,,,
+3,NHTSA_ILC_0005,Illegal lane change,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_ILC_0029,Illegal lane change,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_ILC_0054,Illegal lane change,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,0,0,1,1,1,1,0.66
+3,NHTSA_ILC_0050,Illegal lane change,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_ILC_0012,Illegal lane change,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_ILC_0014,Illegal lane change,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_ILC_0045,Illegal lane change,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_ILC_0030,Illegal lane change,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_ILC_0020,Illegal lane change,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_ILC_0031,Illegal lane change,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_ILC_0036,Illegal lane change,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_ILC_0047,Illegal lane change,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,0,1,1,1,1,0.8200000000000001
+3,SYNTH_ILC_0017,Illegal lane change,synthetic-topology-extension,fine,0,1,1,0,0,1,,,,,,,,,
+3,NHTSA_ILC_0007,Illegal lane change,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_ILC_0013,Illegal lane change,synthetic-topology-extension,fine,0,1,0,1,0,0,0,0,0,0,0,1,0,0,0.12
+3,SYNTH_ILC_0016,Illegal lane change,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_ILC_0004,Illegal lane change,synthetic-topology-extension,fine,0,1,1,0,0,1,,,,,,,,,
+3,NHTSA_ILC_0009,Illegal lane change,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_ILC_0001,Illegal lane change,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_ILC_0016,Illegal lane change,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_ILC_0032,Illegal lane change,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_ILC_0044,Illegal lane change,NHTSA-derived,coarse,0,1,1,0,0,1,,,,,,,,,
+3,NHTSA_ILC_0010,Illegal lane change,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_ILC_0037,Illegal lane change,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_ILC_0017,Illegal lane change,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_ILC_0020,Illegal lane change,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_ILC_0002,Illegal lane change,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_ILC_0053,Illegal lane change,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_ILC_0040,Illegal lane change,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_ILC_0014,Illegal lane change,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_ILC_0008,Illegal lane change,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_ILC_0003,Illegal lane change,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_ILC_0025,Illegal lane change,NHTSA-derived,fine,0,1,1,0,0,1,,,,,,,,,
+3,SYNTH_ILC_0002,Illegal lane change,synthetic-topology-extension,fine,1,0,0,0,0,1,,,,,,,,,
+3,NHTSA_ILC_0038,Illegal lane change,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_ILC_0043,Illegal lane change,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_ILC_0015,Illegal lane change,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_ILC_0011,Illegal lane change,NHTSA-derived,fine,0,1,0,1,1,0,0,0,0,0,0,1,1,1,0.26
+3,NHTSA_ILC_0033,Illegal lane change,NHTSA-derived,fine,0,1,1,0,0,1,,,,,,,,,
+3,NHTSA_ILC_0022,Illegal lane change,NHTSA-derived,fine,0,1,0,1,0,1,1,1,0,1,0,1,1,1,0.7200000000000001
+3,SYNTH_IOT_0004,Illegal overtaking,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_IOT_0018,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,1,0,0,0,0,0,0,1,1,1,0.26
+3,SYNTH_IOT_0010,Illegal overtaking,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_IOT_0047,Illegal overtaking,NHTSA-derived,coarse,0,1,1,0,0,1,,,,,,,,,
+3,SYNTH_IOT_0009,Illegal overtaking,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_IOT_0008,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_IOT_0013,Illegal overtaking,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_IOT_0008,Illegal overtaking,synthetic-topology-extension,fine,1,0,0,0,0,1,,,,,,,,,
+3,NHTSA_IOT_0039,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_IOT_0046,Illegal overtaking,NHTSA-derived,coarse,0,1,0,1,1,0,0,0,0,0,0,1,1,1,0.26
+3,NHTSA_IOT_0017,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_IOT_0001,Illegal overtaking,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_IOT_0012,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_IOT_0035,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_IOT_0006,Illegal overtaking,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_IOT_0013,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_IOT_0021,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_IOT_0006,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_IOT_0052,Illegal overtaking,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_IOT_0026,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_IOT_0037,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,1,0,0,0,1,0,0,1,1,1,0.42
+3,NHTSA_IOT_0025,Illegal overtaking,NHTSA-derived,fine,0,1,1,0,0,1,,,,,,,,,
+3,NHTSA_IOT_0043,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_IOT_0050,Illegal overtaking,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_IOT_0029,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,0,1,1,0,0,0,0,1,1,1,0.44
+3,NHTSA_IOT_0041,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_IOT_0042,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_IOT_0011,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_IOT_0044,Illegal overtaking,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,0,1,1,1,1,1,0.8400000000000001
+3,NHTSA_IOT_0033,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_IOT_0024,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_IOT_0002,Illegal overtaking,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_IOT_0007,Illegal overtaking,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_IOT_0005,Illegal overtaking,synthetic-topology-extension,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_IOT_0014,Illegal overtaking,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_IOT_0014,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_IOT_0049,Illegal overtaking,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_IOT_0030,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_IOT_0011,Illegal overtaking,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_IOT_0028,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_IOT_0002,Illegal overtaking,NHTSA-derived,fine,0,1,1,0,0,1,,,,,,,,,
+3,NHTSA_IOT_0045,Illegal overtaking,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_IOT_0020,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_IOT_0040,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_IOT_0048,Illegal overtaking,NHTSA-derived,coarse,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_IOT_0012,Illegal overtaking,synthetic-topology-extension,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_IOT_0001,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,SYNTH_IOT_0003,Illegal overtaking,synthetic-topology-extension,fine,0,1,0,1,1,0,0,0,0,0,0,1,1,1,0.26
+3,NHTSA_IOT_0034,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_IOT_0027,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,1,0,0,0,0,0,0,1,1,1,0.26
+3,NHTSA_IOT_0003,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_IOT_0016,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_IOT_0010,Illegal overtaking,NHTSA-derived,fine,0,1,1,0,0,1,,,,,,,,,
+3,NHTSA_IOT_0015,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,0,0,0,0,0,0,0,1,1,0,0.22
+3,NHTSA_IOT_0005,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_IOT_0036,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_IOT_0004,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_IOT_0051,Illegal overtaking,NHTSA-derived,coarse,0,1,0,1,0,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_IOT_0022,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1
+3,NHTSA_IOT_0019,Illegal overtaking,NHTSA-derived,fine,0,1,0,1,1,1,1,1,1,1,1,1,1,1,1

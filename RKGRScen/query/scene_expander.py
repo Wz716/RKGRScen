@@ -1,13 +1,13 @@
 from typing import Any, Dict, List
 
-from RKGRScen.config import violation_map
+from RKGRScen.config import canonical_violation_type, violation_map
 from RKGRScen.llm_client import DeepSeekClient
 
 class SceneExpander:
 
     ALLOWED_ROLES = ["violator", "priority", "ego", "npc"]
 
-    def __init__(self, use_llm: bool = False) -> None:
+    def __init__(self, use_llm: bool = True) -> None:
         self.knowledge = violation_map()
         self.client = DeepSeekClient()
         self.use_llm = use_llm and self.client.enabled
@@ -22,30 +22,40 @@ class SceneExpander:
         source_sha256: str = "",
     ) -> Dict[str, Any]:
         dsl = self._unwrap_organized_scenario(dsl)
+        violation_type = canonical_violation_type(dsl.get("violation_type", ""))
+        dsl["violation_type"] = violation_type
+
         if self.use_llm:
             audit_context = {
                 "scenario_id": scenario_id,
                 "source_sha256": source_sha256,
             }
-            return self._with_semantic_context(self._expand_with_llm(dsl, audit_context), dsl)
-        violation_type = dsl["violation_type"]
+            try:
+                return self._with_semantic_context(self._expand_with_llm(dsl, audit_context), dsl)
+            except Exception:
+                # 论文约定：LLM 语义展开失败时回退到违规类型默认查询模板。
+                self.audit_metadata = dict(self.client.last_metadata)
+                self.audit_metadata["fallback_reason"] = "llm_expansion_failed"
+        return self._with_semantic_context(self._fallback_expand(dsl), dsl)
+
+    def _fallback_expand(self, dsl: Dict[str, Any]) -> Dict[str, Any]:
+        """违规类型默认查询模板（LLM 不可用或失败时回退）。"""
+        violation_type = canonical_violation_type(dsl.get("violation_type", ""))
         actors = dsl.get("actors", [])
         subject_mode = "dual" if len(actors) >= 2 else "single"
-        if violation_type == "未按规定让行":
+        if violation_type == "Failure to yield":
             spec = self._expand_yield_violation(dsl)
-        elif violation_type == "闯红灯":
-            spec = self._expand_red_light_violation(dsl)
-        elif violation_type == "违规变道":
+        elif violation_type == "Illegal lane change":
             spec = self._expand_lane_change_violation(dsl)
-        elif violation_type == "违规超车":
+        elif violation_type == "Illegal overtaking":
             spec = self._expand_overtake_violation(dsl)
-        elif violation_type == "逆行":
+        elif violation_type == "Wrong-way driving":
             spec = self._expand_wrong_way_violation(dsl)
-        elif violation_type == "超速":
+        elif violation_type == "Speeding":
             spec = self._expand_speeding_violation(dsl)
-        elif violation_type == "未保持安全距离":
+        elif violation_type == "Failure to maintain safe following distance":
             spec = self._expand_following_distance_violation(dsl)
-        elif violation_type == "未注意前方路况":
+        elif violation_type == "Inattention to the road ahead":
             spec = self._expand_inattention_front_condition(dsl)
         else:
             spec = {
@@ -53,14 +63,14 @@ class SceneExpander:
                 "subject_mode": subject_mode,
                 "actors": self._normalize_actors(actors),
                 "conflict": {
-                    "type": f"{violation_type} 的语义展开",
+                    "type": f"{violation_type} semantic expansion",
                     "location": dsl.get("conflict_location", dsl.get("road_network", {}).get("type", "RoadSegment")),
-                    "trigger_condition": dsl.get("trigger_condition", f"{violation_type} 的默认语义展开"),
+                    "trigger_condition": dsl.get("trigger_condition", f"default trigger for {violation_type}"),
                     "timing": {"time_gap_to_conflict_s": dsl.get("timing", {}).get("time_gap_to_conflict_s", [0.5, 2.0])},
                 },
                 "road_requirement": self._generic_requirement(dsl),
             }
-        return self._with_semantic_context(spec, dsl)
+        return spec
 
     def _expand_with_llm(self, dsl: Dict[str, Any], audit_context: Dict[str, str]) -> Dict[str, Any]:
         violation_type = dsl["violation_type"]
@@ -76,10 +86,9 @@ class SceneExpander:
         user_prompt = (
             f"违规类型知识: {self.knowledge.get(violation_type, {})}\n"
             f"输入DSL: {dsl}\n"
-            "对于‘未按规定让行’，请尽量识别为对向直行优先、抢行左转或横向抢行等可检索语义。"
-            "对于‘闯红灯’，请明确红灯相位、停止线、直行/左转动作与是否存在横向放行车。"
-            "对于‘违规变道’，请明确源车道、目标车道、切入方向、目标车道优先车以及最小纵向间距。"
-            "对于‘超速’，请明确限速、目标速度、起始速度与持续加速/保持超速的行为。"
+            "For 'Failure to yield', prefer opposing-through-priority, cut-in left-turn, or crossing cut-in retrieval semantics."
+            "For 'Illegal lane change', specify source lane, target lane, cut-in direction, target-lane priority vehicle, and minimum longitudinal gap."
+            "For 'Speeding', specify the speed limit, target speed, initial speed, and continuous acceleration/overspeed behavior."
             "如果 DSL 是双向交互路口，min_lanes 代表单侧最低有效车道要求，不要输出整条道路双向总车道数。"
             "请输出严格 JSON。"
         )
@@ -176,11 +185,11 @@ class SceneExpander:
             "road_requirement": {
                 "type": road_requirement.get("type", dsl.get("road_network", {}).get("type", "RoadSegment")),
                 "min_lanes": int(road_requirement.get("min_lanes", dsl.get("road_network", {}).get("min_lanes", dsl.get("road_network", {}).get("lanes", 2) // 2 or 2))),
-                "has_traffic_light": bool(road_requirement.get("has_traffic_light", dsl.get("road_network", {}).get("has_traffic_light", violation_type == "闯红灯"))),
-                "needs_opposing_lanes": bool(road_requirement.get("needs_opposing_lanes", violation_type == "未按规定让行")),
+                "has_traffic_light": bool(road_requirement.get("has_traffic_light", dsl.get("road_network", {}).get("has_traffic_light", False))),
+                "needs_opposing_lanes": bool(road_requirement.get("needs_opposing_lanes", violation_type in {"Failure to yield", "Wrong-way driving", "Illegal overtaking"})),
             },
         }
-        if violation_type == "超速":
+        if violation_type == "Speeding":
             normalized["speed_requirement"] = {
                 "speed_limit_kmh": int(dsl.get("road_network", {}).get("speed_limit_kmh", dsl.get("speed_limit_kmh", 40))),
                 "target_speed_kmh": int(dsl.get("target_speed_kmh", max(int(dsl.get("road_network", {}).get("speed_limit_kmh", 40)) + 15, 50))),
@@ -248,7 +257,7 @@ class SceneExpander:
         change_action = str(actors[0].get("action", "Change Lane Left"))
         lane_change_direction = "left" if "left" in change_action.lower() else "right"
         return {
-            "violation_type": "违规变道",
+            "violation_type": "Illegal lane change",
             "subject_mode": "dual",
             "actors": actors,
             "conflict": {
@@ -393,7 +402,7 @@ class SceneExpander:
         road_type = dsl.get("road_network", {}).get("type", "RoadSegment")
         needs_long_straight = road_type in {"RoadSegment", "Straight"}
         return {
-            "violation_type": "未注意前方路况",
+            "violation_type": "Inattention to the road ahead",
             "subject_mode": "single_obstacle",
             "actors": [actors[0], obstacle],
             "conflict": {

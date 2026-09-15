@@ -6,6 +6,16 @@ from networkx.algorithms.community import greedy_modularity_communities
 from RKGRScen.models import CommunityRecord
 
 try:
+    import leidenalg
+except ImportError:
+    leidenalg = None
+
+try:
+    import igraph as ig
+except ImportError:
+    ig = None
+
+try:
     from networkx.algorithms.community import louvain_communities
 except ImportError:
     louvain_communities = None
@@ -58,12 +68,55 @@ class CommunityDetector:
             return []
 
         requested = self.method.lower()
+        if requested in {"auto", "leiden"}:
+            partitions = self._leiden(graph)
+            if partitions is not None:
+                return partitions
+
         if requested in {"auto", "louvain"} and louvain_communities is not None:
             self.last_method = "networkx_louvain"
             return list(louvain_communities(graph, weight="weight", resolution=self.resolution, seed=42))
 
         self.last_method = "greedy_modularity"
         return [set(nodes) for nodes in greedy_modularity_communities(graph, weight="weight")]
+
+    def _leiden(self, graph: nx.Graph) -> List[Set[str]]:
+        """使用 Leiden 算法分区（论文要求）。优先 igraph 的 community_leiden，其次 leidenalg。"""
+        if ig is None and leidenalg is None:
+            return None
+
+        try:
+            mapping = {name: idx for idx, name in enumerate(graph.nodes())}
+            reverse = {idx: name for name, idx in mapping.items()}
+            edges = [(mapping[u], mapping[v]) for u, v in graph.edges()]
+            g = ig.Graph(n=len(mapping), edges=edges, directed=False)
+            g.es["weight"] = [float(graph[u][v].get("weight", 1.0)) for u, v in graph.edges()]
+
+            if ig is not None:
+                membership = g.community_leiden(
+                    objective_function="modularity",
+                    weights="weight",
+                    resolution_parameter=self.resolution,
+                    n_iterations=-1,
+                ).membership
+                self.last_method = "igraph_leiden"
+            else:
+                partition = leidenalg.find_partition(
+                    g,
+                    leidenalg.ModularityVertexPartition,
+                    weights="weight",
+                    seed=42,
+                    resolution_parameter=self.resolution,
+                )
+                membership = partition.membership
+                self.last_method = "leidenalg"
+
+            groups: Dict[int, Set[str]] = {}
+            for node, community in zip(g.vs.indices, membership):
+                groups.setdefault(int(community), set()).add(reverse[node])
+            return list(groups.values())
+        except Exception:
+            return None
 
     def _merge_small_communities(self, graph: nx.Graph, partitions: List[Set[str]]) -> List[Set[str]]:
         communities = [set(nodes) for nodes in partitions if nodes]

@@ -1,0 +1,27 @@
+{
+  "violation_type": "违规变道",
+  "reason": "观察：场景设定为合流路段（3车道），白天、天气晴朗；V1在主路直行（速度约55 km/h），V2由匝道驶入向左变道（速度约50 km/h）。推断：变更车道时不得影响相关车道内机动车的正常行驶。该场景中车辆在未确保安全间距的情况下强行变道切入目标车道，极易与相邻车道车辆发生剐蹭或碰撞。",
+  "road_network": {
+    "type": "Merging",
+    "lanes": 3,
+    "stem_direction": "South"
+  },
+  "actors": [
+    {
+      "model": "vehicle.bmw.3series",
+      "initial_position": "Main road",
+      "actions": "Move Forward",
+      "speed_limit": 55
+    },
+    {
+      "model": "vehicle.chevrolet.impala",
+      "initial_position": "On-ramp",
+      "actions": "Change Lane Left",
+      "speed_limit": 50
+    }
+  ],
+  "env": {
+    "time": "Daytime",
+    "weather": "Clear"
+  }
+}

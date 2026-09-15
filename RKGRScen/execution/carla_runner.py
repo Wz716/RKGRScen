@@ -8,6 +8,7 @@ try:
 except ImportError:
     carla = None
 
+from RKGRScen.config import canonical_violation_type
 from RKGRScen.models import ExecutionTrace, ScenarioConfiguration
 
 class CarlaScenarioRunner:
@@ -19,6 +20,8 @@ class CarlaScenarioRunner:
     def run(self, scenario: ScenarioConfiguration) -> ExecutionTrace:
         if carla is None:
             raise RuntimeError("未安装 carla Python API，无法运行真实场景")
+
+        scenario.violation_type = canonical_violation_type(scenario.violation_type)
 
         client = carla.Client(self.host, self.port)
         client.set_timeout(self.timeout_s)
@@ -121,7 +124,7 @@ class CarlaScenarioRunner:
                     diagnostics["destroyed_actor_seen"] = True
                     break
                 try:
-                    if scenario.violation_type == "闯红灯":
+                    if scenario.violation_type == "Red light running":
                         dynamic_stop_line = self._estimate_stop_line_from_waypoint_chain(road_map, ego_actor, fallback=dynamic_stop_line)
                         diagnostics["dynamic_stop_line"] = dynamic_stop_line
                         current_distance = self._distance_actor_to_point(ego_actor, dynamic_stop_line)
@@ -166,11 +169,11 @@ class CarlaScenarioRunner:
                 if sample is None:
                     break
                 ticks.append(sample)
-                if scenario.violation_type == "逆行" and self._wrong_way_risk_observed(sample, violation_params):
+                if scenario.violation_type == "Wrong-way driving" and self._wrong_way_risk_observed(sample, violation_params):
                     break
-                if scenario.violation_type == "未按规定让行" and self._yield_risk_observed(sample, violation_params):
+                if scenario.violation_type == "Failure to yield" and self._yield_risk_observed(sample, violation_params):
                     break
-                if scenario.violation_type in {"未保持安全距离", "未注意前方路况"} and self._front_risk_observed(sample, violation_params):
+                if scenario.violation_type in {"Failure to maintain safe following distance", "Inattention to the road ahead"} and self._front_risk_observed(sample, violation_params):
                     break
                 time.sleep(step_s)
 
@@ -237,7 +240,7 @@ class CarlaScenarioRunner:
     def _safe_ignore_lights(self, traffic_manager: Any, actor: Any, violation_type: str) -> None:
         if self._is_actor_alive(actor):
             try:
-                traffic_manager.ignore_lights_percentage(actor, 100.0 if violation_type == "闯红灯" else 0.0)
+                traffic_manager.ignore_lights_percentage(actor, 100.0 if violation_type == "Red light running" else 0.0)
             except RuntimeError:
                 pass
 
@@ -582,7 +585,7 @@ class CarlaScenarioRunner:
             candidate_sets.append((name, actor, candidates))
 
         constraints = self._spawn_plan_constraints(scenario.violation_type)
-        if scenario.violation_type in {"违规变道", "违规超车"}:
+        if scenario.violation_type in {"Illegal lane change", "Illegal overtaking"}:
             topology_exists = any(
                 self._lane_change_pair_valid(ego_wp, npc_wp, scenario.npcs[0])
                 for ego_wp in candidate_sets[0][2]
@@ -682,20 +685,20 @@ class CarlaScenarioRunner:
             return True
         ego_wp = selected[0][2]
         npc_wp = selected[1][2]
-        violation_type = scenario.violation_type
-        if violation_type == "未保持安全距离":
+        violation_type = canonical_violation_type(scenario.violation_type)
+        if violation_type == "Failure to maintain safe following distance":
             return self._front_waypoint_relation(ego_wp, npc_wp, 12.0, 35.0)
-        if violation_type == "未注意前方路况":
+        if violation_type == "Inattention to the road ahead":
             return self._front_waypoint_relation(ego_wp, npc_wp, 15.0, 35.0)
-        if violation_type in {"超速", "超速行驶"}:
+        if violation_type == "Speeding":
             return self._front_waypoint_relation(ego_wp, npc_wp, 15.0, 35.0)
-        if violation_type == "违规变道":
+        if violation_type == "Illegal lane change":
             relative_longitudinal = self._relative_longitudinal_gap(ego_wp, npc_wp)
             return (
                 self._lane_change_pair_valid(ego_wp, npc_wp, scenario.npcs[0])
                 and 3.0 <= abs(relative_longitudinal) <= 12.0
             )
-        if violation_type == "违规超车":
+        if violation_type == "Illegal overtaking":
             relative_longitudinal = self._relative_longitudinal_gap(ego_wp, npc_wp)
             return (
                 self._lane_change_pair_valid(ego_wp, npc_wp, scenario.npcs[0])
@@ -736,20 +739,20 @@ class CarlaScenarioRunner:
         )
 
     def _spawn_plan_constraints(self, violation_type: str) -> List[str]:
+        violation_type = canonical_violation_type(violation_type)
         constraints = [
             "existing vehicles >= 3m",
             "planned actors >= 5m",
             "Driving waypoints only",
         ]
         descriptions = {
-            "未保持安全距离": "front NPC on ego lane, forward gap 12-35m",
-            "未注意前方路况": "front obstacle on ego lane, forward gap 15-35m",
-            "超速": "speeding NPC ahead on ego lane, forward gap 15-35m",
-            "超速行驶": "speeding NPC ahead on ego lane, forward gap 15-35m",
-            "违规变道": "same road, distinct adjacent Driving lanes, longitudinal gap 3-12m",
-            "违规超车": "same road, distinct adjacent Driving lanes, NPC behind ego 5-15m",
-            "未按规定让行": "planned actors do not overlap",
-            "逆行": "planned actors do not overlap",
+            "Failure to maintain safe following distance": "front NPC on ego lane, forward gap 12-35m",
+            "Inattention to the road ahead": "front obstacle on ego lane, forward gap 15-35m",
+            "Speeding": "speeding NPC ahead on ego lane, forward gap 15-35m",
+            "Illegal lane change": "same road, distinct adjacent Driving lanes, longitudinal gap 3-12m",
+            "Illegal overtaking": "same road, distinct adjacent Driving lanes, NPC behind ego 5-15m",
+            "Failure to yield": "planned actors do not overlap",
+            "Wrong-way driving": "planned actors do not overlap",
         }
         if violation_type in descriptions:
             constraints.append(descriptions[violation_type])

@@ -10,13 +10,13 @@ stages use different seeds for different purposes.
 |---|---:|---|
 | `20260714` | `RKGRScen/experiments/prepare_rq1_rq2_shared.py` (`FIXED_SEED`) | Frozen shared-manifest / benchmark-sampling seed for the RQ1/RQ2 single-seed protocol (`protocol_version = "rq1-rq2-single-seed-v3"`). All manifest rows carry this seed. |
 | `20260714` | `RKGRScen/experiments/run_rq2_ablation.py` (`--seed` default) | RQ2 balanced-subset sampling / case-level seed. `stable_case_seed()` derives a per-scenario seed from this global seed, the scenario id, and the source path. |
-| `42` | `RKGRScen/indexing/community_detector.py` (`louvain_communities(..., seed=42)`) | Community-detection (Louvain) partitioning seed. |
+| `42` | `RKGRScen/indexing/community_detector.py` (`seed=42`) | Community-detection partitioning seed. The detector uses Leiden (`igraph.community_leiden` / `leidenalg`), falling back to networkx Louvain (`louvain_communities(..., seed=42)`) when Leiden is unavailable. |
 
 ## Seeds declared in the manuscript / README but not hard-coded in RKGRScen
 
 | Seed | Declared purpose | Status |
 |---|---:|---|
-| `42` | Hosted-LLM decoding `random seed` (where supported by the API) | Declared in the manuscript and README; the hosted DeepSeek client does not currently pass an explicit `seed` field. |
+| `42` | Hosted-LLM decoding `random seed` (where supported by the API) | Implemented in `RKGRScen/llm_client.py` (`DeepSeekClient.SEED = 42`, passed in the request payload). |
 | `42` | Statistical bootstrap resampling seed | Declared in the manuscript and README; the recomputation scripts that implement this are not yet present in this checkout (see `scripts/`). |
 
 ## Notes

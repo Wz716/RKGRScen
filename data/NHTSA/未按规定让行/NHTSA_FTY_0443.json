@@ -1,0 +1,27 @@
+{
+  "violation_type": "未按规定让行",
+  "reason": "观察：场景设定为交叉路口（4车道），夜间、阴天；V1由北向南直行（速度约30 km/h），V2由东向西直行（速度约35 km/h）。推断：在交叉路口，未按规定让行的车辆应当让优先通行的一方先行。该场景中车辆未按规定让行，直接切入优先车辆的行驶路径，极易在路口区域发生碰撞。",
+  "road_network": {
+    "type": "Intersection",
+    "lanes": 4,
+    "stem_direction": "Not applicable"
+  },
+  "actors": [
+    {
+      "model": "vehicle.bmw.3series",
+      "initial_position": "N2S",
+      "actions": "Move Forward",
+      "speed_limit": 30
+    },
+    {
+      "model": "vehicle.jeep.wrangler_rubicon",
+      "initial_position": "E2W",
+      "actions": "Move Forward",
+      "speed_limit": 35
+    }
+  ],
+  "env": {
+    "time": "Nighttime",
+    "weather": "Overcast"
+  }
+}

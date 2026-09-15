@@ -11,17 +11,13 @@
       "items": {
         "type": "string",
         "enum": [
-          "超速行驶",
-          "闯红灯",
-          "逆行",
-          "违法占用应急车道",
-          "违反交通信号(其他)",
-          "违规变道",
-          "违规超车",
-          "违规掉头",
-          "未按规定让行",
-          "未保持安全距离",
-          "未注意前方路况"
+          "Inattention to the road ahead",
+          "Failure to yield",
+          "Speeding",
+          "Failure to maintain safe following distance",
+          "Wrong-way driving",
+          "Illegal lane change",
+          "Illegal overtaking"
         ]
       }
     }

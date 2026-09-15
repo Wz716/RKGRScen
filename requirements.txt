@@ -7,6 +7,13 @@ flask>=2.0.0
 jsonschema>=4.0.0
 networkx>=2.5
 
+# Community detection (Leiden) and graph analysis.
+python-igraph>=0.10.0
+leidenalg>=0.10.0
+
+# Sentence embedding for global retrieval (all-MiniLM-L6-v2, d=384).
+sentence-transformers>=2.2.0
+
 # CARLA Python API (must match the installed simulator version).
 # Install manually, e.g.:
 #   pip install carla==0.9.13

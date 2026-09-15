@@ -643,7 +643,7 @@ Reported pooled metrics:
 | ER_att | 90.09% |
 | BRR_exec | 51.05% |
 | REM | 87.38% |
-| MS | 0.9024 |
+| MS | 0.9023 |
 
 ### Failure accounting
 

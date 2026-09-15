@@ -12,6 +12,8 @@ from RKGRScen.config import llm_settings
 
 class DeepSeekClient:
     TEMPERATURE = 0.2
+    TOP_P = 0.9
+    SEED = 42
 
     def __init__(
         self,
@@ -89,6 +91,8 @@ class DeepSeekClient:
                 {"role": "user", "content": user_prompt},
             ],
             "temperature": self.temperature,
+            "top_p": self.TOP_P,
+            "seed": self.SEED,
             "response_format": response_format,
         }
         req = request.Request(

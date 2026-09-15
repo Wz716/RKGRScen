@@ -1,0 +1,39 @@
+{
+  "violation_type": "超速行驶",
+  "reason": "观察：场景设定为合流路段（4车道），夜间、天气晴朗；V1由匝道驶入直行（速度约85 km/h），V2由南向北直行（速度约65 km/h）。推断：根据交通法规，机动车不得超过限速标明的最高时速行驶。该场景中车辆在合流路段上以约85 km/h的速度行驶，速度明显偏高；超速会显著增加制动距离并缩短驾驶人的反应时间，一旦遇到突发情况极易发生追尾、侧滑或冲出路面。",
+  "road_network": {
+    "type": "Merging",
+    "lanes": 4,
+    "stem_direction": "Not applicable",
+    "topology_sequence": [
+      {
+        "order": 1,
+        "element_type": "Merging",
+        "relation_to_next": "immediately_connects_to"
+      },
+      {
+        "order": 2,
+        "element_type": "IntersectionApproach",
+        "relation_to_previous": "immediately_follows"
+      }
+    ]
+  },
+  "actors": [
+    {
+      "model": "vehicle.ford.explorer",
+      "initial_position": "On-ramp",
+      "actions": "Move Forward",
+      "speed_limit": 85
+    },
+    {
+      "model": "vehicle.toyota.camry",
+      "initial_position": "S2N",
+      "actions": "Move Forward",
+      "speed_limit": 65
+    }
+  ],
+  "env": {
+    "time": "Nighttime",
+    "weather": "Clear"
+  }
+}

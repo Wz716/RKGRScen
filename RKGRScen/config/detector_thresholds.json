@@ -1,15 +1,39 @@
 {
-  "yield_violation": {
+  "_comment": "Unified rule-based detector thresholds for the seven violation types (manuscript Table 'Trigger conditions and key thresholds'). Keys are the short violation keys from RKGRScen/config.py (VIOLATION_TYPE_KEYS); value keys match the parameter names consumed by RKGRScen/execution/violation_detector.py.",
+  "inattention": {
+    "danger_distance_m": 15.0,
+    "ttc_threshold_s": 3.0,
+    "rss_response_time_s": 1.0,
+    "rss_ego_accel_max_mps2": 2.0,
+    "rss_ego_brake_min_mps2": 4.0,
+    "rss_front_brake_max_mps2": 8.0
+  },
+  "failure_to_yield": {
     "time_gap_range_s": [0.5, 2.0],
-    "conflict_zone_radius_m": 6.0,
-    "min_priority_speed_kmh": 15.0,
-    "severity_reference": "time-gap"
+    "danger_distance_m": 8.0
   },
-  "tailgating": {
-    "min_time_headway_s": 1.5,
-    "rss_buffer_m": 2.0
+  "speeding": {
+    "consecutive_frames": 3
   },
-  "red_light": {
-    "stop_line_buffer_m": 1.0
+  "following_distance": {
+    "thw_threshold_s": 1.0,
+    "min_gap_m": 8.0,
+    "rss_response_time_s": 1.0,
+    "rss_ego_accel_max_mps2": 2.0,
+    "rss_ego_brake_min_mps2": 4.0,
+    "rss_front_brake_max_mps2": 8.0
+  },
+  "wrong_way": {
+    "danger_distance_m": 12.5,
+    "heading_opposition_deg": 120.0,
+    "min_speed_mps": 1.0
+  },
+  "illegal_lane_change": {
+    "danger_gap_m": 8.0
+  },
+  "illegal_overtaking": {
+    "behind_threshold_m": 3.0,
+    "ahead_threshold_m": 3.0,
+    "danger_gap_m": 10.0
   }
 }

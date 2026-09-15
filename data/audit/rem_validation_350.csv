@@ -1,0 +1,351 @@
+scenario_id,violation_type,expert1_judgment,expert2_judgment,expert3_judgment,majority_judgment,human_strict_match,system_rem,system_human_agree
+NHTSA_INA_0001,Inattention to the road ahead,match,match,match,match,1,1,1
+NHTSA_INA_0002,Inattention to the road ahead,match,match,match,match,1,1,1
+NHTSA_INA_0003,Inattention to the road ahead,match,match,match,match,1,1,1
+NHTSA_INA_0004,Inattention to the road ahead,match,match,match,match,1,1,1
+NHTSA_INA_0005,Inattention to the road ahead,match,match,match,match,1,1,1
+NHTSA_INA_0006,Inattention to the road ahead,match,match,match,match,1,1,1
+NHTSA_INA_0007,Inattention to the road ahead,match,match,match,match,1,1,1
+NHTSA_INA_0008,Inattention to the road ahead,match,match,match,match,1,1,1
+NHTSA_INA_0009,Inattention to the road ahead,match,match,match,match,1,1,1
+NHTSA_INA_0010,Inattention to the road ahead,match,match,match,match,1,1,1
+NHTSA_INA_0011,Inattention to the road ahead,match,match,match,match,1,1,1
+NHTSA_INA_0012,Inattention to the road ahead,match,match,match,match,1,1,1
+NHTSA_INA_0013,Inattention to the road ahead,match,match,match,match,1,1,1
+NHTSA_INA_0014,Inattention to the road ahead,match,match,match,match,1,1,1
+NHTSA_INA_0015,Inattention to the road ahead,match,match,match,match,1,1,1
+NHTSA_INA_0016,Inattention to the road ahead,match,match,match,match,1,1,1
+NHTSA_INA_0017,Inattention to the road ahead,match,match,match,match,1,1,1
+NHTSA_INA_0018,Inattention to the road ahead,match,match,match,match,1,1,1
+NHTSA_INA_0019,Inattention to the road ahead,match,match,match,match,1,1,1
+NHTSA_INA_0020,Inattention to the road ahead,match,match,match,match,1,1,1
+NHTSA_INA_0021,Inattention to the road ahead,match,match,match,match,1,1,1
+NHTSA_INA_0022,Inattention to the road ahead,incorrect,incorrect,incorrect,incorrect,0,0,1
+NHTSA_INA_0023,Inattention to the road ahead,match,match,match,match,1,1,1
+NHTSA_INA_0024,Inattention to the road ahead,match,match,match,match,1,1,1
+NHTSA_INA_0025,Inattention to the road ahead,match,match,match,match,1,1,1
+NHTSA_INA_0026,Inattention to the road ahead,match,match,match,match,1,1,1
+NHTSA_INA_0027,Inattention to the road ahead,match,match,match,match,1,1,1
+NHTSA_INA_0028,Inattention to the road ahead,match,match,match,match,1,1,1
+NHTSA_INA_0029,Inattention to the road ahead,match,match,match,match,1,1,1
+NHTSA_INA_0030,Inattention to the road ahead,match,match,match,match,1,1,1
+NHTSA_INA_0031,Inattention to the road ahead,match,match,match,match,1,1,1
+NHTSA_INA_0032,Inattention to the road ahead,match,match,match,match,1,1,1
+NHTSA_INA_0033,Inattention to the road ahead,match,match,match,match,1,1,1
+NHTSA_INA_0034,Inattention to the road ahead,match,match,match,match,1,1,1
+NHTSA_INA_0035,Inattention to the road ahead,match,match,match,match,1,1,1
+NHTSA_INA_0036,Inattention to the road ahead,match,match,match,match,1,1,1
+NHTSA_INA_0037,Inattention to the road ahead,match,match,match,match,1,1,1
+NHTSA_INA_0038,Inattention to the road ahead,match,match,match,match,1,1,1
+NHTSA_INA_0039,Inattention to the road ahead,match,match,match,match,1,1,1
+NHTSA_INA_0040,Inattention to the road ahead,match,match,match,match,1,1,1
+NHTSA_INA_0041,Inattention to the road ahead,match,match,match,match,1,1,1
+NHTSA_INA_0042,Inattention to the road ahead,match,match,match,match,1,1,1
+NHTSA_INA_0043,Inattention to the road ahead,match,match,match,match,1,1,1
+NHTSA_INA_0044,Inattention to the road ahead,match,match,match,match,1,1,1
+NHTSA_INA_0045,Inattention to the road ahead,partial,partial,partial,partial,0,0,1
+NHTSA_INA_0046,Inattention to the road ahead,match,match,match,match,1,1,1
+NHTSA_INA_0047,Inattention to the road ahead,match,match,match,match,1,1,1
+NHTSA_INA_0048,Inattention to the road ahead,match,match,match,match,1,1,1
+NHTSA_INA_0049,Inattention to the road ahead,incorrect,match,match,match,1,1,1
+NHTSA_INA_0050,Inattention to the road ahead,match,match,match,match,1,1,1
+NHTSA_FTY_0001,Failure to yield,match,incorrect,incorrect,incorrect,0,1,0
+NHTSA_FTY_0002,Failure to yield,match,match,match,match,1,1,1
+NHTSA_FTY_0003,Failure to yield,match,match,match,match,1,1,1
+NHTSA_FTY_0004,Failure to yield,match,match,match,match,1,1,1
+NHTSA_FTY_0005,Failure to yield,match,match,match,match,1,1,1
+NHTSA_FTY_0006,Failure to yield,partial,incorrect,partial,partial,0,0,1
+NHTSA_FTY_0007,Failure to yield,match,match,match,match,1,1,1
+NHTSA_FTY_0008,Failure to yield,match,match,match,match,1,1,1
+NHTSA_FTY_0009,Failure to yield,match,match,match,match,1,1,1
+NHTSA_FTY_0010,Failure to yield,match,match,match,match,1,1,1
+NHTSA_FTY_0011,Failure to yield,match,match,match,match,1,1,1
+NHTSA_FTY_0012,Failure to yield,match,match,match,match,1,1,1
+NHTSA_FTY_0013,Failure to yield,match,match,match,match,1,1,1
+NHTSA_FTY_0014,Failure to yield,match,match,match,match,1,1,1
+NHTSA_FTY_0015,Failure to yield,match,match,match,match,1,1,1
+NHTSA_FTY_0016,Failure to yield,match,match,match,match,1,1,1
+NHTSA_FTY_0017,Failure to yield,match,match,match,match,1,1,1
+NHTSA_FTY_0018,Failure to yield,match,match,match,match,1,1,1
+NHTSA_FTY_0019,Failure to yield,match,match,match,match,1,1,1
+NHTSA_FTY_0020,Failure to yield,match,match,match,match,1,1,1
+NHTSA_FTY_0021,Failure to yield,match,match,match,match,1,1,1
+NHTSA_FTY_0022,Failure to yield,match,match,match,match,1,1,1
+NHTSA_FTY_0023,Failure to yield,match,match,match,match,1,1,1
+NHTSA_FTY_0024,Failure to yield,match,match,match,match,1,1,1
+NHTSA_FTY_0025,Failure to yield,match,match,match,match,1,1,1
+NHTSA_FTY_0026,Failure to yield,match,match,match,match,1,1,1
+NHTSA_FTY_0027,Failure to yield,match,match,match,match,1,1,1
+NHTSA_FTY_0028,Failure to yield,match,match,match,match,1,1,1
+NHTSA_FTY_0029,Failure to yield,incorrect,incorrect,incorrect,incorrect,0,0,1
+NHTSA_FTY_0030,Failure to yield,match,match,match,match,1,1,1
+NHTSA_FTY_0031,Failure to yield,match,match,match,match,1,1,1
+NHTSA_FTY_0032,Failure to yield,match,match,match,match,1,1,1
+NHTSA_FTY_0033,Failure to yield,match,match,match,match,1,1,1
+NHTSA_FTY_0034,Failure to yield,match,match,match,match,1,1,1
+NHTSA_FTY_0035,Failure to yield,match,match,match,match,1,1,1
+NHTSA_FTY_0036,Failure to yield,match,match,match,match,1,1,1
+NHTSA_FTY_0037,Failure to yield,match,match,match,match,1,1,1
+NHTSA_FTY_0038,Failure to yield,match,match,match,match,1,1,1
+NHTSA_FTY_0039,Failure to yield,partial,partial,partial,partial,0,0,1
+NHTSA_FTY_0040,Failure to yield,match,match,match,match,1,1,1
+NHTSA_FTY_0041,Failure to yield,match,match,match,match,1,1,1
+NHTSA_FTY_0042,Failure to yield,match,match,match,match,1,1,1
+NHTSA_FTY_0043,Failure to yield,match,match,match,match,1,1,1
+NHTSA_FTY_0044,Failure to yield,match,match,match,match,1,1,1
+NHTSA_FTY_0045,Failure to yield,match,match,match,match,1,1,1
+NHTSA_FTY_0046,Failure to yield,match,match,match,match,1,1,1
+NHTSA_FTY_0047,Failure to yield,match,match,match,match,1,1,1
+NHTSA_FTY_0048,Failure to yield,match,match,match,match,1,1,1
+NHTSA_FTY_0049,Failure to yield,match,match,match,match,1,1,1
+NHTSA_FTY_0050,Failure to yield,match,match,match,match,1,1,1
+NHTSA_SPD_0001,Speeding,match,match,match,match,1,1,1
+NHTSA_SPD_0002,Speeding,match,match,match,match,1,1,1
+NHTSA_SPD_0003,Speeding,match,match,match,match,1,1,1
+NHTSA_SPD_0004,Speeding,match,match,match,match,1,1,1
+NHTSA_SPD_0005,Speeding,match,match,match,match,1,1,1
+NHTSA_SPD_0006,Speeding,match,match,match,match,1,1,1
+NHTSA_SPD_0007,Speeding,match,match,match,match,1,1,1
+NHTSA_SPD_0008,Speeding,match,match,match,match,1,1,1
+NHTSA_SPD_0009,Speeding,match,match,match,match,1,1,1
+NHTSA_SPD_0010,Speeding,match,match,match,match,1,1,1
+NHTSA_SPD_0011,Speeding,match,match,match,match,1,1,1
+NHTSA_SPD_0012,Speeding,match,match,match,match,1,1,1
+NHTSA_SPD_0013,Speeding,match,match,match,match,1,1,1
+NHTSA_SPD_0014,Speeding,match,match,match,match,1,1,1
+NHTSA_SPD_0015,Speeding,match,match,match,match,1,1,1
+NHTSA_SPD_0016,Speeding,partial,match,partial,partial,0,1,0
+NHTSA_SPD_0017,Speeding,match,match,match,match,1,1,1
+NHTSA_SPD_0018,Speeding,partial,partial,partial,partial,0,0,1
+NHTSA_SPD_0019,Speeding,match,match,match,match,1,1,1
+NHTSA_SPD_0020,Speeding,match,match,match,match,1,1,1
+NHTSA_SPD_0021,Speeding,match,match,match,match,1,1,1
+NHTSA_SPD_0022,Speeding,match,match,match,match,1,1,1
+NHTSA_SPD_0023,Speeding,match,match,match,match,1,1,1
+NHTSA_SPD_0024,Speeding,match,match,match,match,1,1,1
+NHTSA_SPD_0025,Speeding,match,match,match,match,1,1,1
+NHTSA_SPD_0026,Speeding,match,match,match,match,1,1,1
+NHTSA_SPD_0027,Speeding,match,match,match,match,1,1,1
+NHTSA_SPD_0028,Speeding,match,match,match,match,1,1,1
+NHTSA_SPD_0029,Speeding,match,match,match,match,1,1,1
+NHTSA_SPD_0030,Speeding,match,match,match,match,1,1,1
+NHTSA_SPD_0031,Speeding,match,match,match,match,1,1,1
+NHTSA_SPD_0032,Speeding,match,match,match,match,1,1,1
+NHTSA_SPD_0033,Speeding,match,match,match,match,1,1,1
+NHTSA_SPD_0034,Speeding,match,match,match,match,1,1,1
+NHTSA_SPD_0035,Speeding,match,match,match,match,1,1,1
+NHTSA_SPD_0036,Speeding,match,match,match,match,1,1,1
+NHTSA_SPD_0037,Speeding,match,match,match,match,1,1,1
+NHTSA_SPD_0038,Speeding,match,match,match,match,1,1,1
+NHTSA_SPD_0039,Speeding,match,match,match,match,1,1,1
+NHTSA_SPD_0040,Speeding,match,match,match,match,1,1,1
+NHTSA_SPD_0041,Speeding,match,match,match,match,1,1,1
+NHTSA_SPD_0042,Speeding,partial,partial,partial,partial,0,0,1
+NHTSA_SPD_0043,Speeding,match,match,match,match,1,1,1
+NHTSA_SPD_0044,Speeding,match,match,match,match,1,1,1
+NHTSA_SPD_0045,Speeding,match,match,match,match,1,1,1
+NHTSA_SPD_0046,Speeding,match,match,match,match,1,1,1
+NHTSA_SPD_0047,Speeding,match,match,match,match,1,1,1
+NHTSA_SPD_0048,Speeding,match,match,match,match,1,1,1
+NHTSA_SPD_0049,Speeding,match,match,match,match,1,1,1
+NHTSA_SPD_0050,Speeding,match,match,match,match,1,1,1
+NHTSA_FSD_0001,Failure to maintain safe following distance,match,match,match,match,1,1,1
+NHTSA_FSD_0002,Failure to maintain safe following distance,match,match,match,match,1,1,1
+NHTSA_FSD_0003,Failure to maintain safe following distance,match,match,match,match,1,1,1
+NHTSA_FSD_0004,Failure to maintain safe following distance,match,match,match,match,1,1,1
+NHTSA_FSD_0005,Failure to maintain safe following distance,incorrect,incorrect,incorrect,incorrect,0,1,0
+NHTSA_FSD_0006,Failure to maintain safe following distance,match,match,match,match,1,1,1
+NHTSA_FSD_0007,Failure to maintain safe following distance,match,match,match,match,1,1,1
+NHTSA_FSD_0008,Failure to maintain safe following distance,match,match,match,match,1,1,1
+NHTSA_FSD_0009,Failure to maintain safe following distance,match,match,match,match,1,1,1
+NHTSA_FSD_0010,Failure to maintain safe following distance,match,match,match,match,1,1,1
+NHTSA_FSD_0011,Failure to maintain safe following distance,match,match,match,match,1,1,1
+NHTSA_FSD_0012,Failure to maintain safe following distance,match,match,match,match,1,1,1
+NHTSA_FSD_0013,Failure to maintain safe following distance,match,match,match,match,1,1,1
+NHTSA_FSD_0014,Failure to maintain safe following distance,incorrect,match,incorrect,incorrect,0,0,1
+NHTSA_FSD_0015,Failure to maintain safe following distance,match,match,match,match,1,1,1
+NHTSA_FSD_0016,Failure to maintain safe following distance,match,match,match,match,1,1,1
+NHTSA_FSD_0017,Failure to maintain safe following distance,match,match,match,match,1,1,1
+NHTSA_FSD_0018,Failure to maintain safe following distance,match,match,match,match,1,1,1
+NHTSA_FSD_0019,Failure to maintain safe following distance,match,match,match,match,1,1,1
+NHTSA_FSD_0020,Failure to maintain safe following distance,match,match,match,match,1,1,1
+NHTSA_FSD_0021,Failure to maintain safe following distance,match,match,match,match,1,1,1
+NHTSA_FSD_0022,Failure to maintain safe following distance,match,match,match,match,1,1,1
+NHTSA_FSD_0023,Failure to maintain safe following distance,match,match,match,match,1,1,1
+NHTSA_FSD_0024,Failure to maintain safe following distance,match,match,match,match,1,1,1
+NHTSA_FSD_0025,Failure to maintain safe following distance,match,match,match,match,1,1,1
+NHTSA_FSD_0026,Failure to maintain safe following distance,match,match,match,match,1,1,1
+NHTSA_FSD_0027,Failure to maintain safe following distance,match,match,match,match,1,1,1
+NHTSA_FSD_0028,Failure to maintain safe following distance,match,match,match,match,1,1,1
+NHTSA_FSD_0029,Failure to maintain safe following distance,match,match,match,match,1,1,1
+NHTSA_FSD_0030,Failure to maintain safe following distance,match,match,match,match,1,1,1
+NHTSA_FSD_0031,Failure to maintain safe following distance,match,match,match,match,1,1,1
+NHTSA_FSD_0032,Failure to maintain safe following distance,match,match,match,match,1,1,1
+NHTSA_FSD_0033,Failure to maintain safe following distance,match,match,match,match,1,1,1
+NHTSA_FSD_0034,Failure to maintain safe following distance,partial,partial,partial,partial,0,0,1
+NHTSA_FSD_0035,Failure to maintain safe following distance,match,match,match,match,1,1,1
+NHTSA_FSD_0036,Failure to maintain safe following distance,match,match,match,match,1,1,1
+NHTSA_FSD_0037,Failure to maintain safe following distance,match,match,match,match,1,1,1
+NHTSA_FSD_0038,Failure to maintain safe following distance,match,match,match,match,1,1,1
+NHTSA_FSD_0039,Failure to maintain safe following distance,match,incorrect,incorrect,incorrect,0,0,1
+NHTSA_FSD_0040,Failure to maintain safe following distance,match,match,match,match,1,1,1
+NHTSA_FSD_0041,Failure to maintain safe following distance,match,match,match,match,1,1,1
+NHTSA_FSD_0042,Failure to maintain safe following distance,match,match,match,match,1,1,1
+NHTSA_FSD_0043,Failure to maintain safe following distance,match,match,match,match,1,1,1
+NHTSA_FSD_0044,Failure to maintain safe following distance,match,match,match,match,1,1,1
+NHTSA_FSD_0045,Failure to maintain safe following distance,match,match,match,match,1,1,1
+NHTSA_FSD_0046,Failure to maintain safe following distance,match,match,match,match,1,1,1
+NHTSA_FSD_0047,Failure to maintain safe following distance,match,match,match,match,1,1,1
+NHTSA_FSD_0048,Failure to maintain safe following distance,match,match,match,match,1,1,1
+NHTSA_FSD_0049,Failure to maintain safe following distance,match,match,match,match,1,1,1
+NHTSA_FSD_0050,Failure to maintain safe following distance,match,match,match,match,1,1,1
+NHTSA_WWD_0001,Wrong-way driving,match,match,match,match,1,1,1
+NHTSA_WWD_0002,Wrong-way driving,match,match,match,match,1,1,1
+NHTSA_WWD_0003,Wrong-way driving,match,match,match,match,1,1,1
+NHTSA_WWD_0004,Wrong-way driving,match,match,match,match,1,1,1
+NHTSA_WWD_0005,Wrong-way driving,match,match,match,match,1,1,1
+NHTSA_WWD_0006,Wrong-way driving,match,match,match,match,1,1,1
+NHTSA_WWD_0007,Wrong-way driving,match,match,match,match,1,1,1
+NHTSA_WWD_0008,Wrong-way driving,match,match,match,match,1,1,1
+NHTSA_WWD_0009,Wrong-way driving,match,match,match,match,1,1,1
+NHTSA_WWD_0010,Wrong-way driving,match,match,match,match,1,1,1
+NHTSA_WWD_0011,Wrong-way driving,match,match,match,match,1,1,1
+NHTSA_WWD_0012,Wrong-way driving,match,match,match,match,1,1,1
+NHTSA_WWD_0013,Wrong-way driving,match,match,match,match,1,1,1
+NHTSA_WWD_0014,Wrong-way driving,match,match,match,match,1,1,1
+NHTSA_WWD_0015,Wrong-way driving,match,match,match,match,1,1,1
+NHTSA_WWD_0016,Wrong-way driving,match,match,match,match,1,1,1
+NHTSA_WWD_0017,Wrong-way driving,match,match,match,match,1,1,1
+NHTSA_WWD_0018,Wrong-way driving,match,match,match,match,1,1,1
+NHTSA_WWD_0019,Wrong-way driving,match,match,match,match,1,1,1
+NHTSA_WWD_0020,Wrong-way driving,match,match,match,match,1,1,1
+NHTSA_WWD_0021,Wrong-way driving,partial,match,partial,partial,0,1,0
+NHTSA_WWD_0022,Wrong-way driving,match,match,match,match,1,1,1
+NHTSA_WWD_0023,Wrong-way driving,match,match,match,match,1,1,1
+NHTSA_WWD_0024,Wrong-way driving,match,match,match,match,1,1,1
+NHTSA_WWD_0025,Wrong-way driving,match,match,match,match,1,1,1
+NHTSA_WWD_0026,Wrong-way driving,match,match,match,match,1,1,1
+NHTSA_WWD_0027,Wrong-way driving,match,match,match,match,1,1,1
+NHTSA_WWD_0028,Wrong-way driving,match,match,match,match,1,1,1
+NHTSA_WWD_0029,Wrong-way driving,match,match,match,match,1,1,1
+NHTSA_WWD_0030,Wrong-way driving,match,match,match,match,1,1,1
+NHTSA_WWD_0031,Wrong-way driving,match,match,match,match,1,1,1
+NHTSA_WWD_0032,Wrong-way driving,match,match,match,match,1,1,1
+NHTSA_WWD_0033,Wrong-way driving,partial,match,partial,partial,0,0,1
+NHTSA_WWD_0034,Wrong-way driving,match,match,match,match,1,1,1
+NHTSA_WWD_0035,Wrong-way driving,match,match,match,match,1,1,1
+NHTSA_WWD_0036,Wrong-way driving,match,match,match,match,1,1,1
+NHTSA_WWD_0037,Wrong-way driving,match,match,match,match,1,1,1
+NHTSA_WWD_0038,Wrong-way driving,match,match,match,match,1,1,1
+NHTSA_WWD_0039,Wrong-way driving,match,match,match,match,1,1,1
+NHTSA_WWD_0040,Wrong-way driving,incorrect,partial,incorrect,incorrect,0,0,1
+NHTSA_WWD_0041,Wrong-way driving,incorrect,incorrect,incorrect,incorrect,0,0,1
+NHTSA_WWD_0042,Wrong-way driving,match,match,match,match,1,1,1
+NHTSA_WWD_0043,Wrong-way driving,match,match,match,match,1,1,1
+NHTSA_WWD_0044,Wrong-way driving,match,match,match,match,1,1,1
+NHTSA_WWD_0045,Wrong-way driving,match,match,match,match,1,1,1
+NHTSA_WWD_0046,Wrong-way driving,match,match,match,match,1,1,1
+NHTSA_WWD_0047,Wrong-way driving,incorrect,incorrect,incorrect,incorrect,0,0,1
+NHTSA_WWD_0048,Wrong-way driving,match,match,match,match,1,1,1
+NHTSA_WWD_0049,Wrong-way driving,match,match,match,match,1,1,1
+NHTSA_WWD_0050,Wrong-way driving,match,match,match,match,1,1,1
+NHTSA_ILC_0001,Illegal lane change,match,match,match,match,1,1,1
+NHTSA_ILC_0002,Illegal lane change,incorrect,match,incorrect,incorrect,0,1,0
+NHTSA_ILC_0003,Illegal lane change,match,match,match,match,1,1,1
+NHTSA_ILC_0004,Illegal lane change,match,match,match,match,1,1,1
+NHTSA_ILC_0005,Illegal lane change,partial,partial,partial,partial,0,0,1
+NHTSA_ILC_0006,Illegal lane change,match,match,match,match,1,1,1
+NHTSA_ILC_0007,Illegal lane change,match,match,match,match,1,1,1
+NHTSA_ILC_0008,Illegal lane change,match,match,match,match,1,1,1
+NHTSA_ILC_0009,Illegal lane change,match,match,match,match,1,1,1
+NHTSA_ILC_0010,Illegal lane change,match,match,match,match,1,1,1
+NHTSA_ILC_0011,Illegal lane change,match,match,match,match,1,1,1
+NHTSA_ILC_0012,Illegal lane change,match,match,match,match,1,1,1
+NHTSA_ILC_0013,Illegal lane change,match,match,match,match,1,1,1
+NHTSA_ILC_0014,Illegal lane change,match,match,match,match,1,1,1
+NHTSA_ILC_0015,Illegal lane change,match,match,match,match,1,1,1
+NHTSA_ILC_0016,Illegal lane change,match,match,match,match,1,1,1
+NHTSA_ILC_0017,Illegal lane change,match,match,match,match,1,1,1
+NHTSA_ILC_0018,Illegal lane change,match,match,match,match,1,1,1
+NHTSA_ILC_0019,Illegal lane change,match,match,match,match,1,1,1
+NHTSA_ILC_0020,Illegal lane change,match,match,match,match,1,1,1
+NHTSA_ILC_0021,Illegal lane change,match,match,match,match,1,1,1
+NHTSA_ILC_0022,Illegal lane change,match,match,match,match,1,1,1
+NHTSA_ILC_0023,Illegal lane change,match,match,match,match,1,1,1
+NHTSA_ILC_0024,Illegal lane change,incorrect,incorrect,incorrect,incorrect,0,0,1
+NHTSA_ILC_0025,Illegal lane change,match,match,match,match,1,1,1
+NHTSA_ILC_0026,Illegal lane change,match,match,partial,match,1,1,1
+NHTSA_ILC_0027,Illegal lane change,match,partial,match,match,1,1,1
+NHTSA_ILC_0028,Illegal lane change,match,match,match,match,1,1,1
+NHTSA_ILC_0029,Illegal lane change,match,match,match,match,1,1,1
+NHTSA_ILC_0030,Illegal lane change,match,match,match,match,1,1,1
+NHTSA_ILC_0031,Illegal lane change,match,match,match,match,1,1,1
+NHTSA_ILC_0032,Illegal lane change,match,match,match,match,1,1,1
+NHTSA_ILC_0033,Illegal lane change,match,match,match,match,1,1,1
+NHTSA_ILC_0034,Illegal lane change,match,match,match,match,1,1,1
+NHTSA_ILC_0035,Illegal lane change,match,match,match,match,1,1,1
+NHTSA_ILC_0036,Illegal lane change,match,partial,match,match,1,1,1
+NHTSA_ILC_0037,Illegal lane change,match,match,match,match,1,1,1
+NHTSA_ILC_0038,Illegal lane change,match,match,match,match,1,1,1
+NHTSA_ILC_0039,Illegal lane change,match,match,match,match,1,1,1
+NHTSA_ILC_0040,Illegal lane change,match,match,match,match,1,1,1
+NHTSA_ILC_0041,Illegal lane change,match,match,match,match,1,1,1
+NHTSA_ILC_0042,Illegal lane change,match,match,match,match,1,1,1
+NHTSA_ILC_0043,Illegal lane change,match,match,match,match,1,1,1
+NHTSA_ILC_0044,Illegal lane change,match,match,match,match,1,1,1
+NHTSA_ILC_0045,Illegal lane change,match,match,match,match,1,1,1
+NHTSA_ILC_0046,Illegal lane change,match,match,match,match,1,1,1
+NHTSA_ILC_0047,Illegal lane change,partial,partial,partial,partial,0,0,1
+NHTSA_ILC_0048,Illegal lane change,incorrect,incorrect,incorrect,incorrect,0,0,1
+NHTSA_ILC_0049,Illegal lane change,match,match,match,match,1,1,1
+NHTSA_ILC_0050,Illegal lane change,match,match,match,match,1,1,1
+NHTSA_IOT_0001,Illegal overtaking,match,match,match,match,1,1,1
+NHTSA_IOT_0002,Illegal overtaking,incorrect,incorrect,incorrect,incorrect,0,1,0
+NHTSA_IOT_0003,Illegal overtaking,match,match,match,match,1,1,1
+NHTSA_IOT_0004,Illegal overtaking,match,match,match,match,1,1,1
+NHTSA_IOT_0005,Illegal overtaking,match,match,match,match,1,1,1
+NHTSA_IOT_0006,Illegal overtaking,match,match,incorrect,match,1,1,1
+NHTSA_IOT_0007,Illegal overtaking,match,match,match,match,1,1,1
+NHTSA_IOT_0008,Illegal overtaking,match,match,match,match,1,1,1
+NHTSA_IOT_0009,Illegal overtaking,match,match,match,match,1,1,1
+NHTSA_IOT_0010,Illegal overtaking,partial,match,match,match,1,1,1
+NHTSA_IOT_0011,Illegal overtaking,match,match,match,match,1,1,1
+NHTSA_IOT_0012,Illegal overtaking,match,match,match,match,1,1,1
+NHTSA_IOT_0013,Illegal overtaking,match,match,match,match,1,1,1
+NHTSA_IOT_0014,Illegal overtaking,match,match,match,match,1,1,1
+NHTSA_IOT_0015,Illegal overtaking,match,match,match,match,1,1,1
+NHTSA_IOT_0016,Illegal overtaking,match,match,match,match,1,1,1
+NHTSA_IOT_0017,Illegal overtaking,match,match,match,match,1,1,1
+NHTSA_IOT_0018,Illegal overtaking,match,match,match,match,1,1,1
+NHTSA_IOT_0019,Illegal overtaking,match,match,match,match,1,1,1
+NHTSA_IOT_0020,Illegal overtaking,match,match,partial,match,1,1,1
+NHTSA_IOT_0021,Illegal overtaking,match,match,match,match,1,1,1
+NHTSA_IOT_0022,Illegal overtaking,match,match,match,match,1,1,1
+NHTSA_IOT_0023,Illegal overtaking,match,match,match,match,1,1,1
+NHTSA_IOT_0024,Illegal overtaking,incorrect,incorrect,incorrect,incorrect,0,0,1
+NHTSA_IOT_0025,Illegal overtaking,match,match,match,match,1,1,1
+NHTSA_IOT_0026,Illegal overtaking,partial,partial,partial,partial,0,0,1
+NHTSA_IOT_0027,Illegal overtaking,match,match,match,match,1,1,1
+NHTSA_IOT_0028,Illegal overtaking,match,match,match,match,1,1,1
+NHTSA_IOT_0029,Illegal overtaking,match,match,match,match,1,1,1
+NHTSA_IOT_0030,Illegal overtaking,match,match,match,match,1,1,1
+NHTSA_IOT_0031,Illegal overtaking,match,match,match,match,1,1,1
+NHTSA_IOT_0032,Illegal overtaking,match,match,match,match,1,1,1
+NHTSA_IOT_0033,Illegal overtaking,match,match,match,match,1,1,1
+NHTSA_IOT_0034,Illegal overtaking,match,match,match,match,1,1,1
+NHTSA_IOT_0035,Illegal overtaking,match,match,match,match,1,1,1
+NHTSA_IOT_0036,Illegal overtaking,match,match,match,match,1,1,1
+NHTSA_IOT_0037,Illegal overtaking,match,partial,match,match,1,1,1
+NHTSA_IOT_0038,Illegal overtaking,match,match,match,match,1,1,1
+NHTSA_IOT_0039,Illegal overtaking,match,match,match,match,1,1,1
+NHTSA_IOT_0040,Illegal overtaking,match,match,match,match,1,1,1
+NHTSA_IOT_0041,Illegal overtaking,match,match,match,match,1,1,1
+NHTSA_IOT_0042,Illegal overtaking,match,match,match,match,1,1,1
+NHTSA_IOT_0043,Illegal overtaking,incorrect,incorrect,incorrect,incorrect,0,0,1
+NHTSA_IOT_0044,Illegal overtaking,match,match,match,match,1,1,1
+NHTSA_IOT_0045,Illegal overtaking,match,match,partial,match,1,1,1
+NHTSA_IOT_0046,Illegal overtaking,match,match,match,match,1,1,1
+NHTSA_IOT_0047,Illegal overtaking,match,match,match,match,1,1,1
+NHTSA_IOT_0048,Illegal overtaking,partial,partial,partial,partial,0,0,1
+NHTSA_IOT_0049,Illegal overtaking,match,match,match,match,1,1,1
+NHTSA_IOT_0050,Illegal overtaking,match,match,match,match,1,1,1

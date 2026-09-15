@@ -1,0 +1,39 @@
+{
+  "violation_type": "未注意前方路况",
+  "reason": "观察：场景设定为弯道路段（6车道），夜间、天气晴朗；V1由西向东直行（速度约35 km/h），V2由西向东直行（速度约0 km/h）。推断：机动车驾驶人应当注意观察前方道路情况。该场景中驾驶人未及时察觉前方异常车辆或障碍物，未提前减速避让，极易发生追尾或碰撞。",
+  "road_network": {
+    "type": "Curve",
+    "lanes": 6,
+    "stem_direction": "Not applicable",
+    "topology_sequence": [
+      {
+        "order": 1,
+        "element_type": "Curve",
+        "relation_to_next": "immediately_connects_to"
+      },
+      {
+        "order": 2,
+        "element_type": "IntersectionApproach",
+        "relation_to_previous": "immediately_follows"
+      }
+    ]
+  },
+  "actors": [
+    {
+      "model": "vehicle.jeep.wrangler_rubicon",
+      "initial_position": "W2E",
+      "actions": "Move Forward",
+      "speed_limit": 35
+    },
+    {
+      "model": "vehicle.jeep.wrangler_rubicon",
+      "initial_position": "W2E",
+      "actions": "Move Forward",
+      "speed_limit": 0
+    }
+  ],
+  "env": {
+    "time": "Nighttime",
+    "weather": "Clear"
+  }
+}

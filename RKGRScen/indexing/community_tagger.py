@@ -127,12 +127,10 @@ class CommunityTagger:
     def _match_violations(self, structure: Dict[str, object]) -> List[str]:
         applicable: List[str] = []
         if structure.get("junctions", 0) > 0:
-            applicable.extend(["未按规定让行", "闯红灯", "违规掉头", "违反交通信号(其他)"])
+            applicable.append("Failure to yield")
         if structure.get("lane_count_max", 1) >= 2:
-            applicable.extend(["违规变道", "违规超车"])
-        if structure.get("shoulders", 0) > 0:
-            applicable.append("违法占用应急车道")
-        applicable.extend(["超速行驶", "未保持安全距离", "未注意前方路况", "逆行"])
+            applicable.extend(["Illegal lane change", "Illegal overtaking", "Wrong-way driving"])
+        applicable.extend(["Speeding", "Failure to maintain safe following distance", "Inattention to the road ahead"])
         return self._normalize_violations(applicable)
 
     def _normalize_violations(self, values: List[str]) -> List[str]:

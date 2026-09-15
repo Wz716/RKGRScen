@@ -1,0 +1,351 @@
+scenario_id,violation_type,expert1_vt,expert2_vt,expert3_vt,majority_vt,expert1_ab,expert2_ab,expert3_ab,majority_ab,expert1_rr,expert2_rr,expert3_rr,majority_rr
+NHTSA_INA_0001,Inattention to the road ahead,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_INA_0002,Inattention to the road ahead,correct,correct,correct,correct,correct,correct,correct,correct,incorrect,incorrect,incorrect,incorrect
+NHTSA_INA_0003,Inattention to the road ahead,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_INA_0004,Inattention to the road ahead,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_INA_0005,Inattention to the road ahead,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_INA_0006,Inattention to the road ahead,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_INA_0007,Inattention to the road ahead,correct,correct,correct,correct,partial,partial,partial,partial,correct,correct,correct,correct
+NHTSA_INA_0008,Inattention to the road ahead,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_INA_0009,Inattention to the road ahead,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_INA_0010,Inattention to the road ahead,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_INA_0011,Inattention to the road ahead,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_INA_0012,Inattention to the road ahead,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_INA_0013,Inattention to the road ahead,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_INA_0014,Inattention to the road ahead,correct,correct,correct,correct,correct,correct,correct,correct,correct,incorrect,correct,correct
+NHTSA_INA_0015,Inattention to the road ahead,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_INA_0016,Inattention to the road ahead,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_INA_0017,Inattention to the road ahead,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_INA_0018,Inattention to the road ahead,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_INA_0019,Inattention to the road ahead,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_INA_0020,Inattention to the road ahead,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_INA_0021,Inattention to the road ahead,correct,correct,correct,correct,correct,correct,correct,correct,partial,partial,partial,partial
+NHTSA_INA_0022,Inattention to the road ahead,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_INA_0023,Inattention to the road ahead,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_INA_0024,Inattention to the road ahead,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_INA_0025,Inattention to the road ahead,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_INA_0026,Inattention to the road ahead,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_INA_0027,Inattention to the road ahead,incorrect,incorrect,incorrect,incorrect,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_INA_0028,Inattention to the road ahead,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_INA_0029,Inattention to the road ahead,correct,correct,correct,correct,partial,partial,correct,partial,correct,correct,correct,correct
+NHTSA_INA_0030,Inattention to the road ahead,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_INA_0031,Inattention to the road ahead,correct,correct,correct,correct,incorrect,incorrect,incorrect,incorrect,correct,correct,correct,correct
+NHTSA_INA_0032,Inattention to the road ahead,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_INA_0033,Inattention to the road ahead,correct,correct,correct,correct,correct,correct,correct,correct,partial,correct,correct,correct
+NHTSA_INA_0034,Inattention to the road ahead,correct,correct,correct,correct,correct,correct,correct,correct,partial,partial,partial,partial
+NHTSA_INA_0035,Inattention to the road ahead,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_INA_0036,Inattention to the road ahead,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_INA_0037,Inattention to the road ahead,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_INA_0038,Inattention to the road ahead,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_INA_0039,Inattention to the road ahead,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_INA_0040,Inattention to the road ahead,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_INA_0041,Inattention to the road ahead,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_INA_0042,Inattention to the road ahead,correct,incorrect,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_INA_0043,Inattention to the road ahead,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_INA_0044,Inattention to the road ahead,correct,correct,correct,correct,partial,partial,partial,partial,partial,partial,partial,partial
+NHTSA_INA_0045,Inattention to the road ahead,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_INA_0046,Inattention to the road ahead,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_INA_0047,Inattention to the road ahead,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_INA_0048,Inattention to the road ahead,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_INA_0049,Inattention to the road ahead,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_INA_0050,Inattention to the road ahead,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FTY_0001,Failure to yield,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FTY_0002,Failure to yield,correct,correct,correct,correct,correct,correct,correct,correct,partial,partial,partial,partial
+NHTSA_FTY_0003,Failure to yield,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FTY_0004,Failure to yield,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FTY_0005,Failure to yield,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FTY_0006,Failure to yield,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FTY_0007,Failure to yield,incorrect,incorrect,incorrect,incorrect,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FTY_0008,Failure to yield,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FTY_0009,Failure to yield,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FTY_0010,Failure to yield,correct,correct,correct,correct,correct,correct,correct,correct,incorrect,incorrect,incorrect,incorrect
+NHTSA_FTY_0011,Failure to yield,correct,correct,correct,correct,correct,partial,correct,correct,correct,correct,correct,correct
+NHTSA_FTY_0012,Failure to yield,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FTY_0013,Failure to yield,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FTY_0014,Failure to yield,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FTY_0015,Failure to yield,correct,correct,correct,correct,partial,partial,partial,partial,correct,correct,correct,correct
+NHTSA_FTY_0016,Failure to yield,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FTY_0017,Failure to yield,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FTY_0018,Failure to yield,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FTY_0019,Failure to yield,correct,correct,correct,correct,partial,partial,partial,partial,correct,correct,correct,correct
+NHTSA_FTY_0020,Failure to yield,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FTY_0021,Failure to yield,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FTY_0022,Failure to yield,correct,correct,correct,correct,correct,correct,correct,correct,partial,partial,partial,partial
+NHTSA_FTY_0023,Failure to yield,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FTY_0024,Failure to yield,correct,correct,correct,correct,correct,correct,correct,correct,incorrect,incorrect,partial,incorrect
+NHTSA_FTY_0025,Failure to yield,correct,incorrect,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FTY_0026,Failure to yield,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FTY_0027,Failure to yield,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FTY_0028,Failure to yield,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FTY_0029,Failure to yield,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FTY_0030,Failure to yield,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FTY_0031,Failure to yield,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FTY_0032,Failure to yield,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FTY_0033,Failure to yield,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FTY_0034,Failure to yield,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FTY_0035,Failure to yield,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FTY_0036,Failure to yield,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FTY_0037,Failure to yield,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FTY_0038,Failure to yield,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FTY_0039,Failure to yield,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FTY_0040,Failure to yield,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FTY_0041,Failure to yield,correct,correct,correct,correct,partial,partial,partial,partial,correct,correct,correct,correct
+NHTSA_FTY_0042,Failure to yield,incorrect,incorrect,incorrect,incorrect,correct,correct,correct,correct,partial,partial,partial,partial
+NHTSA_FTY_0043,Failure to yield,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FTY_0044,Failure to yield,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FTY_0045,Failure to yield,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FTY_0046,Failure to yield,correct,correct,correct,correct,partial,partial,partial,partial,correct,partial,correct,correct
+NHTSA_FTY_0047,Failure to yield,correct,correct,correct,correct,correct,correct,correct,correct,partial,partial,partial,partial
+NHTSA_FTY_0048,Failure to yield,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FTY_0049,Failure to yield,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FTY_0050,Failure to yield,correct,correct,correct,correct,incorrect,correct,correct,correct,correct,correct,correct,correct
+NHTSA_SPD_0001,Speeding,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_SPD_0002,Speeding,correct,correct,correct,correct,incorrect,incorrect,incorrect,incorrect,correct,correct,correct,correct
+NHTSA_SPD_0003,Speeding,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_SPD_0004,Speeding,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_SPD_0005,Speeding,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_SPD_0006,Speeding,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_SPD_0007,Speeding,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_SPD_0008,Speeding,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_SPD_0009,Speeding,correct,correct,correct,correct,correct,correct,correct,correct,partial,partial,partial,partial
+NHTSA_SPD_0010,Speeding,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_SPD_0011,Speeding,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_SPD_0012,Speeding,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_SPD_0013,Speeding,correct,correct,correct,correct,correct,correct,correct,correct,partial,partial,partial,partial
+NHTSA_SPD_0014,Speeding,correct,correct,correct,correct,partial,partial,partial,partial,correct,correct,correct,correct
+NHTSA_SPD_0015,Speeding,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_SPD_0016,Speeding,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_SPD_0017,Speeding,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_SPD_0018,Speeding,correct,correct,correct,correct,correct,correct,correct,correct,correct,incorrect,correct,correct
+NHTSA_SPD_0019,Speeding,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_SPD_0020,Speeding,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_SPD_0021,Speeding,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_SPD_0022,Speeding,correct,correct,correct,correct,correct,correct,correct,correct,incorrect,incorrect,incorrect,incorrect
+NHTSA_SPD_0023,Speeding,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_SPD_0024,Speeding,correct,correct,correct,correct,correct,correct,partial,correct,correct,correct,correct,correct
+NHTSA_SPD_0025,Speeding,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_SPD_0026,Speeding,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_SPD_0027,Speeding,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_SPD_0028,Speeding,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_SPD_0029,Speeding,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_SPD_0030,Speeding,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_SPD_0031,Speeding,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_SPD_0032,Speeding,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_SPD_0033,Speeding,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_SPD_0034,Speeding,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_SPD_0035,Speeding,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_SPD_0036,Speeding,correct,incorrect,incorrect,incorrect,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_SPD_0037,Speeding,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_SPD_0038,Speeding,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_SPD_0039,Speeding,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_SPD_0040,Speeding,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_SPD_0041,Speeding,correct,correct,correct,correct,partial,partial,partial,partial,correct,correct,correct,correct
+NHTSA_SPD_0042,Speeding,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_SPD_0043,Speeding,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_SPD_0044,Speeding,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_SPD_0045,Speeding,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_SPD_0046,Speeding,correct,correct,correct,correct,correct,correct,correct,correct,partial,partial,partial,partial
+NHTSA_SPD_0047,Speeding,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_SPD_0048,Speeding,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_SPD_0049,Speeding,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_SPD_0050,Speeding,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FSD_0001,Failure to maintain safe following distance,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FSD_0002,Failure to maintain safe following distance,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FSD_0003,Failure to maintain safe following distance,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FSD_0004,Failure to maintain safe following distance,correct,correct,correct,correct,correct,correct,correct,correct,incorrect,incorrect,partial,incorrect
+NHTSA_FSD_0005,Failure to maintain safe following distance,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FSD_0006,Failure to maintain safe following distance,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FSD_0007,Failure to maintain safe following distance,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FSD_0008,Failure to maintain safe following distance,correct,correct,correct,correct,correct,correct,correct,correct,partial,correct,correct,correct
+NHTSA_FSD_0009,Failure to maintain safe following distance,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FSD_0010,Failure to maintain safe following distance,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FSD_0011,Failure to maintain safe following distance,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FSD_0012,Failure to maintain safe following distance,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FSD_0013,Failure to maintain safe following distance,correct,correct,correct,correct,partial,partial,partial,partial,correct,correct,correct,correct
+NHTSA_FSD_0014,Failure to maintain safe following distance,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FSD_0015,Failure to maintain safe following distance,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FSD_0016,Failure to maintain safe following distance,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FSD_0017,Failure to maintain safe following distance,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FSD_0018,Failure to maintain safe following distance,correct,correct,correct,correct,correct,correct,correct,correct,partial,partial,partial,partial
+NHTSA_FSD_0019,Failure to maintain safe following distance,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FSD_0020,Failure to maintain safe following distance,correct,correct,correct,correct,partial,partial,partial,partial,correct,correct,correct,correct
+NHTSA_FSD_0021,Failure to maintain safe following distance,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FSD_0022,Failure to maintain safe following distance,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FSD_0023,Failure to maintain safe following distance,correct,correct,correct,correct,correct,correct,correct,correct,incorrect,incorrect,incorrect,incorrect
+NHTSA_FSD_0024,Failure to maintain safe following distance,correct,correct,correct,correct,correct,correct,correct,correct,partial,partial,partial,partial
+NHTSA_FSD_0025,Failure to maintain safe following distance,correct,correct,correct,correct,partial,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FSD_0026,Failure to maintain safe following distance,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FSD_0027,Failure to maintain safe following distance,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FSD_0028,Failure to maintain safe following distance,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FSD_0029,Failure to maintain safe following distance,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FSD_0030,Failure to maintain safe following distance,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FSD_0031,Failure to maintain safe following distance,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FSD_0032,Failure to maintain safe following distance,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FSD_0033,Failure to maintain safe following distance,incorrect,incorrect,correct,incorrect,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FSD_0034,Failure to maintain safe following distance,correct,correct,correct,correct,partial,partial,partial,partial,correct,correct,correct,correct
+NHTSA_FSD_0035,Failure to maintain safe following distance,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FSD_0036,Failure to maintain safe following distance,incorrect,incorrect,incorrect,incorrect,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FSD_0037,Failure to maintain safe following distance,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FSD_0038,Failure to maintain safe following distance,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FSD_0039,Failure to maintain safe following distance,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FSD_0040,Failure to maintain safe following distance,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FSD_0041,Failure to maintain safe following distance,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FSD_0042,Failure to maintain safe following distance,correct,correct,correct,correct,correct,correct,correct,correct,partial,partial,partial,partial
+NHTSA_FSD_0043,Failure to maintain safe following distance,correct,correct,correct,correct,partial,partial,partial,partial,correct,correct,correct,correct
+NHTSA_FSD_0044,Failure to maintain safe following distance,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FSD_0045,Failure to maintain safe following distance,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FSD_0046,Failure to maintain safe following distance,correct,correct,correct,correct,correct,correct,correct,correct,partial,partial,partial,partial
+NHTSA_FSD_0047,Failure to maintain safe following distance,correct,correct,correct,correct,incorrect,incorrect,incorrect,incorrect,correct,correct,correct,correct
+NHTSA_FSD_0048,Failure to maintain safe following distance,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FSD_0049,Failure to maintain safe following distance,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_FSD_0050,Failure to maintain safe following distance,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_WWD_0001,Wrong-way driving,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_WWD_0002,Wrong-way driving,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_WWD_0003,Wrong-way driving,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_WWD_0004,Wrong-way driving,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_WWD_0005,Wrong-way driving,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_WWD_0006,Wrong-way driving,correct,correct,correct,correct,incorrect,incorrect,incorrect,incorrect,correct,correct,correct,correct
+NHTSA_WWD_0007,Wrong-way driving,incorrect,incorrect,incorrect,incorrect,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_WWD_0008,Wrong-way driving,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_WWD_0009,Wrong-way driving,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_WWD_0010,Wrong-way driving,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_WWD_0011,Wrong-way driving,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_WWD_0012,Wrong-way driving,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_WWD_0013,Wrong-way driving,correct,correct,correct,correct,correct,correct,correct,correct,partial,partial,partial,partial
+NHTSA_WWD_0014,Wrong-way driving,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_WWD_0015,Wrong-way driving,correct,correct,correct,correct,partial,partial,partial,partial,correct,correct,correct,correct
+NHTSA_WWD_0016,Wrong-way driving,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_WWD_0017,Wrong-way driving,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_WWD_0018,Wrong-way driving,correct,correct,correct,correct,correct,correct,partial,correct,correct,correct,correct,correct
+NHTSA_WWD_0019,Wrong-way driving,correct,correct,correct,correct,correct,correct,correct,correct,incorrect,incorrect,incorrect,incorrect
+NHTSA_WWD_0020,Wrong-way driving,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_WWD_0021,Wrong-way driving,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_WWD_0022,Wrong-way driving,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_WWD_0023,Wrong-way driving,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_WWD_0024,Wrong-way driving,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_WWD_0025,Wrong-way driving,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_WWD_0026,Wrong-way driving,correct,correct,correct,correct,correct,correct,correct,correct,partial,partial,partial,partial
+NHTSA_WWD_0027,Wrong-way driving,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_WWD_0028,Wrong-way driving,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_WWD_0029,Wrong-way driving,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_WWD_0030,Wrong-way driving,correct,correct,correct,correct,partial,partial,partial,partial,correct,correct,correct,correct
+NHTSA_WWD_0031,Wrong-way driving,incorrect,incorrect,incorrect,incorrect,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_WWD_0032,Wrong-way driving,incorrect,correct,correct,correct,correct,correct,correct,correct,incorrect,incorrect,incorrect,incorrect
+NHTSA_WWD_0033,Wrong-way driving,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_WWD_0034,Wrong-way driving,correct,correct,correct,correct,correct,correct,correct,correct,partial,partial,partial,partial
+NHTSA_WWD_0035,Wrong-way driving,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_WWD_0036,Wrong-way driving,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_WWD_0037,Wrong-way driving,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_WWD_0038,Wrong-way driving,correct,correct,correct,correct,partial,partial,partial,partial,correct,correct,correct,correct
+NHTSA_WWD_0039,Wrong-way driving,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_WWD_0040,Wrong-way driving,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_WWD_0041,Wrong-way driving,correct,correct,correct,correct,partial,partial,partial,partial,correct,correct,correct,correct
+NHTSA_WWD_0042,Wrong-way driving,correct,correct,correct,correct,correct,correct,correct,correct,correct,partial,correct,correct
+NHTSA_WWD_0043,Wrong-way driving,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_WWD_0044,Wrong-way driving,correct,correct,correct,correct,correct,correct,correct,correct,partial,partial,partial,partial
+NHTSA_WWD_0045,Wrong-way driving,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_WWD_0046,Wrong-way driving,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_WWD_0047,Wrong-way driving,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_WWD_0048,Wrong-way driving,incorrect,incorrect,incorrect,incorrect,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_WWD_0049,Wrong-way driving,correct,correct,correct,correct,partial,partial,partial,partial,correct,correct,correct,correct
+NHTSA_WWD_0050,Wrong-way driving,correct,correct,correct,correct,correct,correct,correct,correct,partial,partial,partial,partial
+NHTSA_ILC_0001,Illegal lane change,correct,correct,correct,correct,partial,incorrect,partial,partial,correct,correct,correct,correct
+NHTSA_ILC_0002,Illegal lane change,correct,correct,correct,correct,partial,partial,partial,partial,correct,correct,correct,correct
+NHTSA_ILC_0003,Illegal lane change,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_ILC_0004,Illegal lane change,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_ILC_0005,Illegal lane change,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_ILC_0006,Illegal lane change,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_ILC_0007,Illegal lane change,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_ILC_0008,Illegal lane change,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_ILC_0009,Illegal lane change,incorrect,incorrect,incorrect,incorrect,correct,correct,correct,correct,partial,partial,partial,partial
+NHTSA_ILC_0010,Illegal lane change,correct,correct,correct,correct,partial,partial,partial,partial,correct,correct,correct,correct
+NHTSA_ILC_0011,Illegal lane change,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_ILC_0012,Illegal lane change,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_ILC_0013,Illegal lane change,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_ILC_0014,Illegal lane change,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_ILC_0015,Illegal lane change,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_ILC_0016,Illegal lane change,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_ILC_0017,Illegal lane change,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_ILC_0018,Illegal lane change,incorrect,incorrect,incorrect,incorrect,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_ILC_0019,Illegal lane change,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_ILC_0020,Illegal lane change,incorrect,incorrect,correct,incorrect,partial,partial,partial,partial,correct,correct,correct,correct
+NHTSA_ILC_0021,Illegal lane change,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_ILC_0022,Illegal lane change,correct,correct,correct,correct,correct,correct,correct,correct,partial,partial,partial,partial
+NHTSA_ILC_0023,Illegal lane change,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_ILC_0024,Illegal lane change,correct,correct,correct,correct,correct,correct,correct,correct,incorrect,correct,correct,correct
+NHTSA_ILC_0025,Illegal lane change,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_ILC_0026,Illegal lane change,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_ILC_0027,Illegal lane change,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_ILC_0028,Illegal lane change,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_ILC_0029,Illegal lane change,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_ILC_0030,Illegal lane change,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_ILC_0031,Illegal lane change,correct,correct,correct,correct,correct,correct,correct,correct,partial,partial,partial,partial
+NHTSA_ILC_0032,Illegal lane change,correct,correct,correct,correct,correct,correct,correct,correct,incorrect,incorrect,incorrect,incorrect
+NHTSA_ILC_0033,Illegal lane change,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_ILC_0034,Illegal lane change,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_ILC_0035,Illegal lane change,incorrect,incorrect,incorrect,incorrect,partial,partial,partial,partial,partial,partial,partial,partial
+NHTSA_ILC_0036,Illegal lane change,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_ILC_0037,Illegal lane change,correct,correct,correct,correct,correct,correct,correct,correct,incorrect,incorrect,incorrect,incorrect
+NHTSA_ILC_0038,Illegal lane change,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_ILC_0039,Illegal lane change,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_ILC_0040,Illegal lane change,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_ILC_0041,Illegal lane change,correct,correct,correct,correct,correct,correct,correct,correct,partial,partial,partial,partial
+NHTSA_ILC_0042,Illegal lane change,correct,correct,correct,correct,partial,partial,partial,partial,correct,correct,correct,correct
+NHTSA_ILC_0043,Illegal lane change,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_ILC_0044,Illegal lane change,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_ILC_0045,Illegal lane change,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_ILC_0046,Illegal lane change,correct,correct,correct,correct,incorrect,correct,correct,correct,correct,correct,correct,correct
+NHTSA_ILC_0047,Illegal lane change,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_ILC_0048,Illegal lane change,correct,correct,correct,correct,correct,correct,correct,correct,partial,partial,partial,partial
+NHTSA_ILC_0049,Illegal lane change,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_ILC_0050,Illegal lane change,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_IOT_0001,Illegal overtaking,correct,correct,correct,correct,correct,correct,correct,correct,partial,partial,partial,partial
+NHTSA_IOT_0002,Illegal overtaking,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_IOT_0003,Illegal overtaking,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_IOT_0004,Illegal overtaking,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_IOT_0005,Illegal overtaking,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_IOT_0006,Illegal overtaking,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_IOT_0007,Illegal overtaking,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_IOT_0008,Illegal overtaking,correct,correct,correct,correct,partial,correct,correct,correct,correct,correct,correct,correct
+NHTSA_IOT_0009,Illegal overtaking,correct,correct,correct,correct,partial,partial,partial,partial,correct,correct,correct,correct
+NHTSA_IOT_0010,Illegal overtaking,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_IOT_0011,Illegal overtaking,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_IOT_0012,Illegal overtaking,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_IOT_0013,Illegal overtaking,correct,correct,correct,correct,partial,partial,partial,partial,correct,correct,correct,correct
+NHTSA_IOT_0014,Illegal overtaking,correct,correct,correct,correct,incorrect,incorrect,incorrect,incorrect,correct,correct,correct,correct
+NHTSA_IOT_0015,Illegal overtaking,incorrect,incorrect,incorrect,incorrect,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_IOT_0016,Illegal overtaking,correct,correct,correct,correct,partial,partial,partial,partial,correct,correct,correct,correct
+NHTSA_IOT_0017,Illegal overtaking,correct,correct,correct,correct,correct,correct,correct,correct,partial,partial,partial,partial
+NHTSA_IOT_0018,Illegal overtaking,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_IOT_0019,Illegal overtaking,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_IOT_0020,Illegal overtaking,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_IOT_0021,Illegal overtaking,correct,correct,correct,correct,correct,correct,correct,correct,incorrect,incorrect,incorrect,incorrect
+NHTSA_IOT_0022,Illegal overtaking,correct,correct,incorrect,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_IOT_0023,Illegal overtaking,incorrect,incorrect,incorrect,incorrect,correct,correct,correct,correct,incorrect,incorrect,incorrect,incorrect
+NHTSA_IOT_0024,Illegal overtaking,correct,correct,correct,correct,partial,partial,partial,partial,correct,correct,correct,correct
+NHTSA_IOT_0025,Illegal overtaking,correct,correct,correct,correct,correct,correct,correct,correct,partial,partial,partial,partial
+NHTSA_IOT_0026,Illegal overtaking,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_IOT_0027,Illegal overtaking,incorrect,incorrect,incorrect,incorrect,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_IOT_0028,Illegal overtaking,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_IOT_0029,Illegal overtaking,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_IOT_0030,Illegal overtaking,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_IOT_0031,Illegal overtaking,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_IOT_0032,Illegal overtaking,correct,correct,correct,correct,partial,partial,partial,partial,correct,correct,correct,correct
+NHTSA_IOT_0033,Illegal overtaking,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_IOT_0034,Illegal overtaking,correct,correct,correct,correct,correct,correct,correct,correct,partial,partial,partial,partial
+NHTSA_IOT_0035,Illegal overtaking,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_IOT_0036,Illegal overtaking,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_IOT_0037,Illegal overtaking,correct,correct,correct,correct,partial,partial,partial,partial,correct,correct,correct,correct
+NHTSA_IOT_0038,Illegal overtaking,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_IOT_0039,Illegal overtaking,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_IOT_0040,Illegal overtaking,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_IOT_0041,Illegal overtaking,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_IOT_0042,Illegal overtaking,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_IOT_0043,Illegal overtaking,correct,correct,correct,correct,correct,correct,correct,correct,partial,partial,partial,partial
+NHTSA_IOT_0044,Illegal overtaking,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_IOT_0045,Illegal overtaking,incorrect,incorrect,incorrect,incorrect,correct,correct,correct,correct,partial,partial,partial,partial
+NHTSA_IOT_0046,Illegal overtaking,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_IOT_0047,Illegal overtaking,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_IOT_0048,Illegal overtaking,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_IOT_0049,Illegal overtaking,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct
+NHTSA_IOT_0050,Illegal overtaking,correct,correct,correct,correct,correct,correct,correct,correct,correct,correct,incorrect,correct

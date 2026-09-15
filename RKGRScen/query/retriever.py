@@ -1,10 +1,51 @@
 import json
+import math
 from pathlib import Path
 from typing import Any, Dict, Iterable, List, Optional, Tuple
 
 import networkx as nx
+import numpy as np
 
+from RKGRScen.config import canonical_violation_type
 from RKGRScen.models import CommunityRecord, RetrievalResult
+
+_EMBEDDER = None
+
+
+def _get_embedder():
+    global _EMBEDDER
+    if _EMBEDDER is None:
+        try:
+            from sentence_transformers import SentenceTransformer
+            _EMBEDDER = SentenceTransformer("all-MiniLM-L6-v2")
+        except Exception:
+            _EMBEDDER = False
+    return _EMBEDDER if _EMBEDDER is not False else None
+
+
+def _embed(text: str) -> np.ndarray:
+    model = _get_embedder()
+    if model is not None:
+        return np.asarray(model.encode([text], normalize_embeddings=True)[0], dtype=float)
+    return _hash_embed(text)
+
+
+def _hash_embed(text: str, dim: int = 384) -> np.ndarray:
+    import hashlib
+    vector = np.zeros(dim, dtype=float)
+    for token in text.lower().split():
+        digest = int(hashlib.md5(token.encode("utf-8")).hexdigest(), 16)
+        index = digest % dim
+        vector[index] += 1.0 if (digest // dim) % 2 == 0 else -1.0
+    norm = float(np.linalg.norm(vector))
+    return vector / norm if norm > 0 else vector
+
+
+def _cosine(a: np.ndarray, b: np.ndarray) -> float:
+    denom = float(np.linalg.norm(a)) * float(np.linalg.norm(b))
+    if denom == 0.0:
+        return 0.0
+    return float(np.dot(a, b) / denom)
 
 class GraphRetriever:
     def __init__(self, base_dir: Optional[Path] = None) -> None:
@@ -137,20 +178,28 @@ class GraphRetriever:
         return records
 
     def global_search(self, scenario_spec: Dict[str, Any], communities: Iterable[CommunityRecord], top_k: int = 3) -> List[CommunityRecord]:
-        violation_type = self._canonical_violation(scenario_spec.get("violation_type", ""))
+        violation_type = canonical_violation_type(scenario_spec.get("violation_type", ""))
+        query_embedding = _embed(self._serialize_spec(scenario_spec))
         candidates: List[CommunityRecord] = []
         for community in communities:
-            applicable = [self._canonical_violation(item) for item in community.applicable_violations]
+            applicable = [canonical_violation_type(item) for item in community.applicable_violations]
             hard_filter_pass = not applicable or violation_type in applicable or self._structural_fallback_match(scenario_spec.get("road_requirement", {}), community.structure)
             if not hard_filter_pass:
                 continue
-            score = self._community_score(scenario_spec, community)
+            score = self._semantic_similarity(query_embedding, community)
             if score <= 0:
                 continue
             community.score = score
             candidates.append(community)
         candidates.sort(key=lambda item: item.score, reverse=True)
         return candidates[:top_k]
+
+    def _serialize_spec(self, scenario_spec: Dict[str, Any]) -> str:
+        return json.dumps(scenario_spec, ensure_ascii=False, sort_keys=True)
+
+    def _semantic_similarity(self, query_embedding: np.ndarray, community: CommunityRecord) -> float:
+        summary = str(community.summary or community.community_id)
+        return _cosine(query_embedding, _embed(summary))
 
     def local_search(self, graph: nx.DiGraph, scenario_spec: Dict[str, Any], candidates: Iterable[CommunityRecord]) -> List[RetrievalResult]:
         results: List[RetrievalResult] = []
@@ -497,13 +546,11 @@ class GraphRetriever:
         return any(item * lane_id < 0 for item in lane_index.get(road_id, []))
 
     def _infer_applicable_violations(self, community_id: str, structure: Dict[str, Any]) -> List[str]:
-        labels = {"未保持安全距离", "未注意前方路况", "超速行驶"}
+        labels = {"Failure to maintain safe following distance", "Inattention to the road ahead", "Speeding"}
         if structure.get("junctions", 0) > 0:
-            labels.update({"闯红灯", "未按规定让行", "违反交通信号（其他）"})
+            labels.add("Failure to yield")
         if int(structure.get("lane_count_max", 1)) >= 2:
-            labels.update({"违规变道", "违规超车", "逆行"})
-        if structure.get("shoulders", 0) > 0 or "shoulder" in community_id:
-            labels.add("违法占用应急车道")
+            labels.update({"Illegal lane change", "Illegal overtaking", "Wrong-way driving"})
         return sorted(labels)
 
     def _structure_summary(self, community_id: str, structure: Dict[str, Any]) -> str:
@@ -527,11 +574,7 @@ class GraphRetriever:
         }
 
     def _canonical_violation(self, violation_type: str) -> str:
-        if violation_type == "超速":
-            return "超速行驶"
-        if violation_type == "违反交通信号(其他)":
-            return "违反交通信号（其他）"
-        return violation_type
+        return canonical_violation_type(violation_type)
 
     def _town_name(self, map_name: str) -> str:
         return str(map_name).split("/")[-1]

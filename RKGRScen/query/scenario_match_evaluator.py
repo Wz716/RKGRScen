@@ -2,6 +2,8 @@ import json
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 
+from RKGRScen.config import canonical_violation_type
+
 ROAD_TYPE_KEYWORDS = {
     "Straight": ["Straight", "RoadSegment"],
     "Curve": ["Curve", "Ramp", "RoadSegment"],
@@ -115,8 +117,8 @@ class ScenarioMatchEvaluator:
         ego = config.get("ego", {})
         if not ego:
             return False
-        violation_type = config.get("violation_type", source.get("violation_type", ""))
-        if violation_type in {"未注意前方路况", "未保持安全距离", "超速行驶", "闯红灯", "违规变道", "逆行"}:
+        violation_type = canonical_violation_type(config.get("violation_type", source.get("violation_type", "")))
+        if violation_type in {"Inattention to the road ahead", "Failure to maintain safe following distance", "Speeding", "Illegal lane change", "Wrong-way driving"}:
             return ego.get("role") in {"ego", "priority", "violator"}
         return True
 
@@ -125,10 +127,10 @@ class ScenarioMatchEvaluator:
         if not ego_wp:
             return True
         npc_wps = [npc.get("spawn_waypoint") or npc.get("spawn") for npc in config.get("npcs", [])]
-        violation_type = config.get("violation_type", source.get("violation_type", ""))
-        if violation_type in {"未保持安全距离", "未注意前方路况"}:
+        violation_type = canonical_violation_type(config.get("violation_type", source.get("violation_type", "")))
+        if violation_type in {"Failure to maintain safe following distance", "Inattention to the road ahead"}:
             return any(wp and wp.get("road_id") == ego_wp.get("road_id") and wp.get("lane_id") == ego_wp.get("lane_id") for wp in npc_wps)
-        if violation_type == "违规变道":
+        if violation_type == "Illegal lane change":
             return any(wp and wp.get("road_id") == ego_wp.get("road_id") and abs(int(wp.get("lane_id", 999)) - int(ego_wp.get("lane_id", -999))) == 1 for wp in npc_wps) or True
         return True
 
@@ -136,12 +138,12 @@ class ScenarioMatchEvaluator:
         behaviors = [str(config.get("ego", {}).get("behavior", ""))] + [str(npc.get("behavior", "")) for npc in config.get("npcs", [])]
         if not behaviors:
             return False
-        violation_type = config.get("violation_type", source.get("violation_type", ""))
-        if violation_type == "未保持安全距离":
+        violation_type = canonical_violation_type(config.get("violation_type", source.get("violation_type", "")))
+        if violation_type == "Failure to maintain safe following distance":
             return any("Brake" in item for item in behaviors)
-        if violation_type == "未注意前方路况":
+        if violation_type == "Inattention to the road ahead":
             return any("Obstacle" in item for item in behaviors)
-        if violation_type in {"超速行驶", "闯红灯", "违规变道", "逆行"}:
+        if violation_type in {"Speeding", "Illegal lane change", "Wrong-way driving"}:
             return any("autopilot" in item.lower() or "Traffic Manager" in item for item in behaviors)
         return True
 

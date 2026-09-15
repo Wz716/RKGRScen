@@ -1,0 +1,33 @@
+{
+  "violation_type": "未保持安全距离",
+  "reason": "观察：场景设定为直线路段（4车道），白天、天气晴朗；V1由北向南直行（速度约60 km/h），V2由北向南直行（速度约60 km/h），V3由南向北直行（速度约60 km/h）。推断：同车道行驶的机动车，后车应当与前车保持足以采取紧急制动措施的安全距离。该场景中后车未保持足够的安全跟车距离，一旦前车减速或急刹，极易发生追尾碰撞。",
+  "road_network": {
+    "type": "Straight",
+    "lanes": 4,
+    "stem_direction": "Not applicable"
+  },
+  "actors": [
+    {
+      "model": "vehicle.audi.a2",
+      "initial_position": "N2S",
+      "actions": "Move Forward",
+      "speed_limit": "60"
+    },
+    {
+      "model": "vehicle.jeep.wrangler_rubicon",
+      "initial_position": "N2S",
+      "actions": "Move Forward",
+      "speed_limit": "60"
+    },
+    {
+      "model": "vehicle.mini.cooper_s",
+      "initial_position": "S2N",
+      "actions": "Move Forward",
+      "speed_limit": "60"
+    }
+  ],
+  "env": {
+    "time": "Daytime",
+    "weather": "Clear"
+  }
+}

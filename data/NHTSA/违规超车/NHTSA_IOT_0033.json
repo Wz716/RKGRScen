@@ -1,0 +1,27 @@
+{
+  "violation_type": "违规超车",
+  "reason": "观察：场景设定为直线路段（2车道），白天、天气晴朗；V1由南向北向左变道（速度约0 km/h），V2由北向南直行（速度约35 km/h）。推断：超车应当在确认安全的情况下借道进行。该场景中车辆在安全距离不足时强行超越前车并过早并回原车道，极易与对向或同向车辆发生碰撞。",
+  "road_network": {
+    "type": "Straight",
+    "lanes": 2,
+    "stem_direction": "Not applicable"
+  },
+  "actors": [
+    {
+      "model": "vehicle.toyota.camry",
+      "initial_position": "S2N",
+      "actions": "Change Lane Left",
+      "speed_limit": 0
+    },
+    {
+      "model": "vehicle.audi.a2",
+      "initial_position": "N2S",
+      "actions": "Move Forward",
+      "speed_limit": 35
+    }
+  ],
+  "env": {
+    "time": "Daytime",
+    "weather": "Clear"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "violation_type": "未按规定让行",
+  "reason": "观察：场景设定为合流路段（3车道），白天、天气晴朗；V1由南向北向左变道（速度约65 km/h），V2由南向北直行（速度约65 km/h），V3由南向北直行（速度约65 km/h）。推断：在交叉路口，未按规定让行的车辆应当让优先通行的一方先行。该场景中车辆未按规定让行，直接切入优先车辆的行驶路径，极易在路口区域发生碰撞。",
+  "road_network": {
+    "type": "Merging",
+    "lanes": 3,
+    "stem_direction": "North",
+    "topology_sequence": [
+      {
+        "order": 1,
+        "element_type": "Merging",
+        "relation_to_next": "immediately_connects_to"
+      },
+      {
+        "order": 2,
+        "element_type": "IntersectionApproach",
+        "relation_to_previous": "immediately_follows"
+      }
+    ]
+  },
+  "actors": [
+    {
+      "model": "vehicle.bmw.x5",
+      "initial_position": "S2N",
+      "actions": "Change Lane Left",
+      "speed_limit": 65
+    },
+    {
+      "model": "vehicle.honda.civic",
+      "initial_position": "S2N",
+      "actions": "Move Forward",
+      "speed_limit": 65
+    },
+    {
+      "model": "vehicle.ford.f150",
+      "initial_position": "S2N",
+      "actions": "Move Forward",
+      "speed_limit": 65
+    }
+  ],
+  "env": {
+    "time": "Daytime",
+    "weather": "Clear"
+  }
+}

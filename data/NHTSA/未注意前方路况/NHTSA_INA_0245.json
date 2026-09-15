@@ -1,0 +1,27 @@
+{
+  "violation_type": "未注意前方路况",
+  "reason": "观察：场景设定为直线路段（2车道），白天、天气晴朗；V1由西向东直行（速度约30 km/h），V2由西向东直行（速度约30 km/h）。推断：机动车驾驶人应当注意观察前方道路情况。该场景中驾驶人未及时察觉前方异常车辆或障碍物，未提前减速避让，极易发生追尾或碰撞。",
+  "road_network": {
+    "type": "Straight",
+    "lanes": 2,
+    "stem_direction": "Not applicable"
+  },
+  "actors": [
+    {
+      "model": "vehicle.bmw.3series",
+      "initial_position": "W2E",
+      "actions": "Move Forward",
+      "speed_limit": 30
+    },
+    {
+      "model": "vehicle.honda.civic",
+      "initial_position": "W2E",
+      "actions": "Move Forward",
+      "speed_limit": 30
+    }
+  ],
+  "env": {
+    "time": "Daytime",
+    "weather": "Clear"
+  }
+}

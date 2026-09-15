@@ -1,0 +1,27 @@
+{
+  "violation_type": "未按规定让行",
+  "reason": "观察：场景设定为交叉路口（2车道），白天、天气晴朗；V1由西向东直行（速度约45 km/h），V2由东向西左转（速度约35 km/h）。推断：在交叉路口，转弯机动车应当让直行车辆先行。该场景中转弯车辆未按规定让行，直接切入优先车辆的行驶路径，极易在路口中心区域发生碰撞。",
+  "road_network": {
+    "type": "Intersection",
+    "lanes": 2,
+    "stem_direction": "Not applicable"
+  },
+  "actors": [
+    {
+      "model": "vehicle.volkswagen.gti",
+      "initial_position": "W2E",
+      "actions": "Move Forward",
+      "speed_limit": 45
+    },
+    {
+      "model": "vehicle.toyota.camry",
+      "initial_position": "E2W",
+      "actions": "Turn Left",
+      "speed_limit": 35
+    }
+  ],
+  "env": {
+    "time": "Daytime",
+    "weather": "Clear"
+  }
+}

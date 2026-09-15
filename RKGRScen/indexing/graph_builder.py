@@ -13,7 +13,7 @@ except ImportError:
 
 class RoadGraphBuilder:
 
-    def __init__(self, waypoint_step: float = 5.0) -> None:
+    def __init__(self, waypoint_step: float = 20.0) -> None:
         self.waypoint_step = waypoint_step
 
     def build_from_records(self, map_name: str, lane_records: Iterable[Dict[str, Any]]) -> nx.DiGraph:

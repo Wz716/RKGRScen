@@ -1,5 +1,6 @@
 from typing import Any, Dict, List, Optional, Union
 
+from RKGRScen.config import canonical_violation_type, detector_thresholds, violation_key
 from RKGRScen.models import ExecutionTrace, ViolationResult
 
 class ViolationDetector:
@@ -38,24 +39,34 @@ def _extract_evidence_position(evidence: Any) -> Any:
         location = location if location is not None else nested_location
     return timestamp_s, location
 
+def _threshold_defaults(violation_type: str) -> Dict[str, Any]:
+    key = violation_key(violation_type)
+    defaults: Dict[str, Any] = dict(detector_thresholds().get("rss", {}) or {})
+    defaults.update(detector_thresholds().get(key, {}) or {})
+    return defaults
+
+
 def detect_violation(violation_type: str, trace: List[Dict[str, Any]], expected_params: Dict[str, Any]) -> Dict[str, Any]:
-    if violation_type == "未按规定让行":
-        return detect_yield_violation(trace, expected_params)
-    if violation_type == "闯红灯":
-        return detect_red_light_violation(trace, expected_params)
-    if violation_type == "违规变道":
-        return detect_lane_change_violation(trace, expected_params)
-    if violation_type == "违规超车":
-        return detect_overtake_violation(trace, expected_params)
-    if violation_type == "超速":
-        return detect_speeding_violation(trace, expected_params)
-    if violation_type == "逆行":
-        return detect_wrong_way_violation(trace, expected_params)
-    if violation_type == "未保持安全距离":
-        return detect_following_distance_violation(trace, expected_params)
-    if violation_type == "未注意前方路况":
-        return detect_inattention_front_condition(trace, expected_params)
-    return {"detected": False, "reason": "暂不支持的违规类型"}
+    violation_type = canonical_violation_type(violation_type)
+    params = dict(expected_params or {})
+    for key, value in _threshold_defaults(violation_type).items():
+        params.setdefault(key, value)
+
+    if violation_type == "Failure to yield":
+        return detect_yield_violation(trace, params)
+    if violation_type == "Illegal lane change":
+        return detect_lane_change_violation(trace, params)
+    if violation_type == "Illegal overtaking":
+        return detect_overtake_violation(trace, params)
+    if violation_type == "Speeding":
+        return detect_speeding_violation(trace, params)
+    if violation_type == "Wrong-way driving":
+        return detect_wrong_way_violation(trace, params)
+    if violation_type == "Failure to maintain safe following distance":
+        return detect_following_distance_violation(trace, params)
+    if violation_type == "Inattention to the road ahead":
+        return detect_inattention_front_condition(trace, params)
+    return {"detected": False, "reason": f"unsupported violation type: {violation_type}"}
 
 def detect_yield_violation(trace: List[Dict[str, Any]], params: Dict[str, Any]) -> Dict[str, Any]:
     if not trace:
@@ -464,7 +475,7 @@ def _first_present(row: Dict[str, Any], keys: List[str]) -> Any:
 def detect_wrong_way_violation(trace: List[Dict[str, Any]], params: Dict[str, Any]) -> Dict[str, Any]:
     if not trace:
         return {"detected": False, "reason": "无轨迹数据"}
-    danger_distance = float(params.get("danger_distance_m", 10.0))
+    danger_distance = float(params.get("danger_distance_m", 12.5))
     heading_opposition_deg = float(params.get("heading_opposition_deg", 120.0))
     for step in trace:
         ego = step.get("ego", {})

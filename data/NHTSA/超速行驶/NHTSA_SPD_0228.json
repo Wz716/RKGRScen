@@ -1,0 +1,27 @@
+{
+  "violation_type": "超速行驶",
+  "reason": "观察：场景设定为弯道路段（2车道），白天、天气晴朗；V1由南向北直行（速度约35 km/h），V2由北向南直行（速度约35 km/h）。推断：根据交通法规，机动车不得超过限速标明的最高时速行驶。该场景中车辆在弯道路段上以约35 km/h的速度行驶，速度明显偏高；超速会显著增加制动距离并缩短驾驶人的反应时间，一旦遇到突发情况极易发生追尾、侧滑或冲出路面。",
+  "road_network": {
+    "type": "Curve",
+    "lanes": 2,
+    "stem_direction": "Not applicable"
+  },
+  "actors": [
+    {
+      "model": "vehicle.chevrolet.caprice",
+      "initial_position": "S2N",
+      "actions": "Move Forward",
+      "speed_limit": 35
+    },
+    {
+      "model": "vehicle.honda.civic",
+      "initial_position": "N2S",
+      "actions": "Move Forward",
+      "speed_limit": 35
+    }
+  ],
+  "env": {
+    "time": "Daytime",
+    "weather": "Clear"
+  }
+}
